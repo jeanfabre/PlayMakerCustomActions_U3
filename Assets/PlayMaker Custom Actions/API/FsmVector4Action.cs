@@ -1,8 +1,8 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
 /* PlayMaker Ecosystem 
 {
- "dependancies":
- 	["FsmVector4ActionEditor"]
+"exposure":"__INCLUDE__",
+"dependancies":["FsmVector4ActionEditor"]
 }
 */
 
