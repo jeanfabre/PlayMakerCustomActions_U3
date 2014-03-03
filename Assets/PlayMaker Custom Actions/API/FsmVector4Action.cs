@@ -1,18 +1,12 @@
 // (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
 // PLAYMAKER ECOSYSTEM DO NOT EDIT
-/*--- 
-<<<<<<< HEAD
+/*---
 EcoMetaStart
-=======
->>>>>>> FETCH_HEAD
 {
 "type":"__ECO_ACTION__",
 "script dependancies":["FsmVector4ActionEditor.cs"]
 }
-<<<<<<< HEAD
 EcoMetaEnd
-=======
->>>>>>> FETCH_HEAD
 ---*/
 
 using UnityEngine;
