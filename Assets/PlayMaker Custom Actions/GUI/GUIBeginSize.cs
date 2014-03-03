@@ -1,5 +1,10 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
+// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+/* PLAYMAKER ECOSYSTEM DO NOT EDIT
+{
+"type":"__ECO_ACTION__",
+"script dependancies":["GUISizer.cs"]
+}
+*/
 using UnityEngine;
 using System.Collections.Generic;
 

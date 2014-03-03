@@ -1,8 +1,8 @@
 // (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
-/*
+/* PLAYMAKER ECOSYSTEM DO NOT EDIT
 {
-"exposure":"__INCLUDE__",
-"dependancies":["FsmVector4ActionEditor"]
+"type":"__ECO_ACTION__",
+"script dependancies":["FsmVector4ActionEditor.cs"]
 }
 */
 
