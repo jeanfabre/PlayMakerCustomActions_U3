@@ -1,10 +1,10 @@
 // (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
-/* PlayMaker Ecosystem 
+#if false
 {
 "exposure":"__INCLUDE__",
 "dependancies":["FsmVector4ActionEditor"]
 }
-*/
+#endif
 
 using UnityEngine;
 
