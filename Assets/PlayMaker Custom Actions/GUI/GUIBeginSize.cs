@@ -4,7 +4,7 @@
 EcoMetaStart
 {
 "type":"__ECO_ACTION__",
-"script dependancies":["PlayMaker Custom Actions/GUI/Internal/GUISizer.cs"]
+"script dependancies":["Assets/PlayMaker Custom Actions/GUI/Internal/GUISizer.cs"]
 }
 EcoMetaEnd
 ---*/
