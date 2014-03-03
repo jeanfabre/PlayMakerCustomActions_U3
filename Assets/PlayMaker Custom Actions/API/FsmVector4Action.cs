@@ -4,7 +4,7 @@
 EcoMetaStart
 {
 "type":"__ECO_ACTION__",
-"script dependancies":["FsmVector4ActionEditor.cs"]
+"script dependancies":["PlayMaker Custom Actions/API/Editor/FsmVector4ActionEditor.cs"]
 }
 EcoMetaEnd
 ---*/
