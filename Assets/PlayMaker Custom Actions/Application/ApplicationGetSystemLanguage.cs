@@ -1,5 +1,9 @@
 // (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
-/*--- __ECO_ACTION__ ---*/
+/*--- 
+
+__ECO_ACTION__ 
+
+---*/
 
 using UnityEngine;
 
