@@ -1,5 +1,5 @@
 {
 "__ECO__":"__TEMPLATE__",
-"template":["Assets/PlayMaker Custom Templates/Logic/GetLoadedLevel.asset"],
+"template":"Assets/PlayMaker Custom Templates/Logic/GetLoadedLevel.asset",
 "script dependancies":["Assets/PlayMaker Custom Actions/Application/GetLoadedLevel.cs"]
 }
