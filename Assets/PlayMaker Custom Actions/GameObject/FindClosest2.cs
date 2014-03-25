@@ -1,13 +1,9 @@
 // (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
 // Based on FindClosest
 // Added Ignore Owner option. Thanks Nueral Echo: http://hutonggames.com/playmakerforum/index.php?topic=71.0
-/*--- __ECO__ __ACTION__
-EcoMetaStart
-{
-"type":"ACTION"
-}
-EcoMetaEnd
----*/
+
+/*--- __ECO__ __ACTION__ ---*/
+
 using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
