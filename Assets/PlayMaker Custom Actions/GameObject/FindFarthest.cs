@@ -94,7 +94,7 @@ namespace HutongGames.PlayMaker.Actions
 			}	
 			
 			GameObject farthestObj = null;
-			var farthestDist = 0;
+			float farthestDist = 0f;
 
 			foreach (GameObject obj in objects)
 			{
