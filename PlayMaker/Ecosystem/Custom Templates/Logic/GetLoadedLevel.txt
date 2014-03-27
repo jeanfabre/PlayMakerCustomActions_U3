@@ -1,5 +1,5 @@
 {
 "__ECO__":"__TEMPLATE__",
 "unitypackage":"PlayMaker/Ecosystem/Custom Templates/Logic/GetLoadedLevel.unitypackage",
-"globalVariables":{"my global float"}
+"globalVariables":["my global float"]
 }
