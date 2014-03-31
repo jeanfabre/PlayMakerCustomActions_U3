@@ -3,7 +3,6 @@
 /*--- __ECO__ __ACTION__
 EcoMetaStart
 {
-"type":"ACTION",
 "script dependancies":["Assets/PlayMaker Custom Actions/API/Editor/FsmVector4ActionEditor.cs"]
 }
 EcoMetaEnd
