@@ -50,11 +50,11 @@ namespace HutongGames.PlayMaker.Actions
 		
 		public void DoDrawTextureCircle(Texture2D tex, int cx, int cy, int r, Color col)
 	    {
-			Color32 _col = (Color32)col;
+			//Color32 _col = (Color32)col;
 			
 	       int x, y, px, nx, py, ny, d;
 			
-	            Color32[] tempArray = tex.GetPixels32();
+	      // Color32[] tempArray = tex.GetPixels32();
 	 
 	       for (x = 0; x <= r; x++)
 	       {

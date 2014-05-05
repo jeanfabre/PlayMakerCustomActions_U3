@@ -1,5 +1,6 @@
-// (c) Copyright HutongGames, LLC 2010-2012. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
 
+using System.Linq;
 using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
@@ -32,6 +33,10 @@ namespace HutongGames.PlayMaker.Actions
 		
 		[Tooltip("Invert the mask, so you pick from all layers except those defined above.")]
 		public FsmBool invertMask;
+		
+		[Tooltip("If set to true, will reset the loop and perform a new raycast, useful whne exiting the loop before the end")]
+		public FsmBool resetAction;
+		
 
 		[ActionSection("RayCast Debug")] 
 		
@@ -64,6 +69,7 @@ namespace HutongGames.PlayMaker.Actions
 			space = Space.Self;
 			distance = 100;
 			
+			resetAction = false;
 			
 			layerMask = new FsmInt[0];
 			invertMask = false;
@@ -86,6 +92,11 @@ namespace HutongGames.PlayMaker.Actions
 		
 		public override void OnEnter()
 		{
+			if (resetAction.Value)
+			{
+				nextHitIndex = 0;
+				resetAction.Value = false;
+			}
 			
 			if (nextHitIndex==0)
 			{
@@ -144,8 +155,9 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				dirVector = go.transform.TransformDirection(direction.Value);
 			}
-
-			hits = Physics.RaycastAll(originPos, dirVector, rayLength, ActionHelpers.LayerArrayToLayerMask(layerMask, invertMask.Value));
+			
+			
+			hits = Physics.RaycastAll(originPos, dirVector, rayLength, ActionHelpers.LayerArrayToLayerMask(layerMask, invertMask.Value)).OrderBy(h=>h.distance).ToArray();
 			
 			if (debug.Value)
 			{
