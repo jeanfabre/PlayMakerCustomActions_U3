@@ -1,4 +1,5 @@
-// (c) Copyright HutongGames, LLC 2010-2012. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+// __ECO__ __ACTION__
 
 using UnityEngine;
 
@@ -8,7 +9,7 @@ namespace HutongGames.PlayMaker.Actions
 	[Tooltip("Opens the native keyboard provided by OS on the screen")]
 	public class OpenDeviceKeyBoard : FsmStateAction
 	{
-#if UNITY_IPHONE
+		#if UNITY_IPHONE
 		[Tooltip("The KeyBoard type")]
 		public TouchScreenKeyboardType keyBoardType;
 		[Tooltip("AutoCorrection setting")]
@@ -35,14 +36,16 @@ namespace HutongGames.PlayMaker.Actions
 		public FsmEvent done;
 		
 		
-		private TouchScreenKeyboard keyboard;
+		private static TouchScreenKeyboard keyboard;
 		
-		
+
 		private bool _active = false;
 		private bool _done = false;
 		
 		public override void Reset()
 		{
+			_active = false;
+			_done = false;
 			keyBoardType = TouchScreenKeyboardType.Default;
 			autoCorrection = true;
 			multiLine = false;
@@ -53,9 +56,16 @@ namespace HutongGames.PlayMaker.Actions
 		
 		public override void OnEnter()
 		{
+			_done = false;
+
+			UnityEngine.Debug.Log("OpenDeviceKeyBoard OPEN");
 			if (keyboard == null)
 			{
 				keyboard = TouchScreenKeyboard.Open(text.Value,keyBoardType,autoCorrection.Value,multiLine.Value,secure.Value,alert.Value,textPlaceHolder.Value);
+
+
+			}else{
+				UnityEngine.Debug.Log("OpenDeviceKeyBoard OPEN NOT NULL");
 			}
 		}
 		
@@ -72,15 +82,17 @@ namespace HutongGames.PlayMaker.Actions
 					Fsm.Event(active);	
 				}
 				
-				if (!_done &&keyboard.done)
+				if (!_done && keyboard.done)
 				{
+					keyboard = null;
 					_done = true;
+					UnityEngine.Debug.Log("OpenDeviceKeyBoard DONE");
 					Fsm.Event(done);
 					Finish();
 				}
 				
 			}
 		}
-#endif
+		#endif
 	}
 }
