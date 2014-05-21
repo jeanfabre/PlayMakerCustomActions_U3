@@ -1,3 +1,5 @@
+// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+
 using HutongGames.PlayMaker.Actions;
 using HutongGames.PlayMakerEditor;
 using UnityEditor;
