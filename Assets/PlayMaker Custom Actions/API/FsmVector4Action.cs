@@ -1,6 +1,6 @@
 // (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
 // PLAYMAKER ECOSYSTEM DO NOT EDIT
-/*--- __ECO__ __ACTION__
+/*---
 EcoMetaStart
 {
 "script dependancies":["Assets/PlayMaker Custom Actions/API/Editor/FsmVector4ActionEditor.cs"]
