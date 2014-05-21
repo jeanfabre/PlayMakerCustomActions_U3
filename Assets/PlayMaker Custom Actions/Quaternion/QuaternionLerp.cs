@@ -1,4 +1,15 @@
-// (c) Copyright HutongGames, LLC 2010-2012. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+/*--- __ECO__ __ACTION__
+EcoMetaStart
+{
+"script dependancies":[
+						"Assets/PlayMaker Custom Actions/Quaternion/Editor/QuaternionLerpCustomEditor.cs",
+						"Assets/PlayMaker Custom Actions/Quaternion/Editor/_internal/QuaternionCustomEditorBase.cs",
+						"Assets/PlayMaker Custom Actions/Quaternion/_internal/QuaternionBaseAction.cs",
+					]
+}
+EcoMetaEnd
+---*/
 
 using UnityEngine;
 
