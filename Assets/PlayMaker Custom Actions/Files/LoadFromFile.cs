@@ -1,4 +1,5 @@
-// (c) Copyright HutongGames, LLC 2010-2012. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+/*--- __ECO__ __ACTION__ ---*/
 
 using UnityEngine;
 using System.IO;
@@ -50,7 +51,7 @@ namespace HutongGames.PlayMaker.Actions
 				return false;
 			}
 			
-			//text.Value = System.IO.File.ReadAllText(filePath.Value);// System.IO.File.ReadAllText(filePath.Value);
+			text.Value = System.IO.File.ReadAllText(filePath.Value);
 			
 			return true;
 		}

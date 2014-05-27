@@ -1,4 +1,5 @@
 // (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+/*--- __ECO__ __PROXY__ ---*/
 
 using UnityEngine;
 using System.Collections;

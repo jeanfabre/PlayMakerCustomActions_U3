@@ -1,4 +1,13 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+/*--- __ECO__ __ACTION__
+EcoMetaStart
+{
+"script dependancies":[
+						"Assets/PlayMaker Custom Actions/Color/ColorHSV.cs"
+					]
+}
+EcoMetaEnd
+---*/
 
 // http://answers.unity3d.com/questions/204958/random-colors-as-distinct-as-possible.html
 

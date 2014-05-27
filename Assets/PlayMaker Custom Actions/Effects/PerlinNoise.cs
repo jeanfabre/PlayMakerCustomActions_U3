@@ -1,15 +1,7 @@
-/// <summary>
-/// 
-/// Jean Fabre April 2011
-/// http://www.fabrejean.net
-/// 
-/// More infos on the playmaker api for actions: https://hutonggames.fogbugz.com/default.asp?W351
-/// 
-/// This action uses PerlinNoise generator with a random seed on the x axis and an animated value on the y axis.
-/// 
-/// </summary>
-using UnityEngine;
+// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+/*--- __ECO__ __ACTION__ ---*/
 
+using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {

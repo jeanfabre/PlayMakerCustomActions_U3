@@ -1,8 +1,8 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
+﻿// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+/*--- __ECO__ __ACTION__ ---*/
 
 #if !(UNITY_IPHONE || UNITY_ANDROID || UNITY_FLASH || UNITY_PS3 || UNITY_BLACKBERRY || UNITY_WP8)
 
-//--- __ECO__ __ACTION__
 
 using System.Linq;
 using UnityEngine;
@@ -78,7 +78,7 @@ namespace HutongGames.PlayMaker.Actions
 				return;
 			}
 
-			if (pathIsRelative.Value = true)
+			if (pathIsRelative.Value == true)
 			{
 				wwwObject = new WWW(urlPrefix+url.Value);
 			}

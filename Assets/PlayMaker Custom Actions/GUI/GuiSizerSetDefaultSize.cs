@@ -1,5 +1,11 @@
 // (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
-/*--- __ECO_ACTION__ ---*/
+/*--- __ECO__ __ACTION__
+EcoMetaStart
+{
+"script dependancies":["Assets/PlayMaker Custom Actions/GUI/Internal/GUISizer.cs"]
+}
+EcoMetaEnd
+---*/
 
 using UnityEngine;
 using System.Collections;

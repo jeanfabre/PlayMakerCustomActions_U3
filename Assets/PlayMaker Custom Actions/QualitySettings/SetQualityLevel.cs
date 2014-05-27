@@ -6,6 +6,7 @@ EcoMetaStart
 }
 EcoMetaEnd
 ---*/
+
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory("QualitySettings")]

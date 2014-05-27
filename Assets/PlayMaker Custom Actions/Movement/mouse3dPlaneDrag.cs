@@ -1,3 +1,6 @@
+// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+/*--- __ECO__ __ACTION__ ---*/
+
 /// <summary>
 /// 25 of may 2011 
 /// contact@fabrejean.net

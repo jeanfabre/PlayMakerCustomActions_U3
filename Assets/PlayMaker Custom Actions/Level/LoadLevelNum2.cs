@@ -1,11 +1,12 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+/*--- __ECO__ __ACTION__ ---*/
 
 using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Level)]
-	[Tooltip("Loads a Level by Index number. For async loading, gives pogress feedback. Before you can load a level, you have to add it to the list of levels defined in File->Build Settings...")]
+	[Tooltip("Loads a Level by Index number. For async loading, gives progress feedback. Before you can load a level, you have to add it to the list of levels defined in File->Build Settings...")]
 	public class LoadLevelNum2 : FsmStateAction
 	{
 		[RequiredField]
