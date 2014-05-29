@@ -24,7 +24,7 @@ namespace HutongGames.PlayMaker.Actions
 		  _op	= Resources.UnloadUnusedAssets();
 		}
 		
-		public override void OnEnter()
+		public override void OnUpdate()
 		{
 		  if (_op!=null)
 			{
