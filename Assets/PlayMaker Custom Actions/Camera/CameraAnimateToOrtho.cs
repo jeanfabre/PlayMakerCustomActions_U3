@@ -10,16 +10,23 @@ namespace HutongGames.PlayMaker.Actions
 	public class CameraAnimateToOrtho : FsmStateAction
 	{
 		[RequiredField]
+		[Tooltip("The camera to animate. If null or not defined, uses the MainCamera")]
 		[CheckForComponent(typeof(Camera))]
 		public FsmOwnerDefault camera;
 		
+		[Tooltip("The orthographic size to reach")]
 		public FsmFloat orthographicSize;
 		
+		[Tooltip("The near plane distance to reach. Leave to none for no effect")]
 		public FsmFloat near;
+		
+		[Tooltip("The near plane distance to reach. Leave to none for no effect")]
 		public FsmFloat far;
 		
+		[Tooltip("The duration of the transition animation")]
 		public FsmFloat duration;
 		
+		[Tooltip("Event sent when transition is done")]
 		public FsmEvent transitionDoneEvent;
 		
 		Camera _camera;
