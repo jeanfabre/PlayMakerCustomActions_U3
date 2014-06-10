@@ -51,8 +51,9 @@ namespace HutongGames.PlayMaker.Actions
 				return false;
 			}
 			
+#if ! UNITY_WEBPLAYER
 			text.Value = System.IO.File.ReadAllText(filePath.Value);
-			
+#endif
 			return true;
 		}
 
