@@ -1,4 +1,4 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
+﻿// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
 /*--- __ECO__ __ACTION__ ---*/
 
 using UnityEngine;
@@ -7,7 +7,7 @@ namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Physics)]
 	[Tooltip("Gets the Rotation of a Physics Game Object and stores it in a Vector3 Variable or each Axis in a Float Variable. It's more efficient than getting the rotation of the gameobject")]
-	public class PhysicsGetRotation : FsmStateAction
+	public class GetRigidbodyRotation : FsmStateAction
 	{
 		[RequiredField]
 		[CheckForComponent(typeof(Rigidbody))]

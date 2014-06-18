@@ -6,8 +6,8 @@ using UnityEngine;
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Physics)]
-	[Tooltip("Set a RigidBody rotation. It's more efficient then accessing the transform of the gameObject.")]
-	public class SetRigidBodyRotation : FsmStateAction
+	[Tooltip("Set a Rigidbody rotation. It's more efficient then accessing the transform of the gameObject.")]
+	public class SetRigidbodyRotation : FsmStateAction
 	{
 		[RequiredField]
 		[CheckForComponent(typeof(Rigidbody))]
