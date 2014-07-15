@@ -34,7 +34,7 @@ namespace HutongGames.PlayMaker.Actions
 		[Tooltip("Optional delay in seconds.")]
 		public FsmFloat delay;
 
-		[Tooltip("Repeat every frame. Rarely needed.")]
+		[Tooltip("Repeat every frame. Rarely needed. Doesn't work with Delayed Event.")]
 		public bool everyFrame;
 
 		private DelayedEvent delayedEvent;
@@ -67,12 +67,7 @@ namespace HutongGames.PlayMaker.Actions
 
 		public override void OnUpdate()
 		{
-			if (boolVariable.Value && testBool.Value)
-			{
-				DoEvent();
-			}
-
-			if (!boolVariable.Value && !testBool.Value)
+			if (boolVariable.Value == testBool.Value)
 			{
 				DoEvent();
 			}
@@ -80,15 +75,20 @@ namespace HutongGames.PlayMaker.Actions
 
 		public void DoEvent()
 		{
+			if (!everyFrame && DelayedEvent.WasSent(delayedEvent))
+			{
+				Finish();
+			}
+
 			if (delay.Value < 0.001f)
 			{
 				Fsm.Event(eventTarget, sendEvent);
 			}
+
 			else
 			{
 				delayedEvent = Fsm.DelayedEvent(eventTarget, sendEvent, delay.Value);
 			}
-				Fsm.Event(eventTarget, sendEvent);
 		}
 	}
 }
