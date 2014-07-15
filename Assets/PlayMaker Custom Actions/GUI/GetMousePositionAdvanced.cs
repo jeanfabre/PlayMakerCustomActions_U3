@@ -7,7 +7,7 @@ namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.GUI)]
 	[Tooltip("Get Mouse Position in screen space.")]
-	public class GetMousePosition : FsmStateAction
+	public class GetMousePositionAdvanced : FsmStateAction
 	{
 		[RequiredField]
 		[Tooltip("Store the position in this Vector3")]
