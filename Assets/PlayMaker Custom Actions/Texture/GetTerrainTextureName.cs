@@ -9,7 +9,7 @@ namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory("texture")]
 	[Tooltip("Get Terrain Splat Texture Map Name over Game Object Position.")]
-	public class GetTerrainTexture : FsmStateAction
+	public class GetTerrainTextureName : FsmStateAction
 	{
 		[RequiredField]
 		[Tooltip("The GameObject to look under")]
