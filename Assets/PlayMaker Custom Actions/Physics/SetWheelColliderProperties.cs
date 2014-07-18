@@ -42,6 +42,8 @@ namespace HutongGames.PlayMaker.Actions
 		[ActionSection("Repeats every frame, usefull if value must change overtime")]
 		public bool everyFrame;
 		
+		WheelCollider _wc;
+		
 		public override void Reset()
 		{
 			mass = new FsmFloat() {UseVariable=true};
@@ -64,7 +66,7 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			var go = Fsm.GetOwnerDefaultTarget(gameObject);
 	
-			WheelCollider _wc = go.GetComponent<WheelCollider>();
+			_wc = go.GetComponent<WheelCollider>();
 
 			_setProperties();
 			
