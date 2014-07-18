@@ -82,11 +82,6 @@ namespace HutongGames.PlayMaker.Actions
 		
 		public void _setProperties()
 		{
-			if (go == null)
-			{
-				return;
-			}
-			
 			if (_wc==null)
 			{
 				return;
