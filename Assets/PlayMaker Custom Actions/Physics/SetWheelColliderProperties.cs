@@ -39,6 +39,9 @@ namespace HutongGames.PlayMaker.Actions
 		[ActionSection("Sideways Friction")]
 		public PlayMakerWheelFrictionCurveClass sidewaysFriction;
 		
+		[ActionSection("Repeats every frame, usefull if value must change overtime")]
+		public bool everyFrame;
+		
 		public override void Reset()
 		{
 			mass = new FsmFloat() {UseVariable=true};
@@ -53,22 +56,37 @@ namespace HutongGames.PlayMaker.Actions
 			forwardFriction.Reset();
 			sidewaysFriction = new PlayMakerWheelFrictionCurveClass();
 			sidewaysFriction.Reset();
+			
+			everyFrame = false;
 		}
 		
 		public override void OnEnter()
 		{
 			var go = Fsm.GetOwnerDefaultTarget(gameObject);
+	
+			WheelCollider _wc = go.GetComponent<WheelCollider>();
+
+			_setProperties();
 			
-			if (go == null)
+			if(!everyFrame)
 			{
 				Finish();
+			}
+		}
+		public override void OnUpdate()
+		{
+			_setProperties();
+		}
+		
+		public void _setProperties()
+		{
+			if (go == null)
+			{
 				return;
 			}
 			
-			WheelCollider _wc = go.GetComponent<WheelCollider>();
 			if (_wc==null)
 			{
-				Finish();
 				return;
 			}
 			
