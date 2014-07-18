@@ -46,10 +46,12 @@ namespace HutongGames.PlayMaker.Actions
 
 		[UIHint(UIHint.Variable)]
 		public FsmInt graphicsShaderLevel;
-
+		
+		#if UNITY_3_5 || UNITY_3_4
+		#else
 		[UIHint(UIHint.Variable)]
 		public FsmString npotSupport;
-
+		#endif
 		[UIHint(UIHint.Variable)]
 		public FsmString operatingSystem;
 
@@ -61,25 +63,33 @@ namespace HutongGames.PlayMaker.Actions
 
 		[UIHint(UIHint.Variable)]
 		public FsmInt supportedRenderTargetCount;
-
+		
+		#if UNITY_3_5 || UNITY_3_4
+		#else
 		[UIHint(UIHint.Variable)]
 		public FsmBool supports3DTextures;
-
+		#endif
+		
 		[UIHint(UIHint.Variable)]
 		public FsmBool supportsAccelerometer;
-
+		
+		#if UNITY_3_5 || UNITY_3_4
+		#else
 		[UIHint(UIHint.Variable)]
 		public FsmBool supportsComputeShaders;
-
+		#endif
+		
 		[UIHint(UIHint.Variable)]
 		public FsmBool supportsGyroscope;
 
 		[UIHint(UIHint.Variable)]
 		public FsmBool supportsImageEffects;
-
+		
+		#if UNITY_3_5 || UNITY_3_4
+		#else
 		[UIHint(UIHint.Variable)]
 		public FsmBool supportsInstancing;
-
+		#endif
 		[UIHint(UIHint.Variable)]
 		public FsmBool supportsLocationService;
 
@@ -91,13 +101,15 @@ namespace HutongGames.PlayMaker.Actions
 
 		[UIHint(UIHint.Variable)]
 		public FsmBool supportsShadows;
-
+		
+		#if UNITY_3_5 || UNITY_3_4
+		#else
 		[UIHint(UIHint.Variable)]
 		public FsmBool supportsSparseTextures;
 
 		[UIHint(UIHint.Variable)]
 		public FsmInt supportsStencil;
-
+		#endif
 		[UIHint(UIHint.Variable)]
 		public FsmBool supportsVibration;
 
@@ -146,11 +158,15 @@ namespace HutongGames.PlayMaker.Actions
 			if (graphicsShaderLevel != null){
 				graphicsShaderLevel.Value = SystemInfo.graphicsShaderLevel;
 			}
+			#if UNITY_3_5 || UNITY_3_4
+			#else
 			if (npotSupport != null){
 				if(SystemInfo.npotSupport == NPOTSupport.None){npotSupport.Value=("None");}
 				if(SystemInfo.npotSupport == NPOTSupport.Restricted){npotSupport.Value=("Restricted");}
 				else{npotSupport.Value=("Full");}
 			}
+			#endif
+			
 			if (operatingSystem != null){
 				operatingSystem.Value = SystemInfo.operatingSystem;
 			}
@@ -163,42 +179,61 @@ namespace HutongGames.PlayMaker.Actions
 			if (supportedRenderTargetCount != null){
 				supportedRenderTargetCount.Value = SystemInfo.supportedRenderTargetCount;
 			}
+			#if UNITY_3_5 || UNITY_3_4
+			#else
 			if (supports3DTextures != null){
 				supports3DTextures.Value = SystemInfo.supports3DTextures;
 			}
+			#endif
+			
 			if (supportsAccelerometer != null){
 				supportsAccelerometer.Value = SystemInfo.supportsAccelerometer;
 			}
+			#if UNITY_3_5 || UNITY_3_4
+			#else
 			if (supportsComputeShaders != null){
 				supportsComputeShaders.Value = SystemInfo.supportsComputeShaders;
 			}
+			#endif
 			if (supportsGyroscope != null){
 				supportsGyroscope.Value = SystemInfo.supportsGyroscope;
 			}
 			if (supportsImageEffects != null){
 				supportsImageEffects.Value = SystemInfo.supportsImageEffects;
 			}
+			
+			#if UNITY_3_5 || UNITY_3_4
+			#else
 			if (supportsInstancing != null){
 				supportsInstancing.Value = SystemInfo.supportsInstancing;
 			}
+			#endif
+			
 			if (supportsLocationService != null){
 				supportsLocationService.Value = SystemInfo.supportsLocationService;
 			}
 			if (supportsRenderTextures != null){
 				supportsRenderTextures.Value = SystemInfo.supportsRenderTextures;
 			}
+			#if UNITY_3_5 || UNITY_3_4
+			#else
 			if (supportsRenderToCubemap != null){
 				supportsRenderToCubemap.Value = SystemInfo.supportsRenderToCubemap;
 			}
+			#endif
 			if (supportsShadows != null){
 				supportsShadows.Value = SystemInfo.supportsShadows;
 			}
+			#if UNITY_3_5 || UNITY_3_4
+			#else
 			if (supportsSparseTextures != null){
 				supportsSparseTextures.Value = SystemInfo.supportsSparseTextures;
 			}
+		
 			if (supportsStencil != null){
 				supportsStencil.Value = SystemInfo.supportsStencil;
 			}
+			#endif
 			if (supportsVibration != null){
 				supportsVibration.Value = SystemInfo.supportsVibration;
 			}
