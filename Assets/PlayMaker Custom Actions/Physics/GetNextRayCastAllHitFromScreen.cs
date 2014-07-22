@@ -150,7 +150,6 @@ namespace HutongGames.PlayMaker.Actions
 			}
 
 			
-			RaycastHit hitInfo;
 			Ray ray  = _cam.ScreenPointToRay(screenPos);
 			hits = Physics.RaycastAll(ray, rayLength, ActionHelpers.LayerArrayToLayerMask(layerMask, invertMask.Value)).OrderBy(h=>h.distance).ToArray();
 			
