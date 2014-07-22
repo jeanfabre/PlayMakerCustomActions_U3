@@ -127,7 +127,7 @@ namespace HutongGames.PlayMaker.Actions
 			var go = Fsm.GetOwnerDefaultTarget(camera);
 			if (go == null)
 			{
-				_cam = Camera.mainCamera;
+				_cam = Camera.main;
 			}else{
 
 				Camera _camera = go.camera;
