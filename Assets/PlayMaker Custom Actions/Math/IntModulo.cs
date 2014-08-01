@@ -18,6 +18,9 @@ namespace HutongGames.PlayMaker.Actions
 		[UIHint(UIHint.Variable)]
 		public FsmFloat result;
 		
+		[UIHint(UIHint.Variable)]
+		public FsmInt resultAsInt;
+		
 		public bool everyFrame;
 
 		public override void Reset()
@@ -25,6 +28,7 @@ namespace HutongGames.PlayMaker.Actions
 			dividend = null;
 			diviser = null;
 			result = null;
+			resultAsInt = null;
 			
 			everyFrame = false;
 		}
@@ -45,7 +49,10 @@ namespace HutongGames.PlayMaker.Actions
 		void DoModulo()
 		{
 			try{
-				result.Value = dividend.Value % diviser.Value;
+				int _mod = dividend.Value % diviser.Value;
+				result.Value = (float)_mod;
+				resultAsInt.Value = _mod;
+				
 			}catch(Exception e)
 			{
 				Debug.LogWarning("Int Modulo error: "+e);
