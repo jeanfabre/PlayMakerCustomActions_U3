@@ -1,5 +1,5 @@
 {
 "__ECO__":"__SAMPLE__",
 "unitypackage":"PlayMaker/Ecosystem/Custom Samples/Texture/MaskTextureDrawing.unitypackage",
-"pingAssetPath":"Assets/PlayMaker Custom Samples/Texture/MaskTextureDrawing.unity"
+"pingAssetPath":"Assets/PlayMaker Custom Samples/Texture/MaskTextureDrawing/MaskTextureDrawing.unity"
 }
