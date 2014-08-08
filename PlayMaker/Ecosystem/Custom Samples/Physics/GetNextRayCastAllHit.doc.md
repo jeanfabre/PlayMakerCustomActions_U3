@@ -1,6 +1,4 @@
 ##Documentation for content
 Yes :)
 
-
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/qvJk7XainVo" frameborder="0" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/qvJk7XainVo/0.jpg)](http://www.youtube.com/watch?v=qvJk7XainVo)
