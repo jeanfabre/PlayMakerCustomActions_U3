@@ -28,7 +28,9 @@ namespace HutongGames.PlayMaker.Actions
 		
 		void DoGetIphoneGeneration()
 		{
+			#if UNITY_IPHONE
 			iphoneGeneration.Value = iPhone.generation.ToString();
+			#endif
 		}
 		
 	}
