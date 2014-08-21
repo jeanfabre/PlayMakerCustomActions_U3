@@ -11,7 +11,7 @@ using System.Collections;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory(ActionCategory.Transform)]
+	[ActionCategory(ActionCategory.Physics)]
 	[Tooltip("Compute the intercept point for firing a projectile at a moving target.")]
 	public class LeadTarget : FsmStateAction
 	{
@@ -22,6 +22,7 @@ namespace HutongGames.PlayMaker.Actions
 		public FsmOwnerDefault theOrigin;
 
 		[RequiredField]
+		[CheckForComponent(typeof(Rigidbody))]
 		[Tooltip("The target object to lead.")]
 		public FsmGameObject theTarget;
 
