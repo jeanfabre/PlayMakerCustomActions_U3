@@ -1,12 +1,20 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
-
+// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+/*--- __ECO__ __ACTION__
+EcoMetaStart
+{
+"script dependancies":[
+						"Assets/PlayMaker Custom Actions/__Internal/FsmStateActionAdvanced.cs"
+					]
+}
+EcoMetaEnd
+---*/
 using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Math)]
-	[Tooltip("Clamps the value of Float Variable to a Min/Max range during fixedUpdate when working with Physics.")]
-	public class FloatClampFixedUpdate : FsmStateAction
+	[Tooltip("Clamps the value of Float Variable to a Min/Max. This advanced versrion let you choose between the different types of updates")]
+	public class FloatClampAdvanced : FsmStateActionAdvanced
 	{
 		[RequiredField]
 		[UIHint(UIHint.Variable)]
@@ -21,33 +29,17 @@ namespace HutongGames.PlayMaker.Actions
         [Tooltip("The maximum value.")]
 		public FsmFloat maxValue;
 
-        [Tooltip("Repeate every frame. Useful if the float variable is changing.")]
-		public bool everyFrame;
 
 		public override void Reset()
 		{
+			base.Reset();
 			floatVariable = null;
 			minValue = null;
 			maxValue = null;
-			everyFrame = false;
-		}
-		
-		public override void Awake()
-        {
-            Fsm.HandleFixedUpdate = true;
-        }
-		
-		public override void OnEnter()
-		{
-			DoClamp();
-			
-			if (!everyFrame)
-			{
-			    Finish();
-			}
+
 		}
 
-		public override void OnFixedUpdate()
+		public override void OnActionUpdate()
 		{
 			DoClamp();
 		}
