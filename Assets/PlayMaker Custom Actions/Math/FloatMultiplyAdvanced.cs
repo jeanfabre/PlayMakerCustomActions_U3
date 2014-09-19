@@ -1,15 +1,53 @@
+// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+/*--- __ECO__ __ACTION__
+EcoMetaStart
+{
+"script dependancies":[
+						"Assets/PlayMaker Custom Actions/__Internal/FsmStateActionAdvanced.cs"
+					]
+}
+EcoMetaEnd
+---*/
 using UnityEngine;
-using System.Collections;
 
-public class FloatMultiplyAdvanced : MonoBehaviour {
+namespace HutongGames.PlayMaker.Actions
+{
+	[ActionCategory(ActionCategory.Math)]
+	[Tooltip("Multiplies one Float by another. This advanced version lets you choose betweent the different types of updates")]
+	public class FloatMultiplyAdvanced : FsmStateActionAdvanced
+	{
+		[RequiredField]
+		[UIHint(UIHint.Variable)]
+        [Tooltip("The float variable to multiply.")]
+		public FsmFloat floatVariable;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+		[RequiredField]
+        [Tooltip("Multiply the float variable by this value.")]
+		public FsmFloat multiplyBy;
+
+
+		public override void Reset()
+		{
+			base.Reset();
+			
+			floatVariable = null;
+			multiplyBy = null;
+			everyFrame = false;
+		}
+
+		public override void OnEnter()
+		{
+			floatVariable.Value *= multiplyBy.Value;
+			
+			if (!everyFrame)
+			{
+			    Finish();
+			}
+		}
+
+		public override void OnActionUpdate()
+		{
+			floatVariable.Value *= multiplyBy.Value;
+		}
 	}
 }
