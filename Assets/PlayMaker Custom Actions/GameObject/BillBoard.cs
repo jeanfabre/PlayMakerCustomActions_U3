@@ -21,8 +21,9 @@ namespace HutongGames.PlayMaker.Actions
 		
 
 		public override void Reset()
-		{
-			cameraTarget = Camera.mainCamera.gameObject;
+		{				
+			
+			cameraTarget = null;
 			ConstantScreenSize = true;
 			distanceBase = null;
 		}
