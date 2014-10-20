@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory("texture")]
+	[ActionCategory("Texture")]
 	[Tooltip("Get Terrain Splat Texture Map Name over Game Object Position.")]
 	public class GetTerrainTextureName : FsmStateAction
 	{
