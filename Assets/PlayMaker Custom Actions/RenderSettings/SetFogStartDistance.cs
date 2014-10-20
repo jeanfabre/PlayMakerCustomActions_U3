@@ -7,7 +7,7 @@ namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.RenderSettings)]
 	[Tooltip("Set the start distance of the fog")]
-	public class SetFogEndDistance : FsmStateAction
+	public class SetFogStartDistance : FsmStateAction
 	{
 		[RequiredField]
 		[Tooltip("The start distance")]
