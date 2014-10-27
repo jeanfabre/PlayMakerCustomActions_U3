@@ -18,6 +18,8 @@ namespace HutongGames.PlayMaker.Actions
 		[UIHint(UIHint.Variable)]
 		public FsmInt result;
 		
+		 private int randomIndex;
+        private int lastIndex = -1;
 		
 		public override void Reset()
 		{
@@ -34,7 +36,13 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			if (ints.Length > 0)
 			{
-				result.Value = ActionHelpers.GetRandomWeightedIndex(weights);
+				 do
+	            {
+	                randomIndex = ActionHelpers.GetRandomWeightedIndex(weights);
+	            } while ( randomIndex == lastIndex);
+	
+				lastIndex = randomIndex;
+				result.Value = ints[randomIndex].Value;
 			}						
 			
 			Finish();
