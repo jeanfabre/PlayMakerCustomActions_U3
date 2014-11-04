@@ -1,5 +1,6 @@
 // (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
 /*--- __ECO__ __ACTION__ ---*/
+// http://hutonggames.com/playmakerforum/index.php?topic=8665.msg41731#msg41731
 
 using UnityEngine;
 
@@ -17,36 +18,51 @@ namespace HutongGames.PlayMaker.Actions
 		[RequiredField]
 		[UIHint(UIHint.Variable)]
 		public FsmInt result;
+		[Tooltip("Can hit the same number twice in a row")]
+		public FsmBool canHitTwiceInARow;
 		
-		 private int randomIndex;
-        private int lastIndex = -1;
+		private int randomIndex;
+		private int lastIndex = -1;
 		
 		public override void Reset()
 		{
 			ints = new FsmInt[3];
-			ints[0] = 0;
+			ints[0] = 1;
 			ints[1] = 2;
 			ints[2] = 3;
 			weights = new FsmFloat[] {1,1,1};
 			result = null;
-			
+			canHitTwiceInARow = false;
 		}
-
 		public override void OnEnter()
 		{
-			if (ints.Length > 0)
+			
+			PickRandom();
+			Finish ();						
+		}	
+		
+		void PickRandom()
+		{
+			if (ints.Length ==  0)
 			{
-				 do
-	            {
-	                randomIndex = ActionHelpers.GetRandomWeightedIndex(weights);
-	            } while ( randomIndex == lastIndex);
+				return;
+			}
+			
+			if (canHitTwiceInARow.Value)
+			{
+				randomIndex = ActionHelpers.GetRandomWeightedIndex(weights);
+				result.Value = ints[randomIndex].Value;
 	
+			}else
+			{
+				do
+				{
+					randomIndex = ActionHelpers.GetRandomWeightedIndex(weights);
+				} while ( randomIndex == lastIndex);
+				
 				lastIndex = randomIndex;
 				result.Value = ints[randomIndex].Value;
-			}						
-			
-			Finish();
+			}
 		}
-		
 	}
 }
