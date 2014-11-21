@@ -14,7 +14,7 @@ using UnityEngine;
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Vector3)]
-	[Tooltip("Linearly interpolates between 2 vectors.\n Advanced features allows selection of update type.")]
+	[Tooltip("Linearly interpolates between 2 vectors.\n Advanced features allows selection of update type and lerp against deltaTime for the amount, allowing framerate indepedant animations.")]
 	public class Vector3LerpAdvanced : FsmStateAction
 	{
 		[RequiredField]
@@ -29,6 +29,9 @@ namespace HutongGames.PlayMaker.Actions
 		[Tooltip("Interpolate between From Vector and ToVector by this amount. Value is clamped to 0-1 range. 0 = From Vector; 1 = To Vector; 0.5 = half way between.")]
 		public FsmFloat amount;
 		
+		[Tooltip("Amount is multiplied by the deltatime")]
+		public bool lerpAgainstDeltaTime;
+		
 		[RequiredField]
 		[UIHint(UIHint.Variable)]
 		[Tooltip("Store the result in this vector variable.")]
@@ -38,11 +41,14 @@ namespace HutongGames.PlayMaker.Actions
 		
 		[Tooltip("Repeat every frame. Useful if any of the values are changing.")]
 		public bool everyFrame;
+		
 
 		public override void Reset()
 		{
 			fromVector = new FsmVector3 { UseVariable = true };
 			toVector = new FsmVector3 { UseVariable = true };
+			amount = null;
+			lerpAgainstDeltaTime = false;
 			storeResult = null;
 			updateType = PlayMakerActionsUtils.EveryFrameUpdateSelector.OnUpdate;
 			everyFrame = true;
@@ -90,7 +96,9 @@ namespace HutongGames.PlayMaker.Actions
 
 		void DoVector3Lerp()
 		{
-			storeResult.Value = Vector3.Lerp(fromVector.Value, toVector.Value, amount.Value);
+			float _amount = lerpAgainstDeltaTime?Time.deltaTime*amount.Value:amount.Value;
+			
+			storeResult.Value = Vector3.Lerp(fromVector.Value, toVector.Value, _amount);
 		}
 	}
 }
