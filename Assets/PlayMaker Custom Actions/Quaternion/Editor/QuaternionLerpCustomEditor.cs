@@ -13,6 +13,7 @@ public class QuaternionLerpCustomEditor : QuaternionCustomEditorBase
 		EditField("fromQuaternion");
 		EditField("toQuaternion");
 		EditField("amount");
+		EditField("lerpAgainstDeltaTime");
 		EditField("storeResult");
 		
 		bool changed = EditEveryFrameField();

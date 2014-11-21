@@ -16,7 +16,7 @@ using UnityEngine;
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory("Quaternion")]
-	[Tooltip("Interpolates between from and to by t and normalizes the result afterwards.")]
+	[Tooltip("Interpolates between from and to by t and normalizes the result afterwards. Can lerp against deltaTime for the amount, allowing framerate indepedant animations.")]
 	[HelpUrl("https://hutonggames.fogbugz.com/default.asp?W1092")]
 	public class QuaternionLerp : QuaternionBaseAction
 	{
@@ -34,6 +34,9 @@ namespace HutongGames.PlayMaker.Actions
 		[HasFloatSlider(0f, 1f)]
 		public FsmFloat amount;
 		
+		[Tooltip("Amount is multiplied by the deltatime")]
+		public bool lerpAgainstDeltaTime;
+		
 		[RequiredField]
 		[UIHint(UIHint.Variable)]
 		[Tooltip("Store the result in this quaternion variable.")]
@@ -45,6 +48,7 @@ namespace HutongGames.PlayMaker.Actions
 			fromQuaternion = new FsmQuaternion { UseVariable = true };
 			toQuaternion = new FsmQuaternion { UseVariable = true };
 			amount = 0.5f;
+			lerpAgainstDeltaTime = false;
 			storeResult = null;
 			everyFrame = true;
 			everyFrameOption = everyFrameOptions.Update;
@@ -86,7 +90,8 @@ namespace HutongGames.PlayMaker.Actions
 
 		void DoQuatLerp()
 		{
-			storeResult.Value = Quaternion.Lerp(fromQuaternion.Value, toQuaternion.Value, amount.Value);
+			float _amount = lerpAgainstDeltaTime?Time.deltaTime*amount.Value:amount.Value;
+			storeResult.Value = Quaternion.Lerp(fromQuaternion.Value, toQuaternion.Value, _amount);
 		}
 	}
 }

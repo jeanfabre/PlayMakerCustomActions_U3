@@ -9,7 +9,7 @@ namespace HutongGames.PlayMaker.Actions
 	[Tooltip("Advanced interpolation between 2 floats.")]
 	public class FloatLerpAdvanced : FsmStateAction
 	{
-		public enum LerpInterpolationType {Linear,Quadratic,EaseIn,EaseOut,Smoothstep,Smootherstep};
+		public enum LerpInterpolationType {Linear,Quadratic,EaseIn,EaseOut,Smoothstep,Smootherstep,DeltaTime};
 
 		[RequiredField]
 		[Tooltip("First Vector.")]
@@ -89,6 +89,8 @@ namespace HutongGames.PlayMaker.Actions
 				return t*t * (3f - 2f*t);
 			case LerpInterpolationType.Smootherstep:
 				return t*t*t * (t * (6f*t - 15f) + 10f);
+			case LerpInterpolationType.DeltaTime:
+				return Time.deltaTime*t;
 			}
 
 			return t;

@@ -34,6 +34,9 @@ namespace HutongGames.PlayMaker.Actions
 		[HasFloatSlider(0f, 1f)]
 		public FsmFloat amount;
 		
+		[Tooltip("Amount is multiplied by the deltatime")]
+		public bool lerpAgainstDeltaTime;
+		
 		[RequiredField]
 		[UIHint(UIHint.Variable)]
 		[Tooltip("Store the result in this quaternion variable.")]
@@ -46,6 +49,7 @@ namespace HutongGames.PlayMaker.Actions
 			fromQuaternion = new FsmQuaternion { UseVariable = true };
 			toQuaternion = new FsmQuaternion { UseVariable = true };
 			amount = 0.1f;
+			lerpAgainstDeltaTime = false;
 			storeResult = null;
 			everyFrame = true;
 			everyFrameOption = everyFrameOptions.Update;
@@ -85,7 +89,8 @@ namespace HutongGames.PlayMaker.Actions
 
 		void DoQuatSlerp()
 		{
-			storeResult.Value = Quaternion.Slerp(fromQuaternion.Value, toQuaternion.Value, amount.Value);
+			float _amount = lerpAgainstDeltaTime?Time.deltaTime*amount.Value:amount.Value;
+			storeResult.Value = Quaternion.Slerp(fromQuaternion.Value, toQuaternion.Value, _amount);
 		}
 	}
 }
