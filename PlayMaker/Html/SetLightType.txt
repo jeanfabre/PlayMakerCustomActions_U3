@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetLightType.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set Spot, Directional, or Point Light type.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Light Type</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

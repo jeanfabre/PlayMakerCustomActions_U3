@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__GetSignedAngleToTarget.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the signed Angle (in degrees, clockwise, -180 to 180) between a Game Object's given axis and a Target. The Target can be defined as a Game Object or a world Position. If you specify both, then the Position will be used as a local offset from the Object's position.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Position</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Direction</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Invert Sign</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Angle</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

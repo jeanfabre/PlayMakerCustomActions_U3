@@ -1,0 +1,41 @@
+<div id="actionImg"><p><img src="__URLBASE__CreateEmptyObject.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Creates a Game Object at a spawn point.
+Use a Game Object and/or Position/Rotation for the Spawn Point. If you specify a Game Object, Position is used as a local offset, and Rotation will override the object's rotation.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Spawn Point</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Position</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rotation</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Object</div>
+	<div id="paramDesc">
+Optionally store the created object.</div>
+</div>
+

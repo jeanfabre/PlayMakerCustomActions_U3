@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkGetMessagePlayerProperties.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the network OnPlayerConnected or OnPlayerDisConnected message player info.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Ip Address</div>
+	<div id="paramDesc">
+Get the IP address of this connected player.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Port</div>
+	<div id="paramDesc">
+Get the port of this connected player.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Guid</div>
+	<div id="paramDesc">
+Get the GUID for this connected player, used when connecting with NAT punchthrough.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+External IPAddress</div>
+	<div id="paramDesc">
+Get the external IP address of the network interface. This will only be populated after some external connection has been made.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+External Port</div>
+	<div id="paramDesc">
+Get the external port of the network interface. This will only be populated after some external connection has been made.</div>
+</div>
+

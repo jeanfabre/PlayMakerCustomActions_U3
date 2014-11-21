@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__GetTimeSpanBetweenDates.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets various useful Time measurements between two dates. Use Totalx very likely, query for Minutes return the actual 'displayed' minutes of the time, not the total amount of the time span.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Get Span Info</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Start Date</div>
+	<div id="paramDesc">
+The start date</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+End Date</div>
+	<div id="paramDesc">
+The end date</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Date Format</div>
+	<div id="paramDesc">
+The date format startDate and endDate are expressed with</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Value</div>
+	<div id="paramDesc">
+The result</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

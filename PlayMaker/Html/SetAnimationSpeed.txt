@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__SetAnimationSpeed.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Speed of an Animation. Check Every Frame to update the animation time continuosly, e.g., if you're manipulating a variable that controls animation speed.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Anim Name</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Speed</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,61 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkGetLastMessagePLayerProperties.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Retrieve the player properties of the last photon message (OnPhotonPlayerConnected, OnPhotonPlayerDisconnected, OnPhotonPlayerPropertiesChanged or OnMasterClientSwitched).</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Name</div>
+	<div id="paramDesc">
+The Photon player name</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+ID</div>
+	<div id="paramDesc">
+The Photon player ID</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Local</div>
+	<div id="paramDesc">
+The Photon player isLocal property</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Master Client</div>
+	<div id="paramDesc">
+The Photon player isLocal isMasterClient</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Keys</div>
+	<div id="paramDesc">
+Custom Properties you have assigned to this player.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Properties Values</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Success Event</div>
+	<div id="paramDesc">
+Send this event if the player was found.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Failure Event</div>
+	<div id="paramDesc">
+Send this event if no player was found.</div>
+</div>
+

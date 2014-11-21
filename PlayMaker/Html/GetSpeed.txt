@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetSpeed.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the Speed of a Game Object and stores it in a Float Variable. NOTE: The Game Object must have a rigid body.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

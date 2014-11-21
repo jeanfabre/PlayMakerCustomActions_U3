@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatOperatorAdvanced.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Performs math operations on 2 Floats: Add, Subtract, Multiply, Divide, Min, Max. This advanced version let you choose when to perform the action.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float 1</div>
+	<div id="paramDesc">
+The first float.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Float 2</div>
+	<div id="paramDesc">
+The second float.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Operation</div>
+	<div id="paramDesc">
+The math operation to perform on the floats.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result of the operation in a float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Update Type</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

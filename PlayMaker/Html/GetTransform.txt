@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetTransform.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets a Game Object's Transform and stores it in an Object Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Transform</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

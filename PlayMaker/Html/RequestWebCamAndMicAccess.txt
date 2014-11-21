@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__RequestWebCamAndMicAccess.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Requests access to webcam and microphone</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Access Granted Event</div>
+	<div id="paramDesc">
+Event sent when access is granted</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Access Denied Event</div>
+	<div id="paramDesc">
+Event sent when access is denied</div>
+</div>
+

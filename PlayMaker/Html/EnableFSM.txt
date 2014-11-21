@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__EnableFSM.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Enables/Disables an FSM component on a GameObject.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject that owns the FSM component.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Fsm Name</div>
+	<div id="paramDesc">
+Optional name of FSM on GameObject. Useful if you have more than one FSM on a GameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Enable</div>
+	<div id="paramDesc">
+Set to True to enable, False to disable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Reset On Exit</div>
+	<div id="paramDesc">
+Reset the initial enabled state when exiting the state.</div>
+</div>
+

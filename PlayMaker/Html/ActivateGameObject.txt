@@ -1,0 +1,41 @@
+<div id="actionImg"><p><img src="__URLBASE__ActivateGameObject.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Activates/deactivates a Game Object. Use this to hide/show areas, or enable/disable many Behaviours at once.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to activate/deactivate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Activate</div>
+	<div id="paramDesc">
+Check to activate, uncheck to deactivate Game Object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Recursive</div>
+	<div id="paramDesc">
+Recursively activate/deactivate all children.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Reset On Exit</div>
+	<div id="paramDesc">
+Reset the game objects when exiting this state. Useful if you want an object to be active only while this state is active.
+Note: Only applies to the last Game Object activated/deactivated (won't work if Game Object changes).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat this action every frame. Useful if Activate changes over time.</div>
+</div>
+

@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__ApplicationOpenUrl.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Open a Url link in the browser</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Url</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Web Window Title</div>
+	<div id="paramDesc">
+When in webPlayer, will open a new window, define the name of that window here.</div>
+</div>
+

@@ -1,0 +1,48 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonGUILayoutToolbarWithRooms.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+GUILayout Toolbar listing Photon rooms.
+The selection event int data contains the room index, and the event string data contains the selected room name</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Display Room Details</div>
+	<div id="paramDesc">
+If True, append to the room name the number of users against the maximum ( '--- 1/3' )</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Selected Room Index</div>
+	<div id="paramDesc">
+The selected room index</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Selected Room Name</div>
+	<div id="paramDesc">
+The selected room name</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Selection Event</div>
+	<div id="paramDesc">
+Event sent when user select a room from the toolbar</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Style</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layout Options</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

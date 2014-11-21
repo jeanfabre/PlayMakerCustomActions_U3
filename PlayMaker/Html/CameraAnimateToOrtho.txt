@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__CameraAnimateToOrtho.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Smooth animation from perspective ( or ortho ) to Ortho. Use GameObject reference instead of camera reference</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Camera</div>
+	<div id="paramDesc">
+The camera to animate. If null or not defined, uses the MainCamera</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Orthographic Size</div>
+	<div id="paramDesc">
+The orthographic size to reach</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Near</div>
+	<div id="paramDesc">
+The near plane distance to reach. Leave to none for no effect</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Far</div>
+	<div id="paramDesc">
+The near plane distance to reach. Leave to none for no effect</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Duration</div>
+	<div id="paramDesc">
+The duration of the transition animation</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Transition Done Event</div>
+	<div id="paramDesc">
+Event sent when transition is done</div>
+</div>
+

@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatClampAdvanced.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Clamps the value of Float Variable to a Min/Max. This advanced versrion let you choose between the different types of updates</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+Float variable to clamp.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Min Value</div>
+	<div id="paramDesc">
+The minimum value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max Value</div>
+	<div id="paramDesc">
+The maximum value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Update Type</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

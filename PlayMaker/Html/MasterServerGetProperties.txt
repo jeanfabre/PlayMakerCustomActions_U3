@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__MasterServerGetProperties.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the IP address, port, update rate and dedicated server flag of the master server and store in variables.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Ip Address</div>
+	<div id="paramDesc">
+The IP address of the master server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Port</div>
+	<div id="paramDesc">
+The connection port of the master server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Update Rate</div>
+	<div id="paramDesc">
+The minimum update rate for master server host information update. Default is 60 seconds</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Dedicated Server</div>
+	<div id="paramDesc">
+Flag to report if this machine is a dedicated server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Dedicated Server Event</div>
+	<div id="paramDesc">
+Event sent if this machine is a dedicated server</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Not Dedicated Server Event</div>
+	<div id="paramDesc">
+Event sent if this machine is not a dedicated server</div>
+</div>
+

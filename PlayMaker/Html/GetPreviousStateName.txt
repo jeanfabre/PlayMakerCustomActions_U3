@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__GetPreviousStateName.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the name of the previously active state and stores it in a String Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Store Name</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

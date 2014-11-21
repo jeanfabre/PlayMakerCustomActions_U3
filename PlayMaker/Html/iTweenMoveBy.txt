@@ -1,0 +1,138 @@
+<div id="actionImg"><p><img src="__URLBASE__iTweenMoveBy.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Adds the supplied vector to a GameObject's position.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Id</div>
+	<div id="paramDesc">
+iTween ID. If set you can use iTween Stop action to stop it by its id.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector</div>
+	<div id="paramDesc">
+The vector to add to the GameObject's position.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+For the time in seconds the animation will take to complete.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Delay</div>
+	<div id="paramDesc">
+For the time in seconds the animation will wait before beginning.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Speed</div>
+	<div id="paramDesc">
+Can be used instead of time to allow animation based on speed. When you define speed the time variable is ignored.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ease Type</div>
+	<div id="paramDesc">
+For the shape of the easing curve applied to the animation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop Type</div>
+	<div id="paramDesc">
+For the type of loop to apply once the animation has completed.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Space</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Orient To Path</div>
+	<div id="paramDesc">
+For whether or not the GameObject will orient to its direction of travel. False by default.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Look At Object</div>
+	<div id="paramDesc">
+For a target the GameObject will look at.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Look At Vector</div>
+	<div id="paramDesc">
+For a target the GameObject will look at.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Look Time</div>
+	<div id="paramDesc">
+For the time in seconds the object will take to look at either the 'looktarget' or 'orienttopath'. 0 by default</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Axis</div>
+	<div id="paramDesc">
+Restricts rotation to the supplied axis only. Just put there strinc like 'x' or 'xz'</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Start Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Real Time</div>
+	<div id="paramDesc">
+Setting this to true will allow the animation to continue independent of the current time which is helpful for animating menus after a game has been paused by setting Time.timeScale=0.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Stop On Exit</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop Dont Finish</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

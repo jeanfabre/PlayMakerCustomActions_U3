@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__DrawStateLabel.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Draws a state label for this FSM in the Game View. The label is drawn on the game object that owns the FSM. Use this to override the global setting in the PlayMaker Debug menu.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Show Label</div>
+	<div id="paramDesc">
+Set to True to show State labels, or Fals to hide them.</div>
+</div>
+

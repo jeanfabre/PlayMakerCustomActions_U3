@@ -1,0 +1,68 @@
+<div id="actionImg"><p><img src="__URLBASE__GetNextRayCastAllHitFromScreen.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Performs a rayCast hit and Each time this action is called it gets the next hit. This lets you quickly loop through all the hits to perform actions on them.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Camera</div>
+	<div id="paramDesc">
+The Camera GameObject. Leave to none to use the main camera</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+From Screen Position</div>
+	<div id="paramDesc">
+Start ray at a vector3 screen position. Screenspace is defined in pixels. The bottom-left of the screen is (0,0); the right-top is (pixelWidth,pixelHeight). </div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Distance</div>
+	<div id="paramDesc">
+The length of the ray. Set to -1 for infinity.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer Mask</div>
+	<div id="paramDesc">
+Pick only from these layers.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Invert Mask</div>
+	<div id="paramDesc">
+Invert the mask, so you pick from all layers except those defined above.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Reset Action</div>
+	<div id="paramDesc">
+If set to true, will reset the loop and perform a new raycast, useful whne exiting the loop before the end</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop Event</div>
+	<div id="paramDesc">
+Event to send to get the next child.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+No Hit Event</div>
+	<div id="paramDesc">
+Event to send if there is no hit at all</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finished Event</div>
+	<div id="paramDesc">
+Event to send when there are no more hits to loop.</div>
+</div>
+

@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetAudioLoop.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets looping on the AudioSource component on a Game Object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__GetRectFields.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the individual fields of a Rect Variable and store them in Float Variables.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Rect Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Width</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Height</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

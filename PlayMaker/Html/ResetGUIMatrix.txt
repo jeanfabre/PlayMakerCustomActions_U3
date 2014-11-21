@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__ResetGUIMatrix.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Resets the GUI matrix. Useful if you've rotated or scaled the GUI and now want to reset it.</p>
+</div>

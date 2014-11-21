@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__SwipeGestureEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends an event when a swipe is detected.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Min Swipe Distance</div>
+	<div id="paramDesc">
+How far a touch has to travel to be considered a swipe. Uses normalized distance (e.g. 1 = 1 screen diagonal distance). Should generally be a very small number.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Swipe Left Event</div>
+	<div id="paramDesc">
+Event to send when swipe left detected.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Swipe Right Event</div>
+	<div id="paramDesc">
+Event to send when swipe right detected.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Swipe Up Event</div>
+	<div id="paramDesc">
+Event to send when swipe up detected.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Swipe Down Event</div>
+	<div id="paramDesc">
+Event to send when swipe down detected.</div>
+</div>
+

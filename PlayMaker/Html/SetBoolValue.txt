@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetBoolValue.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the value of a Bool Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Bool Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Bool Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__GetIPhoneSettings.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get various iPhone settings.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Get Screen Can Darken</div>
+	<div id="paramDesc">
+Allows device to fall into 'sleep' state with screen being dim if no touches occurred. Default value is true.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Get Unique Identifier</div>
+	<div id="paramDesc">
+A unique device identifier string. It is guaranteed to be unique for every device (Read Only).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Get Name</div>
+	<div id="paramDesc">
+The user defined name of the device (Read Only).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Get Model</div>
+	<div id="paramDesc">
+The model of the device (Read Only).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Get System Name</div>
+	<div id="paramDesc">
+The name of the operating system running on the device (Read Only).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Get Generation</div>
+	<div id="paramDesc">
+The generation of the device (Read Only).</div>
+</div>
+

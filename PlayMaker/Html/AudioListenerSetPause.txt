@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__AudioListenerSetPause.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Paused state of the audio. If set to True, the listener will not generate sound. Similar to setting the volume to 0.0.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Pause</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

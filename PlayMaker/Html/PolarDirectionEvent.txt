@@ -1,0 +1,152 @@
+<div id="actionImg"><p><img src="__URLBASE__PolarDirectionEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends events based on 16 polar direction ( NNW, SEE, etc). Expose an option to only send event when direction changed.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Horizontal Axis</div>
+	<div id="paramDesc">
+Horizontal axis as defined in the Input Manager</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vertical Axis</div>
+	<div id="paramDesc">
+Vertical axis as defined in the Input Manager</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Angle</div>
+	<div id="paramDesc">
+The direction angle. Range from -180 to 180, 0 being EST</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+North Event</div>
+	<div id="paramDesc">
+Event to send if direction is North.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+North North Est Event</div>
+	<div id="paramDesc">
+Event to send if direction is North North Est.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+North Est Event</div>
+	<div id="paramDesc">
+Event to send if direction is North Est</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+North Est Est Event</div>
+	<div id="paramDesc">
+Event to send if direction is North Est Est.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Est Event</div>
+	<div id="paramDesc">
+Event to send if direction is Est.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+South Est Est Event</div>
+	<div id="paramDesc">
+Event to send if direction is South Est Est.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+South Est Event</div>
+	<div id="paramDesc">
+Event to send if direction is South Est.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+South South Est Event</div>
+	<div id="paramDesc">
+Event to send if direction is South South Est.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+South Event</div>
+	<div id="paramDesc">
+Event to send if direction is South.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+South South West Event</div>
+	<div id="paramDesc">
+Event to send if direction is South South West.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+South West Event</div>
+	<div id="paramDesc">
+Event to send if direction is South West.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+South West West Event</div>
+	<div id="paramDesc">
+Event to send if direction is South West West.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+West Event</div>
+	<div id="paramDesc">
+Event to send if direction is West.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+North West West Event</div>
+	<div id="paramDesc">
+Event to send if direction is North West West.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+North West Event</div>
+	<div id="paramDesc">
+Event to send if direction is North West.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+North North West Event</div>
+	<div id="paramDesc">
+Event to send if direction is North North West.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+No Direction</div>
+	<div id="paramDesc">
+Event to send if no axis input (centered).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Discrete Events</div>
+	<div id="paramDesc">
+Only send events when direction changes</div>
+</div>
+

@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetFogColor.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the color of the Fog in the scene.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Fog Color</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

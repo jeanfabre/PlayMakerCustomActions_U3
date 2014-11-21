@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__ConvertFloatToString.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Converts a Float value to a String value with optional format.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+The float variable to convert.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+String Variable</div>
+	<div id="paramDesc">
+A string variable to store the converted value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Format</div>
+	<div id="paramDesc">
+Optional Format, allows for leading zeroes. E.g., 0000</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the float variable is changing.</div>
+</div>
+

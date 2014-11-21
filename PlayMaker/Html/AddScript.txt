@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__AddScript.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Adds a Script to a Game Object. Use this to change the behaviour of objects on the fly. Optionally remove the Script on exiting the state.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to add the script to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Script</div>
+	<div id="paramDesc">
+The Script to add to the GameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Remove On Exit</div>
+	<div id="paramDesc">
+Remove the script from the GameObject when this State is exited.</div>
+</div>
+

@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__AddMixingTransform.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Play an animation on a subset of the hierarchy. E.g., A waving animation on the upper body.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject playing the animation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Animation Name</div>
+	<div id="paramDesc">
+The name of the animation to mix. NOTE: The animation should already be added to the Animation Component on the GameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Transform</div>
+	<div id="paramDesc">
+The mixing transform. E.g., root/upper_body/left_shoulder</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Recursive</div>
+	<div id="paramDesc">
+If recursive is true all children of the mix transform will also be animated.</div>
+</div>
+

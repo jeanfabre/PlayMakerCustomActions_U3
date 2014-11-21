@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__GetMaterialColor.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets a named color value from a game object's material.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject that the material is applied to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Material Index</div>
+	<div id="paramDesc">
+GameObjects can have multiple materials. Specify an index to target a specific material.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Material</div>
+	<div id="paramDesc">
+Alternatively specify a Material instead of a GameObject and Index.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Named Color</div>
+	<div id="paramDesc">
+The named color parameter in the shader.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Color</div>
+	<div id="paramDesc">
+Get the parameter value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Fail</div>
+	<div id="paramDesc">
+Event sent if material was not found</div>
+</div>
+

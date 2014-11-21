@@ -1,0 +1,69 @@
+<div id="actionImg"><p><img src="__URLBASE__RaycastFromScreen.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Casts a Ray against all Colliders in the scene from the screenSpace. Use a Vector3 screen position as the origin of the ray. Use GetRaycastInfo to get more detailed info.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Camera</div>
+	<div id="paramDesc">
+The Camera GameObject. Leave to none to use the main camera</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+From Screen Position</div>
+	<div id="paramDesc">
+Start ray at a vector3 screen position. Screenspace is defined in pixels. The bottom-left of the screen is (0,0); the right-top is (pixelWidth,pixelHeight). </div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Distance</div>
+	<div id="paramDesc">
+The length of the ray. Set to -1 for infinity.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Hit Event</div>
+	<div id="paramDesc">
+Event to send if the ray hits an object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Did Hit</div>
+	<div id="paramDesc">
+Set a bool variable to true if hit something, otherwise false.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Hit Object</div>
+	<div id="paramDesc">
+Store the game object hit in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Repeat Interval</div>
+	<div id="paramDesc">
+Set how often to cast a ray. 0 = once, don't repeat; 1 = everyFrame; 2 = every other frame... 
+Since raycasts can get expensive use the highest repeat interval you can get away with.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer Mask</div>
+	<div id="paramDesc">
+Pick only from these layers.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Invert Mask</div>
+	<div id="paramDesc">
+Invert the mask, so you pick from all layers except those defined above.</div>
+</div>
+

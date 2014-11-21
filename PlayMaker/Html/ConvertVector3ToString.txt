@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__ConvertVector3ToString.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Converts a vector3 to a string. Format is flexible, [x] [y] and [z] are placeholders</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 3</div>
+	<div id="paramDesc">
+The value itself</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Format</div>
+	<div id="paramDesc">
+The string pattern to express the Vector3 value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Float Conversion</div>
+	<div id="paramDesc">
+The c# ToString() format to express each vector float components as strings. Useful if you want to optimized the generated string.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+The result</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeats every frame</div>
+</div>
+

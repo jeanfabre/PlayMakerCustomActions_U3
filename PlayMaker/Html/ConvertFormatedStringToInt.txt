@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__ConvertFormatedStringToInt.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Converts an String value to an Int value.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+String Variable</div>
+	<div id="paramDesc">
+The String variable to convert to an integer.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Number Style</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Int Variable</div>
+	<div id="paramDesc">
+Store the result in an Int variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the String variable is changing.</div>
+</div>
+

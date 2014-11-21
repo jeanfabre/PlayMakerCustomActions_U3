@@ -1,0 +1,34 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonViewGetIsMine.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Test if the Photon network View is controlled by a GameObject. 
+ A PhotonView component is required on the gameObject</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The Game Object with the PhotonView attached.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Mine</div>
+	<div id="paramDesc">
+True if the Photon network view is controlled by this object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Mine Event</div>
+	<div id="paramDesc">
+Send this event if the Photon network view controlled by this object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Not Mine Event</div>
+	<div id="paramDesc">
+Send this event if the Photon network view is NOT controlled by this object.</div>
+</div>
+

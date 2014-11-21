@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__AnimateFloat.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Animates the value of a Float Variable using an Animation Curve.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Anim Curve</div>
+	<div id="paramDesc">
+The animation curve to use.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+The float variable to set.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+Optionally send an Event when the animation finishes.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Real Time</div>
+	<div id="paramDesc">
+Ignore TimeScale. Useful if the game is paused.</div>
+</div>
+

@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__ConvertStringToRect.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Converts a string into a Rect variable. Format is flexible, [x] [y] [w] and [h] are placeholders, Escape special chars like \ for parenthesis for example </p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Source</div>
+	<div id="paramDesc">
+The string representing the color value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Format</div>
+	<div id="paramDesc">
+The expected format of the source representing the Quaternion value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+The result</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeats every frame. Warning, performance will be affected</div>
+</div>
+

@@ -1,0 +1,91 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkGetRoomProperties.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the room we are currently in. If null, we aren't in any room.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Is In Room</div>
+	<div id="paramDesc">
+True if we are in a room.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Room Name</div>
+	<div id="paramDesc">
+the name of the room.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Player Count</div>
+	<div id="paramDesc">
+the number of players inthe room.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max Players</div>
+	<div id="paramDesc">
+The limit of players to this room. This property is shown in lobby, too.
+If the room is full (players count == maxplayers), joining this room will fail..</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Open</div>
+	<div id="paramDesc">
+Defines if the room can be joined. If not open, the room is excluded from random matchmaking. 
+This does not affect listing in a lobby but joining the room will fail if not open.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Visible</div>
+	<div id="paramDesc">
+Defines if the room is listed in its lobby.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Keys</div>
+	<div id="paramDesc">
+Custom Properties you have assigned to this room.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Properties Values</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is In Room Event</div>
+	<div id="paramDesc">
+Send this event if we are in a room.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Not In Room Event</div>
+	<div id="paramDesc">
+Send this event if we aren't in any room.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Success Event</div>
+	<div id="paramDesc">
+Send this event if the room properties were found.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Failure Event</div>
+	<div id="paramDesc">
+Send this event if the room properties access failed, likely because we are not in a room or because a custom property was not found</div>
+</div>
+

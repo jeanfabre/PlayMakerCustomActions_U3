@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__StopAnimation.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Stops all playing Animations on a Game Object. Optionally, specify a single Animation to Stop.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Anim Name</div>
+	<div id="paramDesc">
+Leave empty to stop all playing animations.</div>
+</div>
+

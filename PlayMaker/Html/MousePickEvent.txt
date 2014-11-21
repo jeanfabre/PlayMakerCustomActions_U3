@@ -1,0 +1,68 @@
+<div id="actionImg"><p><img src="__URLBASE__MousePickEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends Events based on mouse interactions with a Game Object: MouseOver, MouseDown, MouseUp, MouseOff. Use Ray Distance to set how close the camera must be to pick the object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ray Distance</div>
+	<div id="paramDesc">
+Length of the ray to cast from the camera.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Mouse Over</div>
+	<div id="paramDesc">
+Event to send when the mouse is over the GameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Mouse Down</div>
+	<div id="paramDesc">
+Event to send when the mouse is pressed while over the GameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Mouse Up</div>
+	<div id="paramDesc">
+Event to send when the mouse is released while over the GameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Mouse Off</div>
+	<div id="paramDesc">
+Event to send when the mouse moves off the GameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer Mask</div>
+	<div id="paramDesc">
+Pick only from these layers.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Invert Mask</div>
+	<div id="paramDesc">
+Invert the mask, so you pick from all layers except those defined above.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

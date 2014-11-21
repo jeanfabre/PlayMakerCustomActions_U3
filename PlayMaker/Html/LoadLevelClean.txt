@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__LoadLevelClean.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Loads a Level using a special technic to free resources and avoid memory leak. This Object WILL set itself to survive level loading.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Level Name</div>
+	<div id="paramDesc">
+The name of the level to load. NOTE: Must be in the list of levels defined in File->Build Settings... </div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Baselevel Name</div>
+	<div id="paramDesc">
+The name of the base level to load from. Ideally, this is a totally empty level, with litterally nothing in the hierarchy</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loaded Event</div>
+	<div id="paramDesc">
+Event to send when the level has loaded. NOTE: This only makes sense if the FSM is still in the scene!</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Debug Log</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

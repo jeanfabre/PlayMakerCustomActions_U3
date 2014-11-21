@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__SetProceduralBoolean.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set a named bool property in a Substance material. NOTE: Use Rebuild Textures after setting Substance properties.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Substance Material</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Bool Property</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Bool Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+NOTE: Updating procedural materials every frame can be very slow!</div>
+</div>
+

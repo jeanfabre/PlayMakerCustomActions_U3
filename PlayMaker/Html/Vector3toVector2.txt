@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector3toVector2.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Store a Vector3 XY component into a Vector2 XY component. Drops the Vector3 z component, you can optionally save it to a float.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 3</div>
+	<div id="paramDesc">
+The vector3</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector 2</div>
+	<div id="paramDesc">
+The vector2</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+ZValue</div>
+	<div id="paramDesc">
+Optional z value stored as float</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

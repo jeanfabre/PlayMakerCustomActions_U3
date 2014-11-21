@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__SetGravity.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the gravity vector, or individual axis.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Z</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__IsActive.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Check if a gameObject is active.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to check activate state.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Active</div>
+	<div id="paramDesc">
+The active state of this gameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Active Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Not Active Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat this action every frame. Useful if Activate changes over time.</div>
+</div>
+

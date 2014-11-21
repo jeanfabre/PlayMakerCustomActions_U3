@@ -1,0 +1,21 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkGetConnectionsCount.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the number of connected players.
+
+On a client this returns 1 (the server).</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Connections Count</div>
+	<div id="paramDesc">
+Number of connected players.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

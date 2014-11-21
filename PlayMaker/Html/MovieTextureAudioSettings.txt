@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__MovieTextureAudioSettings.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Game Object as the Audio Source associated with the Movie Texture. The Game Object must have an AudioSource Component.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Movie Texture</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

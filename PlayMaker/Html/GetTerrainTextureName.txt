@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetTerrainTextureName.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get Terrain Splat Texture Map Name over Game Object Position.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Texture Position</div>
+	<div id="paramDesc">
+The GameObject to look under</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Terrain</div>
+	<div id="paramDesc">
+The terrain</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Main Texture</div>
+	<div id="paramDesc">
+The texture name</div>
+</div>
+

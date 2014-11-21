@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatSwitch.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends an Event based on the value of a Float Variable. The float could represent distance, angle to a target, health left... The array sets up float ranges that correspond to Events.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+The float variable to test.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Less Than</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the variable is changing.</div>
+</div>
+

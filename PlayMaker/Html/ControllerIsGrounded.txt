@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__ControllerIsGrounded.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Tests if a Character Controller on a Game Object was touching the ground during the last move.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to check.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+True Event</div>
+	<div id="paramDesc">
+Event to send if touching the ground.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+False Event</div>
+	<div id="paramDesc">
+Event to send if not touching the ground.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Sore the result in a bool variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame while the state is active.</div>
+</div>
+

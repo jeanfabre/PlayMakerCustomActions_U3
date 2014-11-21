@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__GUILayoutEndArea.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Close a GUILayout group started with BeginArea.</p>
+</div>

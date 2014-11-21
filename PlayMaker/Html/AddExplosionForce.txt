@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__AddExplosionForce.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Applies a force to a Game Object that simulates explosion effects. The explosion force will fall off linearly with distance. Hint: Use the Explosion Action instead to apply an explosion force to all objects in a blast radius.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to add the explosion force to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Center</div>
+	<div id="paramDesc">
+The center of the explosion. Hint: this is often the position returned from a GetCollisionInfo action.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Force</div>
+	<div id="paramDesc">
+The strength of the explosion.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Radius</div>
+	<div id="paramDesc">
+The radius of the explosion. Force falls off linearly with distance.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Upwards Modifier</div>
+	<div id="paramDesc">
+Applies the force as if it was applied from beneath the object. This is useful since explosions that throw things up instead of pushing things to the side look cooler. A value of 2 will apply a force as if it is applied from 2 meters below while not changing the actual explosion position.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Force Mode</div>
+	<div id="paramDesc">
+The type of force to apply. See Unity Physics docs.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame while the state is active.</div>
+</div>
+

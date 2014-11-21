@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__SetColorHSV.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set a color based on HSV values</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+HSV</div>
+	<div id="paramDesc">
+The hsv color source</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Hue</div>
+	<div id="paramDesc">
+The Hue value source, overrides HSV Hue if set</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Saturation</div>
+	<div id="paramDesc">
+The Saturation value source, overrides HSV Saturation if set</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Value</div>
+	<div id="paramDesc">
+The value value source, overrides HSV Value if set</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Alpha</div>
+	<div id="paramDesc">
+The alpha value source</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Color Result</div>
+	<div id="paramDesc">
+The resulting color</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Everyframe</div>
+	<div id="paramDesc">
+Repeat every frame</div>
+</div>
+

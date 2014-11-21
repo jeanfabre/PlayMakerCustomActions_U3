@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__PlayerPrefsDeleteAll.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Removes all keys and values from the preferences. Use with caution.</p>
+</div>

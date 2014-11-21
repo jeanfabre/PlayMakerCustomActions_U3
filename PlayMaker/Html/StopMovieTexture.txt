@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__StopMovieTexture.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Stops playing the Movie Texture, and rewinds it to the beginning.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Movie Texture</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

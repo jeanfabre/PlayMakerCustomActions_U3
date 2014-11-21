@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__RandomFloat.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets a Float Variable to a random value between Min/Max.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Min</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

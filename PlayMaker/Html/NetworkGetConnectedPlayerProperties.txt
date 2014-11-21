@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkGetConnectedPlayerProperties.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get connected player properties.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Index</div>
+	<div id="paramDesc">
+The player connection index.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ip Address</div>
+	<div id="paramDesc">
+Get the IP address of this player.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Port</div>
+	<div id="paramDesc">
+Get the port of this player.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Guid</div>
+	<div id="paramDesc">
+Get the GUID for this player, used when connecting with NAT punchthrough.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+External IPAddress</div>
+	<div id="paramDesc">
+Get the external IP address of the network interface. This will only be populated after some external connection has been made.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+External Port</div>
+	<div id="paramDesc">
+Get the external port of the network interface. This will only be populated after some external connection has been made.</div>
+</div>
+

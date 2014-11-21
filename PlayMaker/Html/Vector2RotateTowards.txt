@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector2RotateTowards.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Rotates a Vector2 direction from Current towards Target.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Current Direction</div>
+	<div id="paramDesc">
+The current direction. This will be the result of the rotation as well.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Direction</div>
+	<div id="paramDesc">
+The direction to reach</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rotate Speed</div>
+	<div id="paramDesc">
+Rotation speed in degrees per second</div>
+</div>
+

@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__DebugDrawShape.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Draw gizmos shape</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Shape</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Color</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Radius</div>
+	<div id="paramDesc">
+Use this for sphere gizmos</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Size</div>
+	<div id="paramDesc">
+Use this for cube gizmos</div>
+</div>
+

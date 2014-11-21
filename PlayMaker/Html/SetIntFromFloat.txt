@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetIntFromFloat.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the value of an integer variable using a float value.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Int Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Float Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

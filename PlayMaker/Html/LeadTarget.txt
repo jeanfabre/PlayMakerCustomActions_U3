@@ -1,0 +1,48 @@
+<div id="actionImg"><p><img src="__URLBASE__LeadTarget.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Compute the intercept point for firing a projectile at a moving target.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+The Origin</div>
+	<div id="paramDesc">
+The object firing the projectile.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+The Target</div>
+	<div id="paramDesc">
+The target object to lead.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Intercept Position</div>
+	<div id="paramDesc">
+The resulting intercept position.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Weapon Speed</div>
+	<div id="paramDesc">
+The speed of the projectile being fired.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Magic Number</div>
+	<div id="paramDesc">
+A magic mulitplier number you probably don't need to change.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Repeat Interval</div>
+	<div id="paramDesc">
+How often to process. 0 = do once; 1 = every frame; 2 = every other frame. 
+Do not change at runtime.</div>
+</div>
+

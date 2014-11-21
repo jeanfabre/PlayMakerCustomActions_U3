@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__ControllerMove.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Moves a Game Object with a Character Controller. See also Controller Simple Move. NOTE: It is recommended that you make only one call to Move or SimpleMove per frame.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to move.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Move Vector</div>
+	<div id="paramDesc">
+The movement vector.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Space</div>
+	<div id="paramDesc">
+Move in local or word space.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Per Second</div>
+	<div id="paramDesc">
+Movement vector is defined in units per second. Makes movement frame rate independent.</div>
+</div>
+

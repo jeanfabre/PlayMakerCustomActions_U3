@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetNextJoystickName.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Each time this action is called it gets the next child Joystick. This lets you quickly loop through all the Joystick perform actions on them.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Store Next Joystick Name</div>
+	<div id="paramDesc">
+Store the next Joystick Name</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop Event</div>
+	<div id="paramDesc">
+Event to send to get the next Joystick.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finished Event</div>
+	<div id="paramDesc">
+Event to send when there are no more Joysticks.</div>
+</div>
+

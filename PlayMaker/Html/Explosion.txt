@@ -1,0 +1,68 @@
+<div id="actionImg"><p><img src="__URLBASE__Explosion.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Applies an explosion Force to all Game Objects with a Rigid Body inside a Radius.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Center</div>
+	<div id="paramDesc">
+The world position of the center of the explosion.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Force</div>
+	<div id="paramDesc">
+The strength of the explosion.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Radius</div>
+	<div id="paramDesc">
+The radius of the explosion. Force falls of linearly with distance.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Upwards Modifier</div>
+	<div id="paramDesc">
+Applies the force as if it was applied from beneath the object. This is useful since explosions that throw things up instead of pushing things to the side look cooler. A value of 2 will apply a force as if it is applied from 2 meters below while not changing the actual explosion position.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Force Mode</div>
+	<div id="paramDesc">
+The type of force to apply.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer Mask</div>
+	<div id="paramDesc">
+Layers to effect.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Invert Mask</div>
+	<div id="paramDesc">
+Invert the mask, so you effect all layers except those defined above.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame while the state is active.</div>
+</div>
+

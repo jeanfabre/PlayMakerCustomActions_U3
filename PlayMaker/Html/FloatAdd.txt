@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatAdd.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Adds a value to a Float Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+The Float variable to add to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Add</div>
+	<div id="paramDesc">
+Amount to add.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame while the state is active.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Per Second</div>
+	<div id="paramDesc">
+Used with Every Frame. Adds the value over one second to make the operation frame rate independent.</div>
+</div>
+

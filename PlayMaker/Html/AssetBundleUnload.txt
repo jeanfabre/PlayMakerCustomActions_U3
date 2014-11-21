@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__AssetBundleUnload.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Unload AssetBundle. Optionaly unload all Loaded objects</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Asset Bundle</div>
+	<div id="paramDesc">
+The Asset Bundle</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Unload All Loaded Objects</div>
+	<div id="paramDesc">
+When unloadAllLoadedObjects is false, compressed file data for assets inside the bundle will be unloaded, but any actual objects already loaded from this bundle will be kept intact. Of course you won't be able to load any more objects from this bundle. When unloadAllLoadedObjects is true, all objects that were loaded from this bundle will be destroyed as well. If there are game objects in your scene referencing those assets, the references to them will become missing.</div>
+</div>
+

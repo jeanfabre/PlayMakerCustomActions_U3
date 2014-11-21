@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__UnloadUnusedAssets.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Unloads assets that are not used. An asset is deemed to be unused if it isn't reached after walking the whole game object hierarchy, including script components. Static variables are also examined.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Unload Done Event</div>
+	<div id="paramDesc">
+Event to send when the operatoin has finished.</div>
+</div>
+

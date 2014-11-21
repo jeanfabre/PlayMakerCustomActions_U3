@@ -1,0 +1,68 @@
+<div id="actionImg"><p><img src="__URLBASE__MouseLook2.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Rotates a GameObject based on mouse movement. Minimum and Maximum values can be used to constrain the rotation.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to rotate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Axes</div>
+	<div id="paramDesc">
+The axes to rotate around.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Sensitivity X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Sensitivity Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Minimum X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Maximum X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Minimum Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Maximum Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

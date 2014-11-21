@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__ScaleTime.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Scales time: 1 = normal, 0.5 = half speed, 2 = double speed.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Time Scale</div>
+	<div id="paramDesc">
+Scales time: 1 = normal, 0.5 = half speed, 2 = double speed.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Adjust Fixed Delta Time</div>
+	<div id="paramDesc">
+Adjust the fixed physics time step to match the time scale.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful when animating the value.</div>
+</div>
+

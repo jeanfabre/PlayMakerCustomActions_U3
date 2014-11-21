@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatCompare.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends Events based on the comparison of 2 Floats.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float 1</div>
+	<div id="paramDesc">
+The first float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Float 2</div>
+	<div id="paramDesc">
+The second float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Tolerance</div>
+	<div id="paramDesc">
+Tolerance for the Equal test (almost equal).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Equal</div>
+	<div id="paramDesc">
+Event sent if Float 1 equals Float 2 (within Tolerance)</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Less Than</div>
+	<div id="paramDesc">
+Event sent if Float 1 is less than Float 2</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Greater Than</div>
+	<div id="paramDesc">
+Event sent if Float 1 is greater than Float 2</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the variables are changing and you're waiting for a particular result.</div>
+</div>
+

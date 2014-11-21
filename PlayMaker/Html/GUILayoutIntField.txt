@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GUILayoutIntField.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+GUILayout Text Field to edit an Int Variable. Optionally send an event if the text has been edited.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Int Variable</div>
+	<div id="paramDesc">
+Int Variable to show in the edit field.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Style</div>
+	<div id="paramDesc">
+Optional GUIStyle in the active GUISKin.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Changed Event</div>
+	<div id="paramDesc">
+Optional event to send when the value changes.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layout Options</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

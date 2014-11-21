@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkCreateRoomAdvanced.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Create a room With advanced settings.Please refer to Photon documentation.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Room Name</div>
+	<div id="paramDesc">
+The room Name</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Visible</div>
+	<div id="paramDesc">
+Is the room visible</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Open</div>
+	<div id="paramDesc">
+Is the room open</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max Number Of PLayers</div>
+	<div id="paramDesc">
+Max numbers of players for this room.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Key</div>
+	<div id="paramDesc">
+The Custom Property to set</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Value</div>
+	<div id="paramDesc">
+Value of the property</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Lobby Custom Properties</div>
+	<div id="paramDesc">
+Properties listed in the lobby.</div>
+</div>
+

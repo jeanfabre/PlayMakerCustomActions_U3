@@ -1,0 +1,35 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonViewGetIsSceneView.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+True if the PhotonView was loaded with the scene (game object) or instantiated with InstantiateSceneObject.
+ Scene objects are not owned by a particular player but belong to the scene. Thus they don't get destroyed when their creator leaves the game and the current Master Client can control them (whoever that is). The ownerIs is 0 (player IDs are 1 and up). 
+ A PhotonView component is required on the gameObject</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The Game Object with the PhotonView attached.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Scene View</div>
+	<div id="paramDesc">
+True if the Photon network view is a scene view.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Scene View Event</div>
+	<div id="paramDesc">
+Send this event if the Photon network view is a scene view</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Not Scene View Event</div>
+	<div id="paramDesc">
+Send this event if the Photon network view is NOT a scene view</div>
+</div>
+

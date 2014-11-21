@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__SetFsmBool.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set the value of a Bool Variable in another FSM.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject that owns the FSM.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Fsm Name</div>
+	<div id="paramDesc">
+Optional name of FSM on Game Object</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Variable Name</div>
+	<div id="paramDesc">
+The name of the FSM variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Set Value</div>
+	<div id="paramDesc">
+Set the value of the variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the value is changing.</div>
+</div>
+

@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GetJoystickName.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets a Joystick name by its index.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Joystick Index</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Joystick Name</div>
+	<div id="paramDesc">
+Store the Joystick Name found at that index</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Found Event</div>
+	<div id="paramDesc">
+Event to send when the index is found</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Not Found Event</div>
+	<div id="paramDesc">
+Event to send when the index is out of range</div>
+</div>
+

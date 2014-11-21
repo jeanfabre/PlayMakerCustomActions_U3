@@ -1,0 +1,75 @@
+<div id="actionImg"><p><img src="__URLBASE__DrawTexture.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Draws a GUI Texture. NOTE: Uses OnGUI so you need a PlayMakerGUI component in the scene.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Texture</div>
+	<div id="paramDesc">
+Texture to draw.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Screen Rect</div>
+	<div id="paramDesc">
+Rectangle on the screen to draw the texture within. Alternatively, set or override individual properties below.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Left</div>
+	<div id="paramDesc">
+Left screen coordinate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Top</div>
+	<div id="paramDesc">
+Top screen coordinate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Width</div>
+	<div id="paramDesc">
+Width of texture on screen.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Height</div>
+	<div id="paramDesc">
+Height of texture on screen.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Scale Mode</div>
+	<div id="paramDesc">
+How to scale the image when the aspect ratio of it doesn't fit the aspect ratio to be drawn within.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Alpha Blend</div>
+	<div id="paramDesc">
+Whether to alpha blend the image on to the display (the default). If false, the picture is drawn on to the display.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Image Aspect</div>
+	<div id="paramDesc">
+Aspect ratio to use for the source image. If 0 (the default), the aspect ratio from the image is used. Pass in w/h for the desired aspect ratio. This allows the aspect ratio of the source image to be adjusted without changing the pixel width and height.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Normalized</div>
+	<div id="paramDesc">
+Use normalized screen coordinates (0-1)</div>
+</div>
+

@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__ColorInterpolate.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Interpolate through an array of Colors over a specified amount of Time.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Colors</div>
+	<div id="paramDesc">
+Array of colors to interpolate through.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+Interpolation time.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Color</div>
+	<div id="paramDesc">
+Store the interpolated color in a Color variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+Event to send when the interpolation finishes.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Real Time</div>
+	<div id="paramDesc">
+Ignore TimeScale</div>
+</div>
+

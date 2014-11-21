@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GameObjectIsNull.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Tests if a GameObject Variable has a null value. E.g., If the FindGameObject action failed to find an object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject variable to test.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Null</div>
+	<div id="paramDesc">
+Event to send if the GamObject is null.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Not Null</div>
+	<div id="paramDesc">
+Event to send if the GamObject is NOT null.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result in a bool variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

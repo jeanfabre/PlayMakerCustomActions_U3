@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GetAxis.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the value of the specified Input Axis and stores it in a Float Variable. See Unity Input Manager docs.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Axis Name</div>
+	<div id="paramDesc">
+The name of the axis. Set in the Unity Input Manager.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Multiplier</div>
+	<div id="paramDesc">
+Axis values are in the range -1 to 1. Use the multiplier to set a larger range.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store</div>
+	<div id="paramDesc">
+Store the result in a float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Typically this would be set to True.</div>
+</div>
+

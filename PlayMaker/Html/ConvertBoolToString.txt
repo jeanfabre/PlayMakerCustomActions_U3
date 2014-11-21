@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__ConvertBoolToString.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Converts a Bool value to a String value.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Bool Variable</div>
+	<div id="paramDesc">
+The Bool variable to test.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+String Variable</div>
+	<div id="paramDesc">
+The String variable to set based on the Bool variable value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+False String</div>
+	<div id="paramDesc">
+String value if Bool variable is false.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+True String</div>
+	<div id="paramDesc">
+String value if Bool variable is true.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the Bool variable is changing.</div>
+</div>
+

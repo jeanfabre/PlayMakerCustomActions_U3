@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__Iterate.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Each time this action is called it iterate to the next value from Start to End. This lets you safely loop and process anything on each iteratation.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Start Index</div>
+	<div id="paramDesc">
+Start value</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+End Index</div>
+	<div id="paramDesc">
+End value</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Increment</div>
+	<div id="paramDesc">
+increment value at each iteration, absolute value only, it will itself find if it needs to substract or add</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop Event</div>
+	<div id="paramDesc">
+Event to send to get the next child.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finished Event</div>
+	<div id="paramDesc">
+Event to send when we reached the end.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Current Index</div>
+	<div id="paramDesc">
+The current value of the iteration process</div>
+</div>
+

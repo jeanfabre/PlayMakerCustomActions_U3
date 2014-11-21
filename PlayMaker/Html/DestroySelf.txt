@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__DestroySelf.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Destroys the Owner of the Fsm! Useful for spawned Prefabs that need to kill themselves, e.g., a projectile that explodes on impact.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Detach Children</div>
+	<div id="paramDesc">
+Detach children before destroying the Owner.</div>
+</div>
+

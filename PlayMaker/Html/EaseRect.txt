@@ -1,0 +1,75 @@
+<div id="actionImg"><p><img src="__URLBASE__EaseRect.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Easing Animation - Rect.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+From Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rect Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Speed</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Delay</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ease Type</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Reverse</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+Optionally send an Event when the animation finishes.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Real Time</div>
+	<div id="paramDesc">
+Ignore TimeScale. Useful if the game is paused.</div>
+</div>
+

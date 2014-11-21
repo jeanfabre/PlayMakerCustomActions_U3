@@ -1,0 +1,68 @@
+<div id="actionImg"><p><img src="__URLBASE__SetMaterialVector4.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets a named Vector4 in a game object's material.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject that the material is applied to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Material Index</div>
+	<div id="paramDesc">
+GameObjects can have multiple materials. Specify an index to target a specific material.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Material</div>
+	<div id="paramDesc">
+Alternatively specify a Material instead of a GameObject and Index.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Named Vector 4</div>
+	<div id="paramDesc">
+A named vector4 parameter in the shader.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+XValue</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+YValue</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+ZValue</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+WValue</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the value is animated.</div>
+</div>
+

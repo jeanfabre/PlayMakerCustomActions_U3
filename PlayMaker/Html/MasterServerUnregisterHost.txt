@@ -1,0 +1,7 @@
+<div id="actionImg"><p><img src="__URLBASE__MasterServerUnregisterHost.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Unregister this server from the master server.
+
+Does nothing if the server is not registered or has already unregistered.</p>
+</div>

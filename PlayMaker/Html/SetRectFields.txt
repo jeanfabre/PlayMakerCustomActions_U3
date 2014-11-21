@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__SetRectFields.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the individual fields of a Rect Variable. To leave any field unchanged, set variable to 'None'.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Rect Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Width</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Height</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

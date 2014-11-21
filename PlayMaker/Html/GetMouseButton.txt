@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GetMouseButton.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the pressed state of the specified Mouse Button and stores it in a Bool Variable. See Unity Input Manager doc.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Button</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

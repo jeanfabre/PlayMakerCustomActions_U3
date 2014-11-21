@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__QuaternionAngleAxis.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Creates a rotation which rotates angle degrees around axis.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Angle</div>
+	<div id="paramDesc">
+The angle.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Axis</div>
+	<div id="paramDesc">
+The rotation axis.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Result</div>
+	<div id="paramDesc">
+Store the rotation of this quaternion variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the values are changing.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame Option</div>
+	<div id="paramDesc">
+Defines how to perform the action when 'every Frame' is enabled.</div>
+</div>
+

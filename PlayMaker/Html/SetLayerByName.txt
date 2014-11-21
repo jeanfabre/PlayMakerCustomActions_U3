@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetLayerByName.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets a Game Object's Layer using a string reference for the layer.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer Not Found Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector2Compare.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends Events based on the comparison of 2 Vector2's.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 2Variable 1</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector 2Variable 2</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Tolerance</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Equal</div>
+	<div id="paramDesc">
+Event sent if Vector2 1 equals Vector1 2 (within Tolerance)</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Not Equal</div>
+	<div id="paramDesc">
+Event sent if the Vector1's are not equal</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__SmoothPointAtY.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Smoothly Rotates the local y axis of a gameObject to a target, rotating around the local Z axis.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to rotate to face a target.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Object</div>
+	<div id="paramDesc">
+the target</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Angle Speed</div>
+	<div id="paramDesc">
+The degrees per seconds to point at the target</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GUILayoutLabel.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+GUILayout Label.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Image</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Text</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Tooltip</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Style</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layout Options</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,96 @@
+<div id="actionImg"><p><img src="__URLBASE__ScreenPick.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Perform a raycast into the scene using screen coordinates and stores the results. Use Ray Distance to set how close the camera must be to pick the object. NOTE: Uses the MainCamera!</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Screen Vector</div>
+	<div id="paramDesc">
+A Vector3 screen position. Commonly stored by other actions.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Screen X</div>
+	<div id="paramDesc">
+X position on screen.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Screen Y</div>
+	<div id="paramDesc">
+Y position on screen.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Normalized</div>
+	<div id="paramDesc">
+Are the supplied screen coordinates normalized (0-1), or in pixels.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ray Distance</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Did Pick Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Point</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Normal</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Distance</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer Mask</div>
+	<div id="paramDesc">
+Pick only from these layers.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Invert Mask</div>
+	<div id="paramDesc">
+Invert the mask, so you pick from all layers except those defined above.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

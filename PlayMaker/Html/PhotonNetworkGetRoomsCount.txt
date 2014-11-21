@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkGetRoomsCount.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the number of rooms available.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Rooms Number</div>
+	<div id="paramDesc">
+The number of available rooms.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame</div>
+</div>
+

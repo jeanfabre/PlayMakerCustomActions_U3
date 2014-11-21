@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__DebugFsmVariable.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Print the value of an FSM Variable in the PlayMaker Log Window.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Log Level</div>
+	<div id="paramDesc">
+Info, Warning, or Error.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Fsm Var</div>
+	<div id="paramDesc">
+Variable to print to the PlayMaker log window.</div>
+</div>
+

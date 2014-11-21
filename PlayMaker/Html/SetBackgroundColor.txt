@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetBackgroundColor.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Background Color used by the Camera.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Background Color</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

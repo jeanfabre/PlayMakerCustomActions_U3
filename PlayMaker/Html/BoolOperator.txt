@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__BoolOperator.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Performs boolean operations on 2 Bool Variables.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Bool 1</div>
+	<div id="paramDesc">
+The first Bool variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Bool 2</div>
+	<div id="paramDesc">
+The second Bool variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Operation</div>
+	<div id="paramDesc">
+Boolean Operation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result in a Bool Variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame while the state is active.</div>
+</div>
+

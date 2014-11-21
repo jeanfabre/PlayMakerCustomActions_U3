@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__GameObjectCompare.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Compares 2 Game Objects and sends Events based on the result.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object Variable</div>
+	<div id="paramDesc">
+A Game Object variable to compare.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Compare To</div>
+	<div id="paramDesc">
+Compare the variable with this Game Object</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Equal Event</div>
+	<div id="paramDesc">
+Send this event if Game Objects are equal</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Not Equal Event</div>
+	<div id="paramDesc">
+Send this event if Game Objects are not equal</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result of the check in a Bool Variable. (True if equal, false if not equal).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if you're waiting for a true or false result.</div>
+</div>
+

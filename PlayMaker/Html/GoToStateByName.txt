@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GoToStateByName.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Immediately switch to a state with the selected name.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject that owns the FSM</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Fsm Name</div>
+	<div id="paramDesc">
+Name of FSM on Game Object. Leave to none to target this fsm</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+State Name</div>
+	<div id="paramDesc">
+The name of the state to go to</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+State Found Event</div>
+	<div id="paramDesc">
+Event Sent if the state was found</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+State Not Found Event</div>
+	<div id="paramDesc">
+Event Sent if the state was not found</div>
+</div>
+

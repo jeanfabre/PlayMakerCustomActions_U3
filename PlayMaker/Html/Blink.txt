@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__Blink.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Turns a Game Object on/off in a regular repeating pattern.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to blink on/off.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time Off</div>
+	<div id="paramDesc">
+Time to stay off in seconds.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time On</div>
+	<div id="paramDesc">
+Time to stay on in seconds.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Start On</div>
+	<div id="paramDesc">
+Should the object start in the active/visible state?</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Renderer Only</div>
+	<div id="paramDesc">
+Only effect the renderer, keeping other components active.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Real Time</div>
+	<div id="paramDesc">
+Ignore TimeScale. Useful if the game is paused.</div>
+</div>
+

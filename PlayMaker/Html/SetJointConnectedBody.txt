@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetJointConnectedBody.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Connect a joint to a game object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Joint</div>
+	<div id="paramDesc">
+The joint to connect. Requires a Joint component.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rigid Body</div>
+	<div id="paramDesc">
+The game object to connect to the Joint. Set to none to connect the Joint to the world.</div>
+</div>
+

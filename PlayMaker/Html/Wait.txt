@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__Wait.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Delays a State from finishing by the specified time. NOTE: Other actions continue, but FINISHED can't happen before Time.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Real Time</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__ScaleGUI.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Scales the GUI around a pivot point. By default only effects GUI rendered by this FSM, check Apply Globally to effect all GUI controls.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Scale X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Scale Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Pivot X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Pivot Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Normalized</div>
+	<div id="paramDesc">
+Pivot point uses normalized coordinates. E.g. 0.5 is the center of the screen.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Apply Globally</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

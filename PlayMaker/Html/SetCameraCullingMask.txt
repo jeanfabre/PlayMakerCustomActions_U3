@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__SetCameraCullingMask.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Culling Mask used by the Camera.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Culling Mask</div>
+	<div id="paramDesc">
+Cull these layers.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Invert Mask</div>
+	<div id="paramDesc">
+Invert the mask, so you cull all layers except those defined above.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

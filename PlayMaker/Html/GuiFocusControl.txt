@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__GuiFocusControl.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Move keyboard focus to a named control.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Control Name</div>
+	<div id="paramDesc">
+The the name of the control to focus</div>
+</div>
+

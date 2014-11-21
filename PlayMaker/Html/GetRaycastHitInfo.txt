@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GetRaycastHitInfo.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets info on the last Raycast and store in variables.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object Hit</div>
+	<div id="paramDesc">
+Get the GameObject hit by the last Raycast and store it in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Point</div>
+	<div id="paramDesc">
+Get the world position of the ray hit point and store it in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Normal</div>
+	<div id="paramDesc">
+Get the normal at the hit point and store it in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Distance</div>
+	<div id="paramDesc">
+Get the distance along the ray to the hit point and store it in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

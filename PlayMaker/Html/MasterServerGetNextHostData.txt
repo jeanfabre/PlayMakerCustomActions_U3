@@ -1,0 +1,97 @@
+<div id="actionImg"><p><img src="__URLBASE__MasterServerGetNextHostData.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the next host data from the master server. 
+Each time this action is called it gets the next connected host.This lets you quickly loop through all the connected hosts to get information on each one.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Loop Event</div>
+	<div id="paramDesc">
+Event to send for looping.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finished Event</div>
+	<div id="paramDesc">
+Event to send when there are no more hosts.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Index</div>
+	<div id="paramDesc">
+The index into the MasterServer Host List</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Use Nat</div>
+	<div id="paramDesc">
+Does this server require NAT punchthrough?</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Game Type</div>
+	<div id="paramDesc">
+The type of the game (e.g., 'MyUniqueGameType')</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Game Name</div>
+	<div id="paramDesc">
+The name of the game (e.g., 'John Does's Game')</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Connected Players</div>
+	<div id="paramDesc">
+Currently connected players</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Player Limit</div>
+	<div id="paramDesc">
+Maximum players limit</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ip Address</div>
+	<div id="paramDesc">
+Server IP address.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Port</div>
+	<div id="paramDesc">
+Server port</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Password Protected</div>
+	<div id="paramDesc">
+Does the server require a password?</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Comment</div>
+	<div id="paramDesc">
+A miscellaneous comment (can hold data)</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Guid</div>
+	<div id="paramDesc">
+The GUID of the host, needed when connecting with NAT punchthrough.</div>
+</div>
+

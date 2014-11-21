@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GetTriggerInfo.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets info on the last Trigger event and store in variables.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object Hit</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Physics Material Name</div>
+	<div id="paramDesc">
+Useful for triggering different effects. Audio, particles...</div>
+</div>
+

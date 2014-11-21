@@ -1,0 +1,110 @@
+<div id="actionImg"><p><img src="__URLBASE__iTweenRotateTo.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Rotates a GameObject to the supplied Euler angles in degrees over time.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Id</div>
+	<div id="paramDesc">
+iTween ID. If set you can use iTween Stop action to stop it by its id.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Transform Rotation</div>
+	<div id="paramDesc">
+Rotate to a transform rotation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector Rotation</div>
+	<div id="paramDesc">
+A rotation the GameObject will animate from.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+The time in seconds the animation will take to complete.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Delay</div>
+	<div id="paramDesc">
+The time in seconds the animation will wait before beginning.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Speed</div>
+	<div id="paramDesc">
+Can be used instead of time to allow animation based on speed. When you define speed the time variable is ignored.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ease Type</div>
+	<div id="paramDesc">
+The shape of the easing curve applied to the animation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop Type</div>
+	<div id="paramDesc">
+The type of loop to apply once the animation has completed.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Space</div>
+	<div id="paramDesc">
+Whether to animate in local or world space.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Start Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Real Time</div>
+	<div id="paramDesc">
+Setting this to true will allow the animation to continue independent of the current time which is helpful for animating menus after a game has been paused by setting Time.timeScale=0.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Stop On Exit</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop Dont Finish</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

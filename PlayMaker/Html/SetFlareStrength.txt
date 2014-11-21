@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetFlareStrength.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the intensity of all Flares in the scene.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Flare Strength</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

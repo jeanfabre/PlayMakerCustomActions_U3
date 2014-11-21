@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GUILayoutIntLabel.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+GUILayout Label for an Int Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Prefix</div>
+	<div id="paramDesc">
+Text to put before the int variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Int Variable</div>
+	<div id="paramDesc">
+Int variable to display.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Style</div>
+	<div id="paramDesc">
+Optional GUIStyle in the active GUISKin.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layout Options</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

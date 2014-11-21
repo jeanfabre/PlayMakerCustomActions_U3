@@ -1,0 +1,18 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkSetMaximumConnections.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set the maximum amount of connections/players allowed.
+
+This cannot be set higher than the connection count given in Launch Server.
+
+Setting it to 0 means no new connections can be made but the existing ones stay connected.
+
+Setting it to -1 means the maximum connections count is set to the same number of current open connections. In that case, if a players drops then the slot is still open for him.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Maximum Connections</div>
+	<div id="paramDesc">
+The maximum amount of connections/players allowed.</div>
+</div>
+

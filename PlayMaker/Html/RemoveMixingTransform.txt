@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__RemoveMixingTransform.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Removes a mixing transform previously added with Add Mixing Transform. If transform has been added as recursive, then it will be removed as recursive. Once you remove all mixing transforms added to animation state all curves become animated again.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject playing the animation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Animation Name</div>
+	<div id="paramDesc">
+The name of the animation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Transfrom</div>
+	<div id="paramDesc">
+The mixing transform to remove. E.g., root/upper_body/left_shoulder</div>
+</div>
+

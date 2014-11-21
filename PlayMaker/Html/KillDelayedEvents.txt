@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__KillDelayedEvents.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Kill all queued delayed events. Delayed events are 'fire and forget', but sometimes this can cause problems.</p>
+</div>

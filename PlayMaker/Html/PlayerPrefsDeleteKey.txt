@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__PlayerPrefsDeleteKey.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Removes key and its corresponding value from the preferences.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Key</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

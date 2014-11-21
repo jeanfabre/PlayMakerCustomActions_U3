@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GetVector3XYZ.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the XYZ channels of a Vector3 Variable and storew them in Float Variables.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 3Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Z</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

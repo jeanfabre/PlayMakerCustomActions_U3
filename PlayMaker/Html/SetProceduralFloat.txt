@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__SetProceduralFloat.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set a named float property in a Substance material. NOTE: Use Rebuild Textures after setting Substance properties.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Substance Material</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Float Property</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Float Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+NOTE: Updating procedural materials every frame can be very slow!</div>
+</div>
+

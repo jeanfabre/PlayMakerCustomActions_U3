@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__GetControllerHitInfo.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets info on the last Character Controller collision and store in variables.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object Hit</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Contact Point</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Contact Normal</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Move Direction</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Move Length</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Physics Material Name</div>
+	<div id="paramDesc">
+Useful for triggering different effects. Audio, particles...</div>
+</div>
+

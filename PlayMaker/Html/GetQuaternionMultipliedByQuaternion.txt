@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GetQuaternionMultipliedByQuaternion.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the quaternion from a quaternion multiplied by a quaternion.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Quaternion A</div>
+	<div id="paramDesc">
+The first quaternion to multiply</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Quaternion B</div>
+	<div id="paramDesc">
+The second quaternion to multiply</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Result</div>
+	<div id="paramDesc">
+The resulting quaternion</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the values are changing.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame Option</div>
+	<div id="paramDesc">
+Defines how to perform the action when 'every Frame' is enabled.</div>
+</div>
+

@@ -1,0 +1,141 @@
+<div id="actionImg"><p><img src="__URLBASE__Raycast2.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Casts a Ray against all Colliders in the scene. Use either a Game Object or Vector3 world position as the origin of the ray. Use GetRaycastInfo to get more detailed info.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+From Game Object</div>
+	<div id="paramDesc">
+Start ray at game object position. 
+Or use From Position parameter.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+From Position</div>
+	<div id="paramDesc">
+Start ray at a vector3 world position. 
+Or use Game Object parameter.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Direction</div>
+	<div id="paramDesc">
+A vector3 direction vector</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+End Object</div>
+	<div id="paramDesc">
+A Target Object for the direction. Overrides Direction if used.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Space</div>
+	<div id="paramDesc">
+Cast the ray in world or local space. Note if no Game Object is specfied, the direction is in world space.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Distance</div>
+	<div id="paramDesc">
+The length of the ray. Set to -1 for infinity.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Hit Event</div>
+	<div id="paramDesc">
+Event to send if the ray hits an object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+No Hit Event</div>
+	<div id="paramDesc">
+Event to send if the ray does not hit any object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Did Hit</div>
+	<div id="paramDesc">
+Set a bool variable to true if hit something, otherwise false.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Hit Object</div>
+	<div id="paramDesc">
+Store the game object hit in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Hit Point</div>
+	<div id="paramDesc">
+Get the world position of the ray hit point and store it in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Hit Normal</div>
+	<div id="paramDesc">
+Get the normal at the hit point and store it in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Hit Distance</div>
+	<div id="paramDesc">
+Get the distance along the ray to the hit point and store it in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Distance On Miss</div>
+	<div id="paramDesc">
+If true the script will store hitDistance regardless of whether or not the ray hit something.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Repeat Interval</div>
+	<div id="paramDesc">
+Set how often to cast a ray. 0 = once, don't repeat; 1 = everyFrame; 2 = every other frame... 
+Since raycasts can get expensive use the highest repeat interval you can get away with.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer Mask</div>
+	<div id="paramDesc">
+Pick only from these layers.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Invert Mask</div>
+	<div id="paramDesc">
+Invert the mask, so you pick from all layers except those defined above.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Debug Color</div>
+	<div id="paramDesc">
+The color to use for the debug line.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Debug</div>
+	<div id="paramDesc">
+Draw a debug line. Note: Check Gizmos in the Game View to see it in game.</div>
+</div>
+

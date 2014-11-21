@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GameObjectTagSwitch.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends an Event based on a Game Object's Tag.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to test.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Compare To</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

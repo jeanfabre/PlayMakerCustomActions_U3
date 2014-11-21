@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GameObjectIsChildOf.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Tests if a GameObject is a Child of another GameObject.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+GameObject to test.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Child Of</div>
+	<div id="paramDesc">
+Is it a child of this GameObject?</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+True Event</div>
+	<div id="paramDesc">
+Event to send if GameObject is a child.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+False Event</div>
+	<div id="paramDesc">
+Event to send if GameObject is NOT a child.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store result in a bool variable</div>
+</div>
+

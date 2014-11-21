@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__SetGUITexturePixelInsetSize.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Pixel Inset Soze of the GUITexture attached to a Game Object. Useful for sizing GUI elements around.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Width</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Height</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

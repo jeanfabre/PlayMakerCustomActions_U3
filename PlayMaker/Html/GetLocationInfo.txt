@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__GetLocationInfo.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets Location Info from a mobile device. NOTE: Use StartLocationService before trying to get location info.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector Position</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Longitude</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Latitude</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Altitude</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Horizontal Accuracy</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vertical Accuracy</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Error Event</div>
+	<div id="paramDesc">
+Event to send if the location cannot be queried.</div>
+</div>
+

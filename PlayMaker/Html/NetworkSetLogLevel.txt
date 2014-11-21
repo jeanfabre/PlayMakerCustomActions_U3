@@ -1,0 +1,18 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkSetLogLevel.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set the log level for network messages. Default is Off.
+
+Off: Only report errors, otherwise silent.
+
+Informational: Report informational messages like connectivity events.
+
+Full: Full debug level logging down to each individual message being reported.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Log Level</div>
+	<div id="paramDesc">
+The log level</div>
+</div>
+

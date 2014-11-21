@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatSquareRoot.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get a Float Variable square root value</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

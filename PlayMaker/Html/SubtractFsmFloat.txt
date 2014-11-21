@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__SubtractFsmFloat.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Subtract the value of a Float Variable in another FSM.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject that owns the FSM.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Fsm Name</div>
+	<div id="paramDesc">
+Optional name of FSM on Game Object</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Variable Name</div>
+	<div id="paramDesc">
+The name of the FSM variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Subtract Value</div>
+	<div id="paramDesc">
+Subtract this from the target variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the value is changing.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Per Second</div>
+	<div id="paramDesc">
+Use with Every Frame only to continue over time</div>
+</div>
+

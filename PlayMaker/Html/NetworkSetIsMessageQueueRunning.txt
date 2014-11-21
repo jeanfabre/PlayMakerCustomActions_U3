@@ -1,0 +1,14 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkSetIsMessageQueueRunning.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Enable or disable the processing of network messages.
+
+If this is disabled no RPC call execution or network view synchronization takes place.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Is Message Queue Running</div>
+	<div id="paramDesc">
+Is Message Queue Running. If this is disabled no RPC call execution or network view synchronization takes place</div>
+</div>
+

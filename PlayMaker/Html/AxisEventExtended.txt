@@ -1,0 +1,96 @@
+<div id="actionImg"><p><img src="__URLBASE__AxisEventExtended.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends events based on the direction of Input Axis (Left/Right/Up/Down...). Also sends intermedidate directions ( left-Right). Expose an option to only send event when direction changed.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Horizontal Axis</div>
+	<div id="paramDesc">
+Horizontal axis as defined in the Input Manager</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vertical Axis</div>
+	<div id="paramDesc">
+Vertical axis as defined in the Input Manager</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Angle</div>
+	<div id="paramDesc">
+The direction angle. Range from -180 to 180, 0 being full up</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Left Event</div>
+	<div id="paramDesc">
+Event to send if input is to the left.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Right Event</div>
+	<div id="paramDesc">
+Event to send if input is to the right.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Up Event</div>
+	<div id="paramDesc">
+Event to send if input is to the up.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Down Event</div>
+	<div id="paramDesc">
+Event to send if input is to the down.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Up Left Event</div>
+	<div id="paramDesc">
+Event to send if input is to the up left.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Up Right Event</div>
+	<div id="paramDesc">
+Event to send if input is to the up right.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Down Left Event</div>
+	<div id="paramDesc">
+Event to send if input is to the down left.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Down Right Event</div>
+	<div id="paramDesc">
+Event to send if input is to the down right.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+No Direction</div>
+	<div id="paramDesc">
+Event to send if no axis input (centered).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Discrete Events</div>
+	<div id="paramDesc">
+Only send events when direction changes</div>
+</div>
+

@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GUILayoutFloatLabel.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+GUILayout Label for a Float Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Prefix</div>
+	<div id="paramDesc">
+Text to put before the float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+Float variable to display.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Style</div>
+	<div id="paramDesc">
+Optional GUIStyle in the active GUISKin.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layout Options</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__ConvertStringToBool.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Converts a string into a Bool variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Source</div>
+	<div id="paramDesc">
+The string representing the bool value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+True Value</div>
+	<div id="paramDesc">
+The expected format of the source representing the true value for a boolean. Warning: Case sensitive</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+The result</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeats every frame.</div>
+</div>
+

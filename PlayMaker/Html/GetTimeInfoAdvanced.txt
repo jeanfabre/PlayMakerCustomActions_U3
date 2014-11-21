@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GetTimeInfoAdvanced.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets various useful Time measurements. This advanced version allows you to select when to perform the action.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Get Info</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Update Type</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

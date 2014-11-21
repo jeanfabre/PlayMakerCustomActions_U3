@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatChanged.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Tests if the value of a Float variable changed. Use this to send an event on change, or store a bool that can be used in other operations.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+The Float variable to watch for a change.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Changed Event</div>
+	<div id="paramDesc">
+Event to send if the float variable changes.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Set to True if the float variable changes.</div>
+</div>
+

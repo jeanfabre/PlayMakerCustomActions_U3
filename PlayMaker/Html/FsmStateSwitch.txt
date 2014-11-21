@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__FsmStateSwitch.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends Events based on the current State of an FSM.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject that owns the FSM.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Fsm Name</div>
+	<div id="paramDesc">
+Optional name of Fsm on GameObject. Useful if there is more than one FSM on the GameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Compare To</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if you're waiting for a particular result.</div>
+</div>
+

@@ -1,0 +1,13 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkSetAutoJoinLobby.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Defines if the PhotonNetwork should join the 'lobby' when connected to the Master server. If this is false, PHOTON / CONNECTED TO MASTER will be called when connection to the Master is available.PHOTON / JOINED LOBBY will NOT be called if this is false.
+Note: The room listing will not become available. Rooms can be created and joined (randomly) without joining the lobby (and getting sent the room list).</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Auto Join Lobby</div>
+	<div id="paramDesc">
+Define if PhotonNetwork should join the 'lobby' when connected to the Master server</div>
+</div>
+

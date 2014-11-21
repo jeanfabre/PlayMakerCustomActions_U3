@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__QuaternionEuler.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Returns a rotation that rotates z degrees around the z axis, x degrees around the x axis, and y degrees around the y axis (in that order).</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Euler Angles</div>
+	<div id="paramDesc">
+The Euler angles.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Result</div>
+	<div id="paramDesc">
+Store the euler angles of this quaternion variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the values are changing.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame Option</div>
+	<div id="paramDesc">
+Defines how to perform the action when 'every Frame' is enabled.</div>
+</div>
+

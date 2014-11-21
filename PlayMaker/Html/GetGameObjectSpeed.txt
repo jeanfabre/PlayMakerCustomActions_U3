@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetGameObjectSpeed.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the speed of a gameObject. No need to have it set up with a physic component.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Speed</div>
+	<div id="paramDesc">
+The current speed</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Speed Vector</div>
+	<div id="paramDesc">
+The current speed vector</div>
+</div>
+

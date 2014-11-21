@@ -1,0 +1,75 @@
+<div id="actionImg"><p><img src="__URLBASE__Translate.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Translates a Game Object. Use a Vector3 variable and/or XYZ components. To leave any axis unchanged, set variable to 'None'.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The game object to translate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector</div>
+	<div id="paramDesc">
+A translation vector. NOTE: You can override individual axis below.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+X</div>
+	<div id="paramDesc">
+Translation along x axis.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Y</div>
+	<div id="paramDesc">
+Translation along y axis.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Z</div>
+	<div id="paramDesc">
+Translation along z axis.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Space</div>
+	<div id="paramDesc">
+Translate in local or world space.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Per Second</div>
+	<div id="paramDesc">
+Translate over one second</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Late Update</div>
+	<div id="paramDesc">
+Perform the translate in LateUpdate. This is useful if you want to override the position of objects that are animated or otherwise positioned in Update.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Fixed Update</div>
+	<div id="paramDesc">
+Perform the translate in FixedUpdate. This is useful when working with rigid bodies and physics.</div>
+</div>
+

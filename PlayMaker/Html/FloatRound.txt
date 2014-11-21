@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatRound.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets a Float Variable to its round value. You can store the round value as a float or as an int</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Result As Int</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Result As Float</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

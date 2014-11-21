@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__StartCoroutine.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Start a Coroutine in a Behaviour on a Game Object. See Unity StartCoroutine docs.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The game object that owns the Behaviour.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Behaviour</div>
+	<div id="paramDesc">
+The Behaviour that contains the method to start as a coroutine.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Function Call</div>
+	<div id="paramDesc">
+The name of the coroutine method.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Stop On Exit</div>
+	<div id="paramDesc">
+Stop the coroutine when the state is exited.</div>
+</div>
+

@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__BillBoard.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Align an object to always face the camera. You optionnally decide to keep a constant screensize.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Camera Target</div>
+	<div id="paramDesc">
+Leave to none to use the main camera</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Constant Screen Size</div>
+	<div id="paramDesc">
+check this if you want constant screensize</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Distance Base</div>
+	<div id="paramDesc">
+if 0, will use the current distance to keep constant screensize to be scaled to 1 at that distance</div>
+</div>
+

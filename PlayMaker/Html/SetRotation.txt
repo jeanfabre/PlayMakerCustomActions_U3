@@ -1,0 +1,68 @@
+<div id="actionImg"><p><img src="__URLBASE__SetRotation.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Rotation of a Game Object. To leave any axis unchanged, set variable to 'None'.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to rotate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Quaternion</div>
+	<div id="paramDesc">
+Use a stored quaternion, or vector angles below.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector</div>
+	<div id="paramDesc">
+Use euler angles stored in a Vector3 variable, and/or set each axis below.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+XAngle</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+YAngle</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+ZAngle</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Space</div>
+	<div id="paramDesc">
+Use local or world space.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Late Update</div>
+	<div id="paramDesc">
+Perform in LateUpdate. This is useful if you want to override the position of objects that are animated or otherwise positioned in Update.</div>
+</div>
+

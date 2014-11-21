@@ -1,0 +1,69 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonViewGetOwnerProperties.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Retrieve the owner properties of a GameObject.
+ A PhotonView component is required on the gameObject</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The Game Object with the PhotonView attached.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Name</div>
+	<div id="paramDesc">
+The Photon player name</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+ID</div>
+	<div id="paramDesc">
+The Photon player ID</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Local</div>
+	<div id="paramDesc">
+The Photon player isLocal property</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Master Client</div>
+	<div id="paramDesc">
+The Photon player isLocal isMasterClient</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Keys</div>
+	<div id="paramDesc">
+Custom Properties you have assigned to this player.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Properties Values</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Success Event</div>
+	<div id="paramDesc">
+Send this event if the Owner was found.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Failure Event</div>
+	<div id="paramDesc">
+Send this event if no Owner was found.</div>
+</div>
+

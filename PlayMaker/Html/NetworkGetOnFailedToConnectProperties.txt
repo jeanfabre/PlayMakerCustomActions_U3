@@ -1,0 +1,117 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkGetOnFailedToConnectProperties.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the network OnFailedToConnect or MasterServer OnFailedToConnectToMasterServer connection error message.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Error Label</div>
+	<div id="paramDesc">
+Error label</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+No Error Event</div>
+	<div id="paramDesc">
+No error occurred.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+RSAPublic Key Mismatch Event</div>
+	<div id="paramDesc">
+We presented an RSA public key which does not match what the system we connected to is using.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Invalid Password Event</div>
+	<div id="paramDesc">
+The server is using a password and has refused our connection because we did not set the correct password.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Connection Failed Event</div>
+	<div id="paramDesc">
+onnection attempt failed, possibly because of internal connectivity problems.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Too Many Connected Players Event</div>
+	<div id="paramDesc">
+The server is at full capacity, failed to connect.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Connection Banned Event</div>
+	<div id="paramDesc">
+We are banned from the system we attempted to connect to (likely temporarily).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Already Connected To Server Event</div>
+	<div id="paramDesc">
+We are already connected to this particular server (can happen after fast disconnect/reconnect).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Already Connected To Another Server Event</div>
+	<div id="paramDesc">
+Cannot connect to two servers at once. Close the connection before connecting again.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Create Socket Or Thread Failure Event</div>
+	<div id="paramDesc">
+Internal error while attempting to initialize network interface. Socket possibly already in use.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Incorrect Parameters Event</div>
+	<div id="paramDesc">
+Incorrect parameters given to Connect function.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Empty Connect Target Event</div>
+	<div id="paramDesc">
+No host target given in Connect.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Internal Direct Connect Failed Event</div>
+	<div id="paramDesc">
+Client could not connect internally to same network NAT enabled server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+NATTarget Not Connected Event</div>
+	<div id="paramDesc">
+The NAT target we are trying to connect to is not connected to the facilitator server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+NATTarget Connection Lost Event</div>
+	<div id="paramDesc">
+Connection lost while attempting to connect to NAT target.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+NATPunchthrough Failed Event</div>
+	<div id="paramDesc">
+NAT punchthrough attempt has failed. The cause could be a too restrictive NAT implementation on either endpoints.</div>
+</div>
+

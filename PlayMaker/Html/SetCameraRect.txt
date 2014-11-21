@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__SetCameraRect.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Rect of a Camera.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rect</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Coordinates</div>
+	<div id="paramDesc">
+Rect coordinates: Screen is relative and 0,0 is the top left of the screen. Viewport is relative and 0,0 is bottom left of the screen. Otherwise coordinates are in pixels.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

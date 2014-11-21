@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__GetColorHSV.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the HSV values from a color.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Color Source</div>
+	<div id="paramDesc">
+The color source</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+HSV</div>
+	<div id="paramDesc">
+The hsv values of the color source</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Hue</div>
+	<div id="paramDesc">
+The Hue value of the color source</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Saturation</div>
+	<div id="paramDesc">
+The Saturation value of the color source</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Value</div>
+	<div id="paramDesc">
+The Value value of the color source</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Alpha</div>
+	<div id="paramDesc">
+The alpha value of the color source</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Everyframe</div>
+	<div id="paramDesc">
+Repeat every frame</div>
+</div>
+

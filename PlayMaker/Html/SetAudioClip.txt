@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetAudioClip.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Audio Clip played by the AudioSource component on a Game Object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject with the AudioSource component.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Audio Clip</div>
+	<div id="paramDesc">
+The AudioClip to set.</div>
+</div>
+

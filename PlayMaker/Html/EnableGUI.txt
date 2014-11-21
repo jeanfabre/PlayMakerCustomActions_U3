@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__EnableGUI.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Enables/Disables the PlayMakerGUI component in the scene. Note, you need a PlayMakerGUI component in the scene to see OnGUI actions. However, OnGUI can be very expensive on mobile devices. This action lets you turn OnGUI on/off (e.g., turn it on for a menu, and off during gameplay).</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Enable GUI</div>
+	<div id="paramDesc">
+Set to True to enable, False to disable.</div>
+</div>
+

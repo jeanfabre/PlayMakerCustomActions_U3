@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetTimeScale.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Scales time: 1 = normal, 0.5 = half speed, 2 = double speed.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Time Scale</div>
+	<div id="paramDesc">
+Scales time: 1 = normal, 0.5 = half speed, 2 = double speed.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful when animating the value.</div>
+</div>
+

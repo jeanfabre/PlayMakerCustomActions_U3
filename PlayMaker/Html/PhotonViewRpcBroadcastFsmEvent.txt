@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonViewRpcBroadcastFsmEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Remote Event Calls (using Photon RPC under the hood) let you broadcast a Fsm Event to photon targets ( all players, other players, master).</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Photon Targets</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Photon Targets From String</div>
+	<div id="paramDesc">
+Override photonTargets above if set. Available enums: All,AllBuffered,MasterClient,Others,OthersBuffered</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Event Target</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Remote Event</div>
+	<div id="paramDesc">
+The event you want to send.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+String Data</div>
+	<div id="paramDesc">
+Optionnal string data ( will be injected in the Event data. Use 'get Event Info' action to retrieve it)</div>
+</div>
+

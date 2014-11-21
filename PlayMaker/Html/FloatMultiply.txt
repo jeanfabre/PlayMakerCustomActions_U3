@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatMultiply.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Multiplies one Float by another.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+The float variable to multiply.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Multiply By</div>
+	<div id="paramDesc">
+Multiply the float variable by this value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the variables are changing.</div>
+</div>
+

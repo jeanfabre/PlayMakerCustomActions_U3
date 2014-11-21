@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__MoveTowards.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Moves a Game Object towards a Target. Optionally sends an event when successful. The Target can be specified as a Game Object or a world Position. If you specify both, then the Position is used as a local offset from the Object's Position.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to Move</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Object</div>
+	<div id="paramDesc">
+A target GameObject to move towards. Or use a world Target Position below.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Position</div>
+	<div id="paramDesc">
+A world position if no Target Object. Otherwise used as a local offset from the Target Object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ignore Vertical</div>
+	<div id="paramDesc">
+Ignore any height difference in the target.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max Speed</div>
+	<div id="paramDesc">
+The maximum movement speed. HINT: You can make this a variable to change it over time.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Distance</div>
+	<div id="paramDesc">
+Distance at which the move is considered finished, and the Finish Event is sent.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+Event to send when the Finish Distance is reached.</div>
+</div>
+

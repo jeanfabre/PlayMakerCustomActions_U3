@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__ObjectCompare.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Compare 2 Object Variables and send events based on the result.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Object Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Compare To</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Equal Event</div>
+	<div id="paramDesc">
+Event to send if the 2 object values are equal.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Not Equal Event</div>
+	<div id="paramDesc">
+Event to send if the 2 object values are not equal.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

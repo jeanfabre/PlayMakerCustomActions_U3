@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__ControllerSimpleMove.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Moves a Game Object with a Character Controller. Velocity along the y-axis is ignored. Speed is in meters/s. Gravity is automatically applied.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to move.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Move Vector</div>
+	<div id="paramDesc">
+The movement vector.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Speed</div>
+	<div id="paramDesc">
+Multiply the movement vector by a speed factor.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Space</div>
+	<div id="paramDesc">
+Move in local or word space.</div>
+</div>
+

@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector2Invert.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Reverses the direction of a Vector2 Variable. Same as multiplying by -1.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 2Variable</div>
+	<div id="paramDesc">
+The vector to invert</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame</div>
+</div>
+

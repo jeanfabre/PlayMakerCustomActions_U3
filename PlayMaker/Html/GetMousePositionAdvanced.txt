@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GetMousePositionAdvanced.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get Mouse Position in screen space.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Store Mouse Position</div>
+	<div id="paramDesc">
+Store the position in this Vector3</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Do this every frame?</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+From Screen Center</div>
+	<div id="paramDesc">
+Get the position relative to the center of the screen? (note: doesn't work with Invert Y checked)</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Invert Y</div>
+	<div id="paramDesc">
+Invery Y. For use with GUI space.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Normalized</div>
+	<div id="paramDesc">
+Normalize the Vector3 result?</div>
+</div>
+

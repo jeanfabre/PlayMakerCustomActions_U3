@@ -1,0 +1,32 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkCloseConnection.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Close the connection to another system.
+
+Connection index defines which system to close the connection to (from the Network connections array).
+Can define connection to close via Guid if index is unknown. 
+If we are a client the only possible connection to close is the server connection, if we are a server the target player will be kicked off. 
+
+Send Disconnection Notification enables or disables notifications being sent to the other end. If disabled the connection is dropped, if not a disconnect notification is reliably sent to the remote party and there after the connection is dropped.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Connection Index</div>
+	<div id="paramDesc">
+Connection index to close</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Connection GUID</div>
+	<div id="paramDesc">
+Connection GUID to close. Used If Index is not set.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send Disconnection Notification</div>
+	<div id="paramDesc">
+If True, send Disconnection Notification</div>
+</div>
+

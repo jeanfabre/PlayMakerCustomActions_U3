@@ -1,0 +1,35 @@
+<div id="actionImg"><p><img src="__URLBASE__FormatString.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Replaces each format item in a specified string with the text equivalent of variable's value. Stores the result in a string variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Format</div>
+	<div id="paramDesc">
+E.g. Hello {0} and {1}
+With 2 variables that replace {0} and {1}
+See C# string.Format docs.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Variables</div>
+	<div id="paramDesc">
+Variables to use for each formatting item.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the formatted result in a string variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. This is useful if the variables are changing.</div>
+</div>
+

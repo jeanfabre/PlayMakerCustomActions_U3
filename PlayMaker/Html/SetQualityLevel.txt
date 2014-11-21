@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetQualityLevel.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets a new graphics quality level.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Quality Name</div>
+	<div id="paramDesc">
+The name of the quality level so to say. leave empty if using quality index</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Quality Index</div>
+	<div id="paramDesc">
+The index of the quality level so to say. 0 is the first quality level in the list. Leave to 'none' when using 'quality name'.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Apply Expensive Changes</div>
+	<div id="paramDesc">
+Set to True to force expensive changes to be applied when changing quality level</div>
+</div>
+

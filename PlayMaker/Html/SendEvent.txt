@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__SendEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends an Event after an optional delay. NOTE: To send events between FSMs they must be marked as Global in the Events Browser.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Event Target</div>
+	<div id="paramDesc">
+Where to send the event.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send Event</div>
+	<div id="paramDesc">
+The event to send. NOTE: Events must be marked Global to send between FSMs.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Delay</div>
+	<div id="paramDesc">
+Optional delay in seconds.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Rarely needed.</div>
+</div>
+

@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GetTagCount.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the number of Game Objects in the scene with the specified Tag.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Tag</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

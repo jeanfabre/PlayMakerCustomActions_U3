@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector2Subtract.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Subtracts a Vector2 value from a Vector2 variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 2Variable</div>
+	<div id="paramDesc">
+The Vector2 operand</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Subtract Vector</div>
+	<div id="paramDesc">
+The vector2 to substract with</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame</div>
+</div>
+

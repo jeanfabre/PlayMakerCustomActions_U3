@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkGetLocalPlayerProperties.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the local network player properties</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Ip Address</div>
+	<div id="paramDesc">
+The IP address of this player.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Port</div>
+	<div id="paramDesc">
+The port of this player.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Guid</div>
+	<div id="paramDesc">
+The GUID for this player, used when connecting with NAT punchthrough.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+External IPAddress</div>
+	<div id="paramDesc">
+The external IP address of the network interface. This will only be populated after some external connection has been made.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+External Port</div>
+	<div id="paramDesc">
+Returns the external port of the network interface. This will only be populated after some external connection has been made.</div>
+</div>
+

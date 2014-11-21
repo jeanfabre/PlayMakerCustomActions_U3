@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SelectRandomString.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Select a Random String from an array of Strings.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Strings</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Weights</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store String</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

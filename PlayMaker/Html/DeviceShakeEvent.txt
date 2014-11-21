@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__DeviceShakeEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends an Event when the mobile device is shaken.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Shake Threshold</div>
+	<div id="paramDesc">
+Amount of acceleration required to trigger the event. Higher numbers require a harder shake.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send Event</div>
+	<div id="paramDesc">
+Event to send when Shake Threshold is exceded.</div>
+</div>
+

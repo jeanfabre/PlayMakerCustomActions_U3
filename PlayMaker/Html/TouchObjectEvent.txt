@@ -1,0 +1,82 @@
+<div id="actionImg"><p><img src="__URLBASE__TouchObjectEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends events when an object is touched. Optionally filter by a fingerID. NOTE: Uses the MainCamera!</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The Game Object to detect touches on.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Pick Distance</div>
+	<div id="paramDesc">
+How far from the camera is the Game Object pickable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finger Id</div>
+	<div id="paramDesc">
+Only detect touches that match this fingerID, or set to None.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Touch Began</div>
+	<div id="paramDesc">
+Event to send on touch began.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Touch Moved</div>
+	<div id="paramDesc">
+Event to send on touch moved.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Touch Stationary</div>
+	<div id="paramDesc">
+Event to send on stationary touch.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Touch Ended</div>
+	<div id="paramDesc">
+Event to send on touch ended.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Touch Canceled</div>
+	<div id="paramDesc">
+Event to send on touch cancel.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Finger Id</div>
+	<div id="paramDesc">
+Store the fingerId of the touch.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Hit Point</div>
+	<div id="paramDesc">
+Store the world position where the object was touched.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Hit Normal</div>
+	<div id="paramDesc">
+Store the surface normal vector where the object was touched.</div>
+</div>
+

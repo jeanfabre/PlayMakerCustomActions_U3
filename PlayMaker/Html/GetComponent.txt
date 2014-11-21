@@ -1,0 +1,27 @@
+<div id="actionImg"><p><img src="__URLBASE__GetComponent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets a Component attached to a GameObject and stores it in an Object variable. NOTE: Set the Object variable's Object Type to get a component of that type. E.g., set Object Type to UnityEngine.AudioListener to get the AudioListener component on the camera.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject that owns the component.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Component</div>
+	<div id="paramDesc">
+Store the component in an Object variable.
+NOTE: Set theObject variable's Object Type to get a component of that type. E.g., set Object Type to UnityEngine.AudioListener to get the AudioListener component on the camera.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

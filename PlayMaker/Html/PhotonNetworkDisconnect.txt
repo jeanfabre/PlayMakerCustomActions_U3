@@ -1,0 +1,7 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkDisconnect.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+DisConnect to Photon Network: 
+Makes this client disconnect from the photon server, a process that leaves any room and calls OnDisconnectedFromPhoton on completition. 
+</p>
+</div>

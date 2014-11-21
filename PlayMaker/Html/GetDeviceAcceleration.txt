@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__GetDeviceAcceleration.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the last measured linear acceleration of a device and stores it in a Vector3 Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Store Vector</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Z</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Multiplier</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

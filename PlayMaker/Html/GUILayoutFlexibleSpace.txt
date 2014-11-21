@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__GUILayoutFlexibleSpace.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Inserts a flexible space element.</p>
+</div>

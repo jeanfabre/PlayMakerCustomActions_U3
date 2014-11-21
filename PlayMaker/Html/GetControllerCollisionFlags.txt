@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__GetControllerCollisionFlags.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the Collision Flags from a Character Controller on a Game Object. Collision flags give you a broad overview of where the character collided with any other object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject with a Character Controller component.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Grounded</div>
+	<div id="paramDesc">
+True if the Character Controller capsule is on the ground</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+None</div>
+	<div id="paramDesc">
+True if no collisions in last move.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Sides</div>
+	<div id="paramDesc">
+True if the Character Controller capsule was hit on the sides.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Above</div>
+	<div id="paramDesc">
+True if the Character Controller capsule was hit from above.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Below</div>
+	<div id="paramDesc">
+True if the Character Controller capsule was hit from below.</div>
+</div>
+

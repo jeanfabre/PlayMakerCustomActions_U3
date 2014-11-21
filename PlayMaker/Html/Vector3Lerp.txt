@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector3Lerp.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Linearly interpolates between 2 vectors.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+From Vector</div>
+	<div id="paramDesc">
+First Vector.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Vector</div>
+	<div id="paramDesc">
+Second Vector.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Amount</div>
+	<div id="paramDesc">
+Interpolate between From Vector and ToVector by this amount. Value is clamped to 0-1 range. 0 = From Vector; 1 = To Vector; 0.5 = half way between.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result in this vector variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the values are changing.</div>
+</div>
+

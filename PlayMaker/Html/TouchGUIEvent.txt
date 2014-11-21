@@ -1,0 +1,110 @@
+<div id="actionImg"><p><img src="__URLBASE__TouchGUIEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends events when a GUI Texture or GUI Text is touched. Optionally filter by a fingerID.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The Game Object that owns the GUI Texture or GUI Text.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finger Id</div>
+	<div id="paramDesc">
+Only detect touches that match this fingerID, or set to None.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Touch Began</div>
+	<div id="paramDesc">
+Event to send on touch began.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Touch Moved</div>
+	<div id="paramDesc">
+Event to send on touch moved.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Touch Stationary</div>
+	<div id="paramDesc">
+Event to send on stationary touch.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Touch Ended</div>
+	<div id="paramDesc">
+Event to send on touch ended.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Touch Canceled</div>
+	<div id="paramDesc">
+Event to send on touch cancel.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Not Touching</div>
+	<div id="paramDesc">
+Event to send if not touching (finger down but not over the GUI element)</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Finger Id</div>
+	<div id="paramDesc">
+Store the fingerId of the touch.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Hit Point</div>
+	<div id="paramDesc">
+Store the screen position where the GUI element was touched.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Normalize Hit Point</div>
+	<div id="paramDesc">
+Normalize the hit point screen coordinates (0-1).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Offset</div>
+	<div id="paramDesc">
+Store the offset position of the hit.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Relative To</div>
+	<div id="paramDesc">
+How to measure the offset.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Normalize Offset</div>
+	<div id="paramDesc">
+Normalize the offset.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeate every frame.</div>
+</div>
+

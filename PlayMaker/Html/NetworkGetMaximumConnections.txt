@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkGetMaximumConnections.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the maximum amount of connections/players allowed.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Result</div>
+	<div id="paramDesc">
+Get the maximum amount of connections/players allowed.</div>
+</div>
+

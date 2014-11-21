@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__RigidBodyMoveRotation.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Rotates a RigidBody to a particular rotation. It's more efficient then accessing the transform of the gameObject and interacts properly with colliders and physics materials</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The rigid body to rotate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rotation</div>
+	<div id="paramDesc">
+A rotation quaternion.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

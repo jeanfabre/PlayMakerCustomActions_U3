@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__FsmStateTest.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Tests if an FSM is in the specified State.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject that owns the FSM.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Fsm Name</div>
+	<div id="paramDesc">
+Optional name of Fsm on Game Object. Useful if there is more than one FSM on the GameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+State Name</div>
+	<div id="paramDesc">
+Check to see if the FSM is in this state.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+True Event</div>
+	<div id="paramDesc">
+Event to send if the FSM is in the specified state.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+False Event</div>
+	<div id="paramDesc">
+Event to send if the FSM is NOT in the specified state.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result of this test in a bool variable. Useful if other actions depend on this test.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if you're waiting for a particular state.</div>
+</div>
+

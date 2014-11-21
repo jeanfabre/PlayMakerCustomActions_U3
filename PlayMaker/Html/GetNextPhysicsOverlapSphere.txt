@@ -1,0 +1,70 @@
+<div id="actionImg"><p><img src="__URLBASE__GetNextPhysicsOverlapSphere.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Performs a OverlapSphere Each time this action is called it gets the next hit. This lets you quickly loop through all the hits to perform actions on them.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+From Game Object</div>
+	<div id="paramDesc">
+The center of the sphere at the start of the sweep. 
+Or use From Position parameter.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+From Position</div>
+	<div id="paramDesc">
+The center of the sphere at the start of the sweep. 
+Or use Game Object parameter.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Radius</div>
+	<div id="paramDesc">
+The radius of the shpere.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer Mask</div>
+	<div id="paramDesc">
+Pick only from these layers.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Invert Mask</div>
+	<div id="paramDesc">
+Invert the mask, so you pick from all layers except those defined above.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Overlaping Game Object</div>
+	<div id="paramDesc">
+The overlaping GameObject for this iteration</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop Event</div>
+	<div id="paramDesc">
+Event to send to get the next child.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+No Overlap Event</div>
+	<div id="paramDesc">
+Event to send if there is no overlap at all</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finished Event</div>
+	<div id="paramDesc">
+Event to send when there are no more hits to loop.</div>
+</div>
+

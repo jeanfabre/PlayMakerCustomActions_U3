@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GuiSizerSetDefaultSize.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set the default size of the gui when using GuiBeginSize and GuiEndSize</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Default Width</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Default Height</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

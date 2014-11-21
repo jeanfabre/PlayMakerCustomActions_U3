@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__AudioMute.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Mute/unmute the Audio Clip played by an Audio Source component on a Game Object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject with an Audio Source component.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Mute</div>
+	<div id="paramDesc">
+Check to mute, uncheck to unmute.</div>
+</div>
+

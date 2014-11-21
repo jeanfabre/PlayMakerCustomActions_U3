@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetRandomMaterial.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets a Game Object's material randomly from an array of Materials.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Material Index</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Materials</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,41 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector3AddAdvanced.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Adds a value to Vector3 Variable.
+ Advanced features allows selection of update type.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 3Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Add Vector</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Update Type</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Per Second</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

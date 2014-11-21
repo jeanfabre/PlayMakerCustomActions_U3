@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GetRandomChild.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets a Random Child of a Game Object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,16 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkViewRemoveRPCs.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Remove the RPC function calls accociated with a Game Object.
+
+NOTE: The Game Object must have a NetworkView component attached.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+Remove the RPC function calls accociated with this Game Object.
+
+NOTE: The GameObject must have a NetworkView component attached.</div>
+</div>
+

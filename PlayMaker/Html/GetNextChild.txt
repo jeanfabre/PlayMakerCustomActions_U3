@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GetNextChild.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Each time this action is called it gets the next child of a GameObject. This lets you quickly loop through all the children of an object to perform actions on them. NOTE: To find a specific child use Find Child.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The parent GameObject. Note, if GameObject changes, this action will reset and start again at the first child.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Next Child</div>
+	<div id="paramDesc">
+Store the next child in a GameObject variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop Event</div>
+	<div id="paramDesc">
+Event to send to get the next child.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finished Event</div>
+	<div id="paramDesc">
+Event to send when there are no more children.</div>
+</div>
+

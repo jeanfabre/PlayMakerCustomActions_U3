@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__MicrophoneIsAccessGranted.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Check if user granted access to microphone</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Is Access Granted</div>
+	<div id="paramDesc">
+Is microphone accessible</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Access Granted Event</div>
+	<div id="paramDesc">
+Event sent when microphone accessible</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Access Denied Event</div>
+	<div id="paramDesc">
+Event sent when microphone not accessible</div>
+</div>
+

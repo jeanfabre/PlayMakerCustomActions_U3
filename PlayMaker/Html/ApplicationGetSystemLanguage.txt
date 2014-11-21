@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__ApplicationGetSystemLanguage.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get System Language</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Language</div>
+	<div id="paramDesc">
+The application language</div>
+</div>
+

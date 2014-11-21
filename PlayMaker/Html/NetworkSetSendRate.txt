@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkSetSendRate.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set the send rate for all networkViews. Default is 15</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Send Rate</div>
+	<div id="paramDesc">
+The send rate for all networkViews</div>
+</div>
+

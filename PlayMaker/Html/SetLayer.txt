@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetLayer.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets a Game Object's Layer.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

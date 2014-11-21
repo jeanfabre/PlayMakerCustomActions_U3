@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GetVertexPosition.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the position of a vertex in a GameObject's mesh. Hint: Use GetVertexCount to get the number of vertices in a mesh.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to check.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vertex Index</div>
+	<div id="paramDesc">
+The index of the vertex.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Space</div>
+	<div id="paramDesc">
+Coordinate system to use.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Position</div>
+	<div id="paramDesc">
+Store the vertex position in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the mesh is animated.</div>
+</div>
+

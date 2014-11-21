@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetMousePosition.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the Vector3 Position of the mouse and stores it in a Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Mouse Position</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Normalize</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

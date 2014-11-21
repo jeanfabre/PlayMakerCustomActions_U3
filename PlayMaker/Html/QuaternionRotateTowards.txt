@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__QuaternionRotateTowards.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Rotates a rotation from towards to. This is essentially the same as Quaternion.Slerp but instead the function will ensure that the angular speed never exceeds maxDegreesDelta. Negative values of maxDegreesDelta pushes the rotation away from to.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+From Quaternion</div>
+	<div id="paramDesc">
+From Quaternion.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Quaternion</div>
+	<div id="paramDesc">
+To Quaternion.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max Degrees Delta</div>
+	<div id="paramDesc">
+The angular speed never exceeds maxDegreesDelta. Negative values of maxDegreesDelta pushes the rotation away from to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result in this quaternion variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the values are changing.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame Option</div>
+	<div id="paramDesc">
+Defines how to perform the action when 'every Frame' is enabled.</div>
+</div>
+

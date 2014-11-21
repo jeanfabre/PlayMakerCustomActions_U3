@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetLightRange.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Range of a Light.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Light Range</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

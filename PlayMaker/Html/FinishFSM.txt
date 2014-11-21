@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__FinishFSM.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Stop this FSM. If this FSM was launched by a Run FSM action, it will trigger a Finish event in that state.</p>
+</div>

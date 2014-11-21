@@ -1,0 +1,68 @@
+<div id="actionImg"><p><img src="__URLBASE__GUIElementHitTest.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Performs a Hit Test on a Game Object with a GUITexture or GUIText component.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject that has a GUITexture or GUIText component.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Camera</div>
+	<div id="paramDesc">
+Specify camera or use MainCamera as default.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Screen Point</div>
+	<div id="paramDesc">
+A vector position on screen. Usually stored by actions like GetTouchInfo, or World To Screen Point.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Screen X</div>
+	<div id="paramDesc">
+Specify screen X coordinate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Screen Y</div>
+	<div id="paramDesc">
+Specify screen Y coordinate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Normalized</div>
+	<div id="paramDesc">
+Whether the specified screen coordinates are normalized (0-1).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Hit Event</div>
+	<div id="paramDesc">
+Event to send if the Hit Test is true.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result of the Hit Test in a bool variable (true/false).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if you want to wait for the hit test to return true.</div>
+</div>
+

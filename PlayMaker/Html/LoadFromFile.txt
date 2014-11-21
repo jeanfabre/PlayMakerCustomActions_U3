@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__LoadFromFile.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Load a File into a string</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+File Path</div>
+	<div id="paramDesc">
+The file name</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Text</div>
+	<div id="paramDesc">
+The text</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Success Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Failure Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

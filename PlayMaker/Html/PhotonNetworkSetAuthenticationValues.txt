@@ -1,0 +1,34 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkSetAuthenticationValues.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Defines Authentication values to use for connection ( using PhotonNetworkConnectUsingSettings or PhotonNetworkConnectManually).
+Failed Custom Authentication will fire a global Photon event 'CUSTOM AUTHENTICATION FAILED' event.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Authentication Type</div>
+	<div id="paramDesc">
+The type of custom authentication provider that should be used. Set to 'None' to turn off.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Auth Name</div>
+	<div id="paramDesc">
+Name or other end-user ID used in custom authentication service.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Auth Token</div>
+	<div id="paramDesc">
+Token provided by authentication service to be used on initial 'login' to Photon.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Auth Post Data</div>
+	<div id="paramDesc">
+Sets the data to be passed-on to the auth service via POST. Empty string will set AuthPostData to null.</div>
+</div>
+

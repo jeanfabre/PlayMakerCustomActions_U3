@@ -1,0 +1,34 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonViewDeleteOwnerCustomProperty.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Delete the owner custom property of a GameObject.
+ A PhotonView component is required on the gameObject</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The Game Object with the PhotonView attached.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Key</div>
+	<div id="paramDesc">
+The custom property key to delete</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Success Event</div>
+	<div id="paramDesc">
+Send this event if the custom property was deleted</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Failure Event</div>
+	<div id="paramDesc">
+Send this event if the custom property deletion failed</div>
+</div>
+

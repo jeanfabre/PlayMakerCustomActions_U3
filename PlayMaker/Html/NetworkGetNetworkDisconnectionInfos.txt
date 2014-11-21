@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkGetNetworkDisconnectionInfos.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the network OnDisconnectedFromServer.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Disconnection Label</div>
+	<div id="paramDesc">
+Disconnection label</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Lost Connection Event</div>
+	<div id="paramDesc">
+The connection to the system has been lost, no reliable packets could be delivered.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Dis Connected Event</div>
+	<div id="paramDesc">
+The connection to the system has been closed.</div>
+</div>
+

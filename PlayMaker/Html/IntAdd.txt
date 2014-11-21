@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__IntAdd.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Adds a value to an Integer Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Int Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Add</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

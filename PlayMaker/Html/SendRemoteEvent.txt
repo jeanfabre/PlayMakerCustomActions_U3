@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__SendRemoteEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Send an Fsm Event on a remote machine. Uses Unity RPC functions.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The game object that sends the event.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Remote Event</div>
+	<div id="paramDesc">
+The event you want to send.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+String Data</div>
+	<div id="paramDesc">
+Optional string data. Use 'Get Event Info' action to retrieve it.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Mode</div>
+	<div id="paramDesc">
+Option for who will receive an RPC.</div>
+</div>
+

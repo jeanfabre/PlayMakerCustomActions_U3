@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetNearestPowerOfTwo.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Find nearest power of two for a given integer value</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Number</div>
+	<div id="paramDesc">
+The value</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Nearest Power Of Two</div>
+	<div id="paramDesc">
+The nearest power of two for that value</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat everyFrame</div>
+</div>
+

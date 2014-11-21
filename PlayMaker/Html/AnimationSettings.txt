@@ -1,0 +1,48 @@
+<div id="actionImg"><p><img src="__URLBASE__AnimationSettings.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set the Wrap Mode, Blend Mode, Layer and Speed of an Animation.
+NOTE: Settings are applied once, on entering the state, NOT continuously. To dynamically control an animation's settings, use Set Animation Speede etc.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+A GameObject with an Animation Component.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Anim Name</div>
+	<div id="paramDesc">
+The name of the animation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Wrap Mode</div>
+	<div id="paramDesc">
+The behavior of the animation when it wraps.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Blend Mode</div>
+	<div id="paramDesc">
+How the animation is blended with other animations on the Game Object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Speed</div>
+	<div id="paramDesc">
+The speed of the animation. 1 = normal; 2 = double speed...</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer</div>
+	<div id="paramDesc">
+The animation layer</div>
+</div>
+

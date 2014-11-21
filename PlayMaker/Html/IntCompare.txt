@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__IntCompare.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends Events based on the comparison of 2 Integers.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Integer 1</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Integer 2</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Equal</div>
+	<div id="paramDesc">
+Event sent if Int 1 equals Int 2</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Less Than</div>
+	<div id="paramDesc">
+Event sent if Int 1 is less than Int 2</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Greater Than</div>
+	<div id="paramDesc">
+Event sent if Int 1 is greater than Int 2</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

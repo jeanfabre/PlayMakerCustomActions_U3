@@ -1,0 +1,9 @@
+<p>TODO: Category description...</p>
+<div id="linkList"><ul>
+<li>Get Quality Index From Name</li>
+<li>Get Quality Level</li>
+<li>Get Quality Name From Index</li>
+<li>Quality Decrease Level</li>
+<li>Quality Increase Level</li>
+<li>Set Quality Level</li>
+</ul></div>

@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__AlignTransformUsingProxy.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Aligns a GameObject to another using a proxy( relative to that proxy basically)</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Proxy</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

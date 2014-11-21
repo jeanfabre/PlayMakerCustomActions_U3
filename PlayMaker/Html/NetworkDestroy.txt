@@ -1,0 +1,24 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkDestroy.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Destroy the object across the network.
+
+The object is destroyed locally and remotely.
+
+Optionally remove any RPCs accociated with the object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The Game Object to destroy.
+NOTE: The Game Object must have a NetworkView attached.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Remove RPCs</div>
+	<div id="paramDesc">
+Remove all RPC calls associated with the Game Object.</div>
+</div>
+

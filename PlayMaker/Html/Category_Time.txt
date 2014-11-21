@@ -1,0 +1,11 @@
+<p>TODO: Category description...</p>
+<div id="linkList"><ul>
+<li>Get Time Info Advanced</li>
+<li>Get Time Span Between Dates</li>
+<li>Set Time Scale</li>
+<li>Get System Date Time</li>
+<li>Get Time Info</li>
+<li>Per Second</li>
+<li>Scale Time</li>
+<li>Wait</li>
+</ul></div>

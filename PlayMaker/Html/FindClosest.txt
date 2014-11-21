@@ -1,0 +1,55 @@
+<div id="actionImg"><p><img src="__URLBASE__FindClosest.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Finds the closest object to the specified Game Object.
+Optionally filter by Tag and Visibility.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to measure from.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+With Tag</div>
+	<div id="paramDesc">
+Only consider objects with this Tag. NOTE: It's generally a lot quicker to find objects with a Tag!</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ignore Owner</div>
+	<div id="paramDesc">
+If checked, ignores the object that owns this FSM.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Must Be Visible</div>
+	<div id="paramDesc">
+Only consider objects visible to the camera.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Object</div>
+	<div id="paramDesc">
+Store the closest object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Distance</div>
+	<div id="paramDesc">
+Store the distance to the closest object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame</div>
+</div>
+

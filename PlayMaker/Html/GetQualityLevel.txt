@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GetQualityLevel.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets a new graphics quality level.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Quality Index</div>
+	<div id="paramDesc">
+The index of the current quality level</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Quality Name</div>
+	<div id="paramDesc">
+The name of the current quality level</div>
+</div>
+

@@ -1,0 +1,21 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkConnectUsingSettings.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Connect to Photon Network: 
+Connect to the configured Photon server: Reads NetworkingPeer.serverSettingsAssetPath and connects to cloud or your own server. 
+Uses: Connect(string serverAddress, int port, string uniqueGameID)</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Version</div>
+	<div id="paramDesc">
+The gameVersion</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Connect To Best Server</div>
+	<div id="paramDesc">
+If True, will check the cloud for the best server to connect the user. If False, will connect using the server addressed define in the settings.</div>
+</div>
+

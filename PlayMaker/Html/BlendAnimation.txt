@@ -1,0 +1,41 @@
+<div id="actionImg"><p><img src="__URLBASE__BlendAnimation.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Blends an Animation towards a Target Weight over a specified Time.
+Optionally sends an Event when finished.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to animate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Anim Name</div>
+	<div id="paramDesc">
+The name of the animation to blend.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Weight</div>
+	<div id="paramDesc">
+Target weight to blend to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+How long should the blend take.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+Event to send when the blend has finished.</div>
+</div>
+

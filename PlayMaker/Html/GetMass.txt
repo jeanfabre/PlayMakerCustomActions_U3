@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GetMass.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the Mass of a Game Object's Rigid Body.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

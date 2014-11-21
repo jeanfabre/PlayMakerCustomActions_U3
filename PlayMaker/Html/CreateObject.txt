@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__CreateObject.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Creates a Game Object, usually from a Prefab.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+GameObject to create. Usually a Prefab.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Spawn Point</div>
+	<div id="paramDesc">
+Optional Spawn Point.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Position</div>
+	<div id="paramDesc">
+Position. If a Spawn Point is defined, this is used as a local offset from the Spawn Point position.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rotation</div>
+	<div id="paramDesc">
+Rotation. NOTE: Overrides the rotation of the Spawn Point.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Object</div>
+	<div id="paramDesc">
+Optionally store the created object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Network Instantiate</div>
+	<div id="paramDesc">
+Use Network.Instantiate to create a Game Object on all clients in a networked game.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Network Group</div>
+	<div id="paramDesc">
+Usually 0. The group number allows you to group together network messages which allows you to filter them if so desired.</div>
+</div>
+

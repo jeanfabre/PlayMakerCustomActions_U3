@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatLerp.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Linearly interpolates between 2 floats.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+From Float</div>
+	<div id="paramDesc">
+First Float</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Float</div>
+	<div id="paramDesc">
+Second Float.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Amount</div>
+	<div id="paramDesc">
+Interpolate between FromFloat and ToFloat by this amount. Value is clamped to 0-1 range. 0 = FromFloat; 1 = ToFloat; 0.5 = half way in between.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result in this float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the values are changing.</div>
+</div>
+

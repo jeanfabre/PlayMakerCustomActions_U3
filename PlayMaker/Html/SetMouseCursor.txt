@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetMouseCursor.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Controls the appearance of Mouse Cursor.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Cursor Texture</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Hide Cursor</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Lock Cursor</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

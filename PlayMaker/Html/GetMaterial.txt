@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GetMaterial.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get a material at index on a gameObject and store it in a variable</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject the Material is applied to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Material Index</div>
+	<div id="paramDesc">
+The index of the Material in the Materials array.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Material</div>
+	<div id="paramDesc">
+Store the material in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Get Shared Material</div>
+	<div id="paramDesc">
+Get the shared material of this object. NOTE: Modifying the shared material will change the appearance of all objects using this material, and change material settings that are stored in the project too.</div>
+</div>
+

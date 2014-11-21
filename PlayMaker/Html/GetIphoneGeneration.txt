@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__GetIphoneGeneration.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the iPhone generation.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Iphone Generation</div>
+	<div id="paramDesc">
+The iPhone generation.</div>
+</div>
+

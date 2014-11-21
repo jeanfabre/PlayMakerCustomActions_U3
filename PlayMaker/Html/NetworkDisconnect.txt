@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkDisconnect.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Disconnect from the server.</p>
+</div>

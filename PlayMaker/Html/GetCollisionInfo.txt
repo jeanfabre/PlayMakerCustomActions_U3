@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__GetCollisionInfo.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets info on the last collision event and store in variables. See Unity Physics docs.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object Hit</div>
+	<div id="paramDesc">
+Get the GameObject hit.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Relative Velocity</div>
+	<div id="paramDesc">
+Get the relative velocity of the collision.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Relative Speed</div>
+	<div id="paramDesc">
+Get the relative speed of the collision. Useful for controlling reactions. E.g., selecting an appropriate sound fx.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Contact Point</div>
+	<div id="paramDesc">
+Get the world position of the collision contact. Useful for spawning effects etc.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Contact Normal</div>
+	<div id="paramDesc">
+Get the collision normal vector. Useful for aligning spawned effects etc.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Physics Material Name</div>
+	<div id="paramDesc">
+Get the name of the physics material of the colliding GameObject. Useful for triggering different effects. Audio, particles...</div>
+</div>
+

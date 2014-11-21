@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__StartLocationServiceUpdates.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Starts location service updates. Last location coordinates can be retrieved with GetLocationInfo.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Max Wait</div>
+	<div id="paramDesc">
+Maximum time to wait in seconds before failing.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Desired Accuracy</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Update Distance</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Success Event</div>
+	<div id="paramDesc">
+Event to send when the location services have started.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Failed Event</div>
+	<div id="paramDesc">
+Event to send if the location services fail to start.</div>
+</div>
+

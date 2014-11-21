@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__RandomEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends a Random State Event after an optional delay. Use this to transition to a random state from the current state.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Delay</div>
+	<div id="paramDesc">
+Delay before sending the event.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+No Repeat</div>
+	<div id="paramDesc">
+Don't repeat the same event twice in a row.</div>
+</div>
+

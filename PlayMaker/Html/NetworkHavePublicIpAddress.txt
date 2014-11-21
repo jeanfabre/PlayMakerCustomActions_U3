@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkHavePublicIpAddress.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Check if this machine has a public IP address.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Have Public Ip Address</div>
+	<div id="paramDesc">
+True if this machine has a public IP address</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Public Ip Address Found Event</div>
+	<div id="paramDesc">
+Event to send if this machine has a public IP address</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Public Ip Address Not Found Event</div>
+	<div id="paramDesc">
+Event to send if this machine has no public IP address</div>
+</div>
+

@@ -1,0 +1,28 @@
+<div id="actionImg"><p><img src="__URLBASE__MasterServerRegisterHost.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Register this server on the master server.
+
+If the master server address information has not been changed the default Unity master server will be used.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Type Name</div>
+	<div id="paramDesc">
+The unique game type name.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Game Name</div>
+	<div id="paramDesc">
+The game name.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Comment</div>
+	<div id="paramDesc">
+Optional comment</div>
+</div>
+

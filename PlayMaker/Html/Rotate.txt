@@ -1,0 +1,75 @@
+<div id="actionImg"><p><img src="__URLBASE__Rotate.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Rotates a Game Object around each Axis. Use a Vector3 Variable and/or XYZ components. To leave any axis unchanged, set variable to 'None'.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The game object to rotate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector</div>
+	<div id="paramDesc">
+A rotation vector. NOTE: You can override individual axis below.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+XAngle</div>
+	<div id="paramDesc">
+Rotation around x axis.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+YAngle</div>
+	<div id="paramDesc">
+Rotation around y axis.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+ZAngle</div>
+	<div id="paramDesc">
+Rotation around z axis.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Space</div>
+	<div id="paramDesc">
+Rotate in local or world space.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Per Second</div>
+	<div id="paramDesc">
+Rotate over one second</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Late Update</div>
+	<div id="paramDesc">
+Perform the rotation in LateUpdate. This is useful if you want to override the rotation of objects that are animated or otherwise rotated in Update.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Fixed Update</div>
+	<div id="paramDesc">
+Perform the rotation in FixedUpdate. This is useful when working with rigid bodies and physics.</div>
+</div>
+

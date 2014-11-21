@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__DeviceStillEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends an Event when the mobile device stops shaking ( actually, when it falls under a shaking threshold).</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Shake Threshold</div>
+	<div id="paramDesc">
+Amount of acceleration under which to trigger the event. Use low numbers.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send Event</div>
+	<div id="paramDesc">
+Event to send when Shake Threshold is exceded.</div>
+</div>
+

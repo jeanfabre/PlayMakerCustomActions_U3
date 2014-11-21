@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetGUISkin.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the GUISkin used by GUI elements.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Skin</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Apply Globally</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

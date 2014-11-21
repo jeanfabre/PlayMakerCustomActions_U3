@@ -1,0 +1,76 @@
+<div id="actionImg"><p><img src="__URLBASE__DragRigidBody.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Drag a Rigid body with the mouse. If draggingPlaneTransform is defined, it will use the UP axis of this gameObject as the dragging plane normal 
+That is select the ground Plane, if you want to drag object on the ground instead of from the camera point of view.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Spring</div>
+	<div id="paramDesc">
+the springness of the drag</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Damper</div>
+	<div id="paramDesc">
+the damping of the drag</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Drag</div>
+	<div id="paramDesc">
+the drag during dragging</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Angular Drag</div>
+	<div id="paramDesc">
+the angular drag during dragging</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Distance</div>
+	<div id="paramDesc">
+The Max Distance between the dragging target and the RigidBody being dragged</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Attach To Center Of Mass</div>
+	<div id="paramDesc">
+If TRUE, dragging will have close to no effect on the Rigidbody rotation ( except if it hits other bodies as you drag it)</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Dragging Plane Transform</div>
+	<div id="paramDesc">
+If Defined. Use this transform Up axis as the dragging plane normal. Typically, set it to the ground plane if you want to drag objects around on the floor..</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer Mask</div>
+	<div id="paramDesc">
+If set, will only drag rigidBodies from one of the defined layer, tagging (if set) is taken in consideration as well.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Invert Mask</div>
+	<div id="paramDesc">
+Invert the mask, so you drag from all layers except those defined above.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Drag Tagged Only</div>
+	<div id="paramDesc">
+If set, will only drag rigidBodies with one of the defined tag, masking (if set) is taken in consideration as well.</div>
+</div>
+

@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__TorqueLookRotation.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Order a game object to look at a target by using Torque on its axi</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The object to effect.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Object</div>
+	<div id="paramDesc">
+The target it should be looking at</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Force Multiplier</div>
+	<div id="paramDesc">
+The multiplier of torque to apply.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Angle To</div>
+	<div id="paramDesc">
+The multiplier of torque to apply.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max Speed</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,34 @@
+<div id="actionImg"><p><img src="__URLBASE__TriggerCount.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Detect collisions with objects that have RigidBody components. 
+NOTE: The system events, TRIGGER ENTER, TRIGGER STAY, and TRIGGER EXIT are sent when any object collides with the trigger. Use this action to filter collisions by Tag.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Collide Tag</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Collide Count</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Collided Bool</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

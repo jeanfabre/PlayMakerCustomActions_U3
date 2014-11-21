@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__QuaternionLerp.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Interpolates between from and to by t and normalizes the result afterwards. Can lerp against deltaTime for the amount, allowing framerate indepedant animations.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+From Quaternion</div>
+	<div id="paramDesc">
+From Quaternion.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Quaternion</div>
+	<div id="paramDesc">
+To Quaternion.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Amount</div>
+	<div id="paramDesc">
+Interpolate between fromQuaternion and toQuaternion by this amount. Value is clamped to 0-1 range. 0 = fromQuaternion; 1 = toQuaternion; 0.5 = half way between.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Lerp Against Delta Time</div>
+	<div id="paramDesc">
+Amount is multiplied by the deltatime</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result in this quaternion variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the values are changing.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame Option</div>
+	<div id="paramDesc">
+Defines how to perform the action when 'every Frame' is enabled.</div>
+</div>
+

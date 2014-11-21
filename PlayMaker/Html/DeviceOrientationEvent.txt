@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__DeviceOrientationEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends an Event based on the Orientation of the mobile device.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Orientation</div>
+	<div id="paramDesc">
+Note: If device is physically situated between discrete positions, as when (for example) rotated diagonally, system will report Unknown orientation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send Event</div>
+	<div id="paramDesc">
+The event to send if the device orientation matches Orientation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if you want to wait for the orientation to be true.</div>
+</div>
+

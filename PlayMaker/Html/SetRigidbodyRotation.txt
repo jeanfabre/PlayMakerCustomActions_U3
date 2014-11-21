@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetRigidbodyRotation.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set a Rigidbody rotation. It's more efficient then accessing the transform of the gameObject.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The rigid body to rotate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rotation</div>
+	<div id="paramDesc">
+The rotation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__GetScreenHeight.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the Height of the Screen in pixels.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Store Screen Height</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

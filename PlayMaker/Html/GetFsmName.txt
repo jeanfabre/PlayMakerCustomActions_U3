@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GetFsmName.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get this FSM name.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Full Label</div>
+	<div id="paramDesc">
+Store the full label of the FSM.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Name</div>
+	<div id="paramDesc">
+Store the name of the FSM.</div>
+</div>
+

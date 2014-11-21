@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetRectValue.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the value of a Rect Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Rect Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rect Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

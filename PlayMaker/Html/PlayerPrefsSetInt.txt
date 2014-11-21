@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__PlayerPrefsSetInt.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the value of the preference identified by key.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Keys</div>
+	<div id="paramDesc">
+Case sensitive key.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Values</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

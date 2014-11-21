@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatSignTest.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends Events based on the sign of a Float.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Value</div>
+	<div id="paramDesc">
+The float variable to test.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Positive</div>
+	<div id="paramDesc">
+Event to send if the float variable is positive.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Negative</div>
+	<div id="paramDesc">
+Event to send if the float variable is negative.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the variable is changing and you're waiting for a particular result.</div>
+</div>
+

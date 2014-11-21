@@ -1,0 +1,82 @@
+<div id="actionImg"><p><img src="__URLBASE__GetTouchInfo.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets info on a touch event.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Finger Id</div>
+	<div id="paramDesc">
+Filter by a Finger ID. You can store a Finger ID in other Touch actions, e.g., Touch Event.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Normalize</div>
+	<div id="paramDesc">
+If true, all screen coordinates are returned normalized (0-1), otherwise in pixels.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Position</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Delta Position</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Delta X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Delta Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Delta Time</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Tap Count</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

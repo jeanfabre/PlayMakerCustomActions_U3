@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__MicrophoneIsDeviceRecording.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Check if a microphone device is currently recording</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Device Name</div>
+	<div id="paramDesc">
+The name of the device. Passing null or an empty string will pick the default device. Get device names using the action MicrophoneGetDeviceById for example</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Recording</div>
+	<div id="paramDesc">
+Is the device recording or not?</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Device Is Recording Event</div>
+	<div id="paramDesc">
+Event sent when the device is recording. </div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Device Is Not Recording Event</div>
+	<div id="paramDesc">
+Event sent when the device is not recording.</div>
+</div>
+

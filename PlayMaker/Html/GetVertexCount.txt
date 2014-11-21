@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetVertexCount.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the number of vertices in a GameObject's mesh. Useful in conjunction with GetVertexPosition.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to check.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Count</div>
+	<div id="paramDesc">
+Store the vertex count in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

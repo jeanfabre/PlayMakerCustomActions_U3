@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__DeviceVibrate.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Causes the device to vibrate for half a second.</p>
+</div>

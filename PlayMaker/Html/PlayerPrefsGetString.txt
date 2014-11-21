@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__PlayerPrefsGetString.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Returns the value corresponding to key in the preference file if it exists.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Keys</div>
+	<div id="paramDesc">
+Case sensitive key.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Variables</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

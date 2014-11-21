@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetMouseButtonDown.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends an Event when the specified Mouse Button is pressed. Optionally store the button state in a bool variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Button</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

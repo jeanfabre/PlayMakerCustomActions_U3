@@ -1,0 +1,82 @@
+<div id="actionImg"><p><img src="__URLBASE__DragRigidBodyWithGo.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Drag a Rigid body with another GameObject.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Dragging GO</div>
+	<div id="paramDesc">
+The dragging target</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Dragged RB</div>
+	<div id="paramDesc">
+The RigidBody to drag</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Spring</div>
+	<div id="paramDesc">
+the springness of the drag</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Damper</div>
+	<div id="paramDesc">
+the damping of the drag</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Drag</div>
+	<div id="paramDesc">
+the drag during dragging</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Angular Drag</div>
+	<div id="paramDesc">
+the angular drag during dragging</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Distance</div>
+	<div id="paramDesc">
+The Distance between the dragging target and the RigidBody being dragged</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Use Start Distance</div>
+	<div id="paramDesc">
+Force the Distance between the dragging target and the RigidBody being dragged to be th eone when starting dragging</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Drag Anchor</div>
+	<div id="paramDesc">
+vector(0,0,0) would be the center of mass</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Dragging</div>
+	<div id="paramDesc">
+whether the go has to drag the rigidBody </div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Tension</div>
+	<div id="paramDesc">
+feedback of the current distance and the wanted distance</div>
+</div>
+

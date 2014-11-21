@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkConnect.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Connect to a server.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Remote IP</div>
+	<div id="paramDesc">
+IP address of the host. Either a dotted IP address or a domain name.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Remote Port</div>
+	<div id="paramDesc">
+The port on the remote machine to connect to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Password</div>
+	<div id="paramDesc">
+Optional password for the server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Error Event</div>
+	<div id="paramDesc">
+Event to send in case of an error connecting to the server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Error String</div>
+	<div id="paramDesc">
+Store the error string in a variable.</div>
+</div>
+

@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__GUILayoutBeginAreaFollowMouse.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Begin a GUILayout area that follows the mouse. Useful for overlays (e.g., playerName). NOTE: Block must end with a corresponding GUILayoutEndArea.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Offset Left</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Offset Top</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Width</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Height</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Normalized</div>
+	<div id="paramDesc">
+Use normalized screen coordinates (0-1).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Style</div>
+	<div id="paramDesc">
+Optional named style in the current GUISkin</div>
+</div>
+

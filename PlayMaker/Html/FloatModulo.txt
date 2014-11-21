@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatModulo.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Find the modulo between two floats dividend % diviser.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Dividend</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Diviser</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,20 @@
+<p>TODO: Category description...</p>
+<div id="linkList"><ul>
+<li>Get Ambient Light</li>
+<li>Get Flare Strength</li>
+<li>Get Fog Color</li>
+<li>Get Fog Density</li>
+<li>Get Fog End Distance</li>
+<li>Get Fog Start Distance</li>
+<li>Get Halo Strength</li>
+<li>Is Fog Enabled</li>
+<li>Set Fog End Distance</li>
+<li>Set Fog Start Distance</li>
+<li>Enable Fog</li>
+<li>Set Ambient Light</li>
+<li>Set Flare Strength</li>
+<li>Set Fog Color</li>
+<li>Set Fog Density</li>
+<li>Set Halo Strength</li>
+<li>Set Skybox</li>
+</ul></div>

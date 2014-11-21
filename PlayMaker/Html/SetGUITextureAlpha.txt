@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetGUITextureAlpha.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Alpha of the GUITexture attached to a Game Object. Useful for fading GUI elements in/out.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Alpha</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

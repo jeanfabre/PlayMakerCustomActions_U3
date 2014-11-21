@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkIsServer.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Test if your peer type is server.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Is Server</div>
+	<div id="paramDesc">
+True if running as server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Server Event</div>
+	<div id="paramDesc">
+Event to send if running as server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Not Server Event</div>
+	<div id="paramDesc">
+Event to send if not running as server.</div>
+</div>
+

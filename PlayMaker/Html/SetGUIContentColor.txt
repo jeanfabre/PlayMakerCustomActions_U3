@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetGUIContentColor.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Tinting Color for all text rendered by the GUI. By default only effects GUI rendered by this FSM, check Apply Globally to effect all GUI controls.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Content Color</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Apply Globally</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

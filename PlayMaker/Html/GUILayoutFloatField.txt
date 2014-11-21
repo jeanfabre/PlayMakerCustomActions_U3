@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GUILayoutFloatField.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+GUILayout Text Field to edit a Float Variable. Optionally send an event if the text has been edited.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+Float Variable to show in the edit field.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Style</div>
+	<div id="paramDesc">
+Optional GUIStyle in the active GUISKin.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Changed Event</div>
+	<div id="paramDesc">
+Optional event to send when the value changes.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layout Options</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GetFogEndDistance.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the end distance of the fog</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+End Distance</div>
+	<div id="paramDesc">
+The fog end distance</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the Fog setting is changing.</div>
+</div>
+

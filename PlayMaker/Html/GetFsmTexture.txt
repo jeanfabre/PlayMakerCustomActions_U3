@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GetFsmTexture.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the value of a Texture Variable from another FSM.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject that owns the FSM.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Fsm Name</div>
+	<div id="paramDesc">
+Optional name of FSM on Game Object</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Variable Name</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

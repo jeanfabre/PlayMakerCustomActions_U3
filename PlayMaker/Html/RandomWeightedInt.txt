@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__RandomWeightedInt.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Pick a random weighted Int picked from an array of Ints.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Ints</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Weights</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Can Hit Twice In ARow</div>
+	<div id="paramDesc">
+Can hit the same number twice in a row</div>
+</div>
+

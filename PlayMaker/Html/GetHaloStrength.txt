@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GetHaloStrength.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the Size of the Light halos.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Halo Strength</div>
+	<div id="paramDesc">
+The size of the Light halos.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the value is changing.</div>
+</div>
+

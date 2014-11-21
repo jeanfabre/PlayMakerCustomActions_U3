@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__AddComponent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Adds a Component to a Game Object. Use this to change the behaviour of objects on the fly. Optionally remove the Component on exiting the state.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to add the Component to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Component</div>
+	<div id="paramDesc">
+The type of Component to add to the Game Object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Component</div>
+	<div id="paramDesc">
+Store the component in an Object variable. E.g., to use with Set Property.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Remove On Exit</div>
+	<div id="paramDesc">
+Remove the Component when this State is exited.</div>
+</div>
+

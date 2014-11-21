@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__GetScreenSizeRatio.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the Screen size ratio (width/height).</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Store Screen Size Ratio</div>
+	<div id="paramDesc">
+The Screen size ratio (width/height).</div>
+</div>
+

@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetSystemDateTime.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets system date and time info and stores it in a string variable. An optional format string gives you a lot of control over the formatting (see online docs for format syntax).</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Store String</div>
+	<div id="paramDesc">
+Store System DateTime as a string.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Format</div>
+	<div id="paramDesc">
+Optional format string. E.g., MM/dd/yyyy HH:mm</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

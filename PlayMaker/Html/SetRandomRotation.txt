@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__SetRandomRotation.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets Random Rotation for a Game Object. Uncheck an axis to keep its current value.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Z</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

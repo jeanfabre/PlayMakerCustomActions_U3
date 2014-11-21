@@ -1,0 +1,17 @@
+<p>TODO: Category description...</p>
+<div id="linkList"><ul>
+<li>Application Get System Language</li>
+<li>Application Open Url</li>
+<li>Get Loaded Level</li>
+<li>Get Screen Size Ratio</li>
+<li>Platform Dependent Events</li>
+<li>Request Web Cam And Mic Access</li>
+<li>Set Sleep Time Out</li>
+<li>Target Frame Rate</li>
+<li>Unload Unused Assets</li>
+<li>Application Quit</li>
+<li>Application Run In Background</li>
+<li>Get Screen Height</li>
+<li>Get Screen Width</li>
+<li>Take Screenshot</li>
+</ul></div>

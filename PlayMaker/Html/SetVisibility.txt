@@ -1,0 +1,34 @@
+<div id="actionImg"><p><img src="__URLBASE__SetVisibility.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the visibility of a GameObject. Note: this action sets the GameObject Renderer's enabled state.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Toggle</div>
+	<div id="paramDesc">
+Should the object visibility be toggled?
+Has priority over the 'visible' setting</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Visible</div>
+	<div id="paramDesc">
+Should the object be set to visible or invisible?</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Reset On Exit</div>
+	<div id="paramDesc">
+Resets to the initial visibility when it leaves the state</div>
+</div>
+

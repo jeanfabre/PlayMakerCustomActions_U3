@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__CutToCamera2.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Activates a Camera in the scene. Use GameObject reference instead of camera reference</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Camera</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Make Main Camera</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Cut Back On Exit</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,68 @@
+<div id="actionImg"><p><img src="__URLBASE__GetWheelColliderGroundHitProperties.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets ground collision data for the wheel</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Collider</div>
+	<div id="paramDesc">
+The other Collider the wheel is hitting.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Point</div>
+	<div id="paramDesc">
+The point of contact between the wheel and the ground.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Normal</div>
+	<div id="paramDesc">
+The normal at the point of contact.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Forward Dir</div>
+	<div id="paramDesc">
+The direction the wheel is pointing in.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Force</div>
+	<div id="paramDesc">
+The magnitude of the force being applied for the contact.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Forward Slip</div>
+	<div id="paramDesc">
+Tire slip in the rolling direction. Acceleration slip is negative, braking slip is positive.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Sideways Slip</div>
+	<div id="paramDesc">
+Tire slip in the sideways direction.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

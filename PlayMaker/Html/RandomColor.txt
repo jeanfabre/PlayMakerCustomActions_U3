@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__RandomColor.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Pick a random color. Optionnaly leave the alpha channel alone</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+The random Color</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Include Alpha</div>
+	<div id="paramDesc">
+Includes a random alpha value ( ranging from 0.1 to 1 to avoid totally invisible colors)</div>
+</div>
+

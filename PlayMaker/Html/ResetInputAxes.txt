@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__ResetInputAxes.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Resets all Input. After ResetInputAxes all axes return to 0 and all buttons return to 0 for one frame</p>
+</div>

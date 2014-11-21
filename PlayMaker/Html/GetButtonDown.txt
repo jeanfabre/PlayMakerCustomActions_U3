@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetButtonDown.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends an Event when a Button is pressed.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Button Name</div>
+	<div id="paramDesc">
+The name of the button. Set in the Unity Input Manager.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send Event</div>
+	<div id="paramDesc">
+Event to send if the button is pressed.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Set to True if the button is pressed.</div>
+</div>
+

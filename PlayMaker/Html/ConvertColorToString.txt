@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__ConvertColorToString.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Converts a color to a string. Format is flexible, [r] [g] [b] and [a] are placeholders</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Color</div>
+	<div id="paramDesc">
+The value itself</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Use 32Bit Color</div>
+	<div id="paramDesc">
+32bit colors ranges from 0 to 255 for their values, else, it ranges from 0 to 1</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Format</div>
+	<div id="paramDesc">
+The string pattern to express the color value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+The result</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeats every frame</div>
+</div>
+

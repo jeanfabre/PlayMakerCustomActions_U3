@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetAmbientLight.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Ambient Light Color for the scene.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Ambient Color</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

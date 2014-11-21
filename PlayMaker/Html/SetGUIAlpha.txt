@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetGUIAlpha.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the global Alpha for the GUI. Useful for fading GUI up/down. By default only effects GUI rendered by this FSM, check Apply Globally to effect all GUI controls.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Alpha</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Apply Globally</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

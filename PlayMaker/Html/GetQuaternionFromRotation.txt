@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GetQuaternionFromRotation.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Creates a rotation which rotates from fromDirection to toDirection. Usually you use this to rotate a transform so that one of its axes eg. the y-axis - follows a target direction toDirection in world space.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+From Direction</div>
+	<div id="paramDesc">
+the 'from' direction</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Direction</div>
+	<div id="paramDesc">
+the 'to' direction</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Result</div>
+	<div id="paramDesc">
+the resulting quaternion</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the values are changing.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame Option</div>
+	<div id="paramDesc">
+Defines how to perform the action when 'every Frame' is enabled.</div>
+</div>
+

@@ -1,0 +1,68 @@
+<div id="actionImg"><p><img src="__URLBASE__AnimateFloatV2.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Animates the value of a Float Variable using an Animation Curve.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Anim Curve</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Calculation</div>
+	<div id="paramDesc">
+Calculation lets you set a type of curve deformation that will be applied to floatVariable</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+Define time to use your curve scaled to be stretched or shrinked.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Speed</div>
+	<div id="paramDesc">
+If you define speed, your animation will be speeded up or slowed down.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Delay</div>
+	<div id="paramDesc">
+Delayed animimation start.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ignore Curve Offset</div>
+	<div id="paramDesc">
+Animation curve start from any time. If IgnoreCurveOffset is true the animation starts right after the state become entered.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+Optionally send an Event when the animation finishes.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Real Time</div>
+	<div id="paramDesc">
+Ignore TimeScale. Useful if the game is paused.</div>
+</div>
+

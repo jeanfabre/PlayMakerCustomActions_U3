@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__TargetFrameRate.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the target frame rate</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Target Frame Rate</div>
+	<div id="paramDesc">
+The target frame rate</div>
+</div>
+

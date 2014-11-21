@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__PhysicsIgnoreCollision.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Makes the collision detection system ignore all collisions between collider1 and collider2.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Collider 1</div>
+	<div id="paramDesc">
+The first collider</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Collider 2</div>
+	<div id="paramDesc">
+The second collider</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ignore Collision</div>
+	<div id="paramDesc">
+Wether to ignore or not the collisions between collider 1 and 2.</div>
+</div>
+

@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetKey.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the pressed state of a Key.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Key</div>
+	<div id="paramDesc">
+The key to test.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store if the key is down (True) or up (False).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if you're waiting for a key press/release.</div>
+</div>
+

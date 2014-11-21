@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatInterpolate.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Interpolates between 2 Float values over a specified Time.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Mode</div>
+	<div id="paramDesc">
+Interpolation mode: Linear or EaseInOut.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+From Float</div>
+	<div id="paramDesc">
+Interpolate from this value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Float</div>
+	<div id="paramDesc">
+Interpolate to this value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+Interpolate over this amount of time in seconds.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the current value in a float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+Event to send when the interpolation is finished.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Real Time</div>
+	<div id="paramDesc">
+Ignore TimeScale. Useful if the game is paused (Time scaled to 0).</div>
+</div>
+

@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__GetRaycastHitInfoExtras.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets extras info on the last Raycast and store in variables.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Barycentric Coordinate</div>
+	<div id="paramDesc">
+Get the barycentric coordinate of the triangle we hit.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Triangle Index</div>
+	<div id="paramDesc">
+Get the index of the triangle that was hit.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Texture Coord</div>
+	<div id="paramDesc">
+Get the uv texture coordinate at the impact point.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Texture Coord 2</div>
+	<div id="paramDesc">
+Get the secondary uv texture coordinate at the impact point.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Lightmap Coord</div>
+	<div id="paramDesc">
+Get the uv lightmap coordinate at the impact point.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

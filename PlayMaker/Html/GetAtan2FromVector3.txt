@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__GetAtan2FromVector3.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the Arc Tangent 2 as in atan2(y,x) from a vector 3, where you pick which is x and y from the vector 3. You can get the result in degrees, simply check on the RadToDeg conversion</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 3</div>
+	<div id="paramDesc">
+The vector3 definition of the tan</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+XAxis</div>
+	<div id="paramDesc">
+which axis in the vector3 to use as the x value of the tan</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+YAxis</div>
+	<div id="paramDesc">
+which axis in the vector3 to use as the y value of the tan</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Angle</div>
+	<div id="paramDesc">
+The resulting angle. Note:If you want degrees, simply check RadToDeg</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rad To Deg</div>
+	<div id="paramDesc">
+Check on if you want the angle expressed in degrees.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

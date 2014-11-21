@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkDestroyPlayer.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Destroy all GameObjects/PhotonViews of this player. can only be called on the local player. The only exception is the master client which can call this for all players.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Player Name</div>
+	<div id="paramDesc">
+Destroys this Player. If left to none, destroy the local player</div>
+</div>
+

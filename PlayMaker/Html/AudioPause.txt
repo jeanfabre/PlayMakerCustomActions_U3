@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__AudioPause.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Pauses playing the Audio Clip played by an Audio Source component on a Game Object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject with an Audio Source component.</div>
+</div>
+

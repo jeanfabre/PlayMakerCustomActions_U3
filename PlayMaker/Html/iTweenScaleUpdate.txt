@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__iTweenScaleUpdate.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+CSimilar to ScaleTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a 'live' set of changing values. Does not utilize an EaseType.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Transform Scale</div>
+	<div id="paramDesc">
+Scale To a transform scale.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector Scale</div>
+	<div id="paramDesc">
+A scale vector the GameObject will animate To.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+The time in seconds the animation will take to complete. If transformScale is set, this is used as an offset.</div>
+</div>
+

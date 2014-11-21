@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__StringSwitch.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends an Event based on the value of a String Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+String Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Compare To</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,89 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkGetNextPlayerProperties.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Let's you loop through the Players in the room. This action works only when you are in a room.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Include Self</div>
+	<div id="paramDesc">
+Include the owner player in the list, else list only other players</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Player List Index</div>
+	<div id="paramDesc">
+The player index in the list. Do not rely on that, this can change anytime.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Player Name</div>
+	<div id="paramDesc">
+The player name.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Player ID</div>
+	<div id="paramDesc">
+Identifier of this player in current room.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Player Is Local</div>
+	<div id="paramDesc">
+Only one player is controlled by each client. Others are not local.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Player Is Master Client</div>
+	<div id="paramDesc">
+The player with the lowest actorID is the master and could be used for special tasks.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Keys</div>
+	<div id="paramDesc">
+Custom Properties you have assigned to this player.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Properties Values</div>
+	<div id="paramDesc">
+Values related to the properties</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Not In Room Event</div>
+	<div id="paramDesc">
+Event to send if we are not in a room. We can only get the list of players if we are in a room</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop Event</div>
+	<div id="paramDesc">
+Event to send to get the next player.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+No Players Event</div>
+	<div id="paramDesc">
+Event to send if there is no players at all</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finished Event</div>
+	<div id="paramDesc">
+Event to send when there are no more players to loop.</div>
+</div>
+

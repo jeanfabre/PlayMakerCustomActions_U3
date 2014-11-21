@@ -1,0 +1,68 @@
+<div id="actionImg"><p><img src="__URLBASE__LookAt2.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Rotates a Game Object so its forward vector points at a Target. The Target can be specified as a GameObject or a world Position. If you specify both, then Position specifies a local offset from the target object's Position. Optionnaly let you define the look in local space, so that 'keep vertical' works locally</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to rotate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Object</div>
+	<div id="paramDesc">
+The GameObject to Look At.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Position</div>
+	<div id="paramDesc">
+World position to look at, or local offset from Target Object if specified.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Up Vector</div>
+	<div id="paramDesc">
+Rotate the GameObject to point its up direction vector in the direction hinted at by the Up Vector. See Unity Look At docs for more details.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Keep Vertical</div>
+	<div id="paramDesc">
+Don't rotate vertically.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Constraint Locally</div>
+	<div id="paramDesc">
+If Keep vertical is true, constraintLocally will use the local vertical axis, not the world vertical axis.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Debug</div>
+	<div id="paramDesc">
+Draw a debug line from the GameObject to the Target.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Debug Line Color</div>
+	<div id="paramDesc">
+Color to use for the debug line.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

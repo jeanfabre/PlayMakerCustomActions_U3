@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetFogEndDistance.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set the end distance of the fog</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+End Distance</div>
+	<div id="paramDesc">
+The end distance</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the Enable Fog setting is changing.</div>
+</div>
+

@@ -1,0 +1,14 @@
+<div id="actionImg"><p><img src="__URLBASE__MissingAction.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Placeholder for a missing action.
+
+Usually generated when the editor can't load an action, e.g., if the script was deleted, but can also be used as a TODO note.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Action Name</div>
+	<div id="paramDesc">
+The name of the missing action.</div>
+</div>
+

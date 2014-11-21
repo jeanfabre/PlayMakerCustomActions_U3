@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GetAmbientLight.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the ambient light color</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Ambient Light</div>
+	<div id="paramDesc">
+The ambient light color</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the setting is changing.</div>
+</div>
+

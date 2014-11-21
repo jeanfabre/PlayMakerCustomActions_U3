@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__BoolFlip.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Flips the value of a Bool Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Bool Variable</div>
+	<div id="paramDesc">
+Bool variable to flip.</div>
+</div>
+

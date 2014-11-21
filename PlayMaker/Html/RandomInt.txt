@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__RandomInt.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets an Integer Variable to a random value between Min/Max.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Min</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Inclusive Max</div>
+	<div id="paramDesc">
+Should the Max value be included in the possible results?</div>
+</div>
+

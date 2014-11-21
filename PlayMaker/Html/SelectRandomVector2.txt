@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SelectRandomVector2.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Select a Random Vector2 from a Vector2 array.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 2Array</div>
+	<div id="paramDesc">
+The array of Vectors and respective weights</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Weights</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Vector 2</div>
+	<div id="paramDesc">
+The picked vector2</div>
+</div>
+

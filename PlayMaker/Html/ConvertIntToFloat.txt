@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__ConvertIntToFloat.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Converts an Integer value to a Float value.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Int Variable</div>
+	<div id="paramDesc">
+The Integer variable to convert to a float.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+Store the result in a Float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the Integer variable is changing.</div>
+</div>
+

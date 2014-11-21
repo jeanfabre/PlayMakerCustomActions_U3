@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__StringContains.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Tests if a String contains another String.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+String Variable</div>
+	<div id="paramDesc">
+The String variable to test.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Contains String</div>
+	<div id="paramDesc">
+Test if the String variable contains this string.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+True Event</div>
+	<div id="paramDesc">
+Event to send if true.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+False Event</div>
+	<div id="paramDesc">
+Event to send if false.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the true/false result in a bool variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the strings are changing over time.</div>
+</div>
+

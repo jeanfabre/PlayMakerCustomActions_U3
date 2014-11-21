@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__GotoPreviousState.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Immediately return to the previously active state.</p>
+</div>

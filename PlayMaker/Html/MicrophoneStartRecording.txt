@@ -1,0 +1,68 @@
+<div id="actionImg"><p><img src="__URLBASE__MicrophoneStartRecording.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Start Recording sound from a microphone device</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Audio Source</div>
+	<div id="paramDesc">
+The audio source where the created audioClip will be stored.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Device Name</div>
+	<div id="paramDesc">
+The name of the device. Passing null or an empty string will pick the default device. Get device names using the action MicrophoneGetDeviceById for example</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop</div>
+	<div id="paramDesc">
+indicates whether the recording should continue recording if lengthSec is reached, and wrap around and record from the beginning of the AudioClip.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Record Duration</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Frequency</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Audio Clip</div>
+	<div id="paramDesc">
+The audio clip where the record is saved.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Record Started Event</div>
+	<div id="paramDesc">
+Event sent when the device effectivly start recording. WARNING, if Loop is on, event will not be fired</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Record Done Event</div>
+	<div id="paramDesc">
+Event sent at the end of the record duration. WARNING, if Loop is on, event will not be ignored</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Record Failed Event</div>
+	<div id="paramDesc">
+Event sent when the record failed</div>
+</div>
+

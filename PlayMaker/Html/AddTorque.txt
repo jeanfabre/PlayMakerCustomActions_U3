@@ -1,0 +1,61 @@
+<div id="actionImg"><p><img src="__URLBASE__AddTorque.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Adds torque (rotational force) to a Game Object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to add torque to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector</div>
+	<div id="paramDesc">
+A Vector3 torque. Optionally override any axis with the X, Y, Z parameters.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+X</div>
+	<div id="paramDesc">
+Torque around the X axis. To leave unchanged, set to 'None'.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Y</div>
+	<div id="paramDesc">
+Torque around the Y axis. To leave unchanged, set to 'None'.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Z</div>
+	<div id="paramDesc">
+Torque around the Z axis. To leave unchanged, set to 'None'.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Space</div>
+	<div id="paramDesc">
+Apply the force in world or local space.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Force Mode</div>
+	<div id="paramDesc">
+The type of force to apply. See Unity Physics docs.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame while the state is active.</div>
+</div>
+

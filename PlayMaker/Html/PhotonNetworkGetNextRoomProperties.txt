@@ -1,0 +1,91 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkGetNextRoomProperties.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Let's you loop through the available Photon rooms. This action works only when you are in the Lobby, use PhotonNetworkGetRoomProperties when you are in a room</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Room List Index</div>
+	<div id="paramDesc">
+the room index in the list.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Room Name</div>
+	<div id="paramDesc">
+the name of the room.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Player Count</div>
+	<div id="paramDesc">
+the number of players in the room.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max Players</div>
+	<div id="paramDesc">
+The limit of players to this room. This property is shown in lobby, too.
+If the room is full (players count == maxplayers), joining this room will fail..</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Open</div>
+	<div id="paramDesc">
+Defines if the room can be joined. If not open, the room is excluded from random matchmaking. 
+This does not affect listing in a lobby but joining the room will fail if not open.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Visible</div>
+	<div id="paramDesc">
+Defines if the room is listed in its lobby.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Keys</div>
+	<div id="paramDesc">
+Custom Properties you have assigned to this room.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Properties Values</div>
+	<div id="paramDesc">
+Values of each properties</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Not In Lobby Event</div>
+	<div id="paramDesc">
+Event to send if we are not in the lobby. We can only get the list of rooms if we are in the lobby</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop Event</div>
+	<div id="paramDesc">
+Event to send to get the next room.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+No Rooms Event</div>
+	<div id="paramDesc">
+Event to send if there is no rooms at all</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finished Event</div>
+	<div id="paramDesc">
+Event to send when there are no more rooms to loop.</div>
+</div>
+

@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__GUILayoutEndScrollView.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Close a group started with GUILayout Begin ScrollView.</p>
+</div>

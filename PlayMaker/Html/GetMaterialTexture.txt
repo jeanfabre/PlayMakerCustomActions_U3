@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GetMaterialTexture.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get a texture from a material on a GameObject</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject the Material is applied to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Material Index</div>
+	<div id="paramDesc">
+The index of the Material in the Materials array.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Named Texture</div>
+	<div id="paramDesc">
+The texture to get. See Unity Shader docs for names.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Stored Texture</div>
+	<div id="paramDesc">
+Store the texture in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Get From Shared Material</div>
+	<div id="paramDesc">
+Get the shared version of the texture.</div>
+</div>
+

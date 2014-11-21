@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetTimeInfo.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets various useful Time measurements.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Get Info</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

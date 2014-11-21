@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__PlayMovieTexture.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Plays a Movie Texture. Use the Movie Texture in a Material, or in the GUI.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Movie Texture</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

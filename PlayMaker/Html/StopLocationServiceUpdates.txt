@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__StopLocationServiceUpdates.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Stops location service updates. This could be useful for saving battery life.</p>
+</div>

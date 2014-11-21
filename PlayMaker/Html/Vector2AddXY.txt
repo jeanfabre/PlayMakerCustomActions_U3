@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector2AddXY.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Adds a XY values to Vector2 Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 2Variable</div>
+	<div id="paramDesc">
+The vector2 target</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Add X</div>
+	<div id="paramDesc">
+The x component to add</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Add Y</div>
+	<div id="paramDesc">
+The y component to add</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Per Second</div>
+	<div id="paramDesc">
+Add the value on a per second bases.</div>
+</div>
+

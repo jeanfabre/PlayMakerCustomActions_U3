@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GuiKeyboardEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends an Event when a KeyCode is detected in the GUI. Always use this before a textfield action to catch enter for example</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Key Code</div>
+	<div id="paramDesc">
+The key to catch</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send Event</div>
+	<div id="paramDesc">
+Event to send when key detected</div>
+</div>
+

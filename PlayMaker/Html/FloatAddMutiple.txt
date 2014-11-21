@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatAddMutiple.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Adds multipe float variables to float variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variables</div>
+	<div id="paramDesc">
+The float variables to add.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Add To</div>
+	<div id="paramDesc">
+Add to this variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame while the state is active.</div>
+</div>
+

@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GetFsmState.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the name of the specified FSMs current state. Either reference the fsm component directly, or find it on a game object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Fsm Component</div>
+	<div id="paramDesc">
+Drag a PlayMakerFSM component here.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+If not specifyng the component above, specify the GameObject that owns the FSM</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Fsm Name</div>
+	<div id="paramDesc">
+Optional name of Fsm on Game Object. If left blank it will find the first PlayMakerFSM on the GameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the state name in a string variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. E.g.,  useful if you're waiting for the state to change.</div>
+</div>
+

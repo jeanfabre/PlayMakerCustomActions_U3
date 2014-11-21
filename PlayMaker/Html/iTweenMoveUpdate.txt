@@ -1,0 +1,75 @@
+<div id="actionImg"><p><img src="__URLBASE__iTweenMoveUpdate.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Similar to MoveTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a 'live' set of changing values. Does not utilize an EaseType.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Transform Position</div>
+	<div id="paramDesc">
+Move From a transform rotation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector Position</div>
+	<div id="paramDesc">
+The position the GameObject will animate from.  If transformPosition is set, this is used as an offset.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+The time in seconds the animation will take to complete.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Space</div>
+	<div id="paramDesc">
+Whether to animate in local or world space.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Orient To Path</div>
+	<div id="paramDesc">
+Whether or not the GameObject will orient to its direction of travel. False by default.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Look At Object</div>
+	<div id="paramDesc">
+A target object the GameObject will look at.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Look At Vector</div>
+	<div id="paramDesc">
+A target position the GameObject will look at.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Look Time</div>
+	<div id="paramDesc">
+The time in seconds the object will take to look at either the Look At Target or Orient To Path. 0 by default</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Axis</div>
+	<div id="paramDesc">
+Restricts rotation to the supplied axis only.</div>
+</div>
+

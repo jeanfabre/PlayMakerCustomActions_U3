@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetLightCookie.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Texture projected by a Light.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Light Cookie</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

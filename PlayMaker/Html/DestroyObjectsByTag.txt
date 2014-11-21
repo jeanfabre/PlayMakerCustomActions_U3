@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__DestroyObjectsByTag.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Destroys all Game Object with a given tag.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Tag</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Delay</div>
+	<div id="paramDesc">
+Optional delay before destroying the Game Object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Accumulate Delay</div>
+	<div id="paramDesc">
+if delay not 0, accumulate the dealy for object to be destroy, destroy them one after the other basically</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Detach Children</div>
+	<div id="paramDesc">
+Detach children before destroying the Game Object.</div>
+</div>
+

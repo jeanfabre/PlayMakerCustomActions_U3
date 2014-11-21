@@ -1,0 +1,42 @@
+<div id="actionImg"><p><img src="__URLBASE__CapturePoseAsAnimationClip.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Captures the current pose of a hierarchy as an animation clip.
+
+Useful to blend from an arbitrary pose (e.g. a ragdoll death) back to a known animation (e.g. idle).</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject root of the hierarchy to capture.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Position</div>
+	<div id="paramDesc">
+Capture position keys.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rotation</div>
+	<div id="paramDesc">
+Capture rotation keys.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Scale</div>
+	<div id="paramDesc">
+Capture scale keys.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Animation Clip</div>
+	<div id="paramDesc">
+Store the result in an Object variable of type AnimationClip.</div>
+</div>
+

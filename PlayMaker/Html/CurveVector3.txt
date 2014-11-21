@@ -1,0 +1,110 @@
+<div id="actionImg"><p><img src="__URLBASE__CurveVector3.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Animates the value of a Vector3 Variable FROM-TO with assistance of Deformation Curves.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+From Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Curve X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Calculation X</div>
+	<div id="paramDesc">
+Calculation lets you set a type of curve deformation that will be applied to otherwise linear move between fromValue.x and toValue.x.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Curve Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Calculation Y</div>
+	<div id="paramDesc">
+Calculation lets you set a type of curve deformation that will be applied to otherwise linear move between fromValue.y and toValue.y.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Curve Z</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Calculation Z</div>
+	<div id="paramDesc">
+Calculation lets you set a type of curve deformation that will be applied to otherwise linear move between fromValue.z and toValue.z.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+Define time to use your curve scaled to be stretched or shrinked.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Speed</div>
+	<div id="paramDesc">
+If you define speed, your animation will be speeded up or slowed down.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Delay</div>
+	<div id="paramDesc">
+Delayed animimation start.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ignore Curve Offset</div>
+	<div id="paramDesc">
+Animation curve start from any time. If IgnoreCurveOffset is true the animation starts right after the state become entered.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+Optionally send an Event when the animation finishes.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Real Time</div>
+	<div id="paramDesc">
+Ignore TimeScale. Useful if the game is paused.</div>
+</div>
+

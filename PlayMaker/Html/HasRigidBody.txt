@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__HasRigidBody.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Check if a GameObject has a RigidBody attached. Sends events based on result ( Found or not found).</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to check.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Found</div>
+	<div id="paramDesc">
+True if a RigidBody was found</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Found Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Not Found Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

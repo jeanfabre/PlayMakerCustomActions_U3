@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__SetColorRGBA.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the RGBA channels of a Color Variable. To leave any channel unchanged, set variable to 'None'.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Color Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Red</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Green</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Blue</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Alpha</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

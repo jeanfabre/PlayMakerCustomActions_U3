@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector3RotateTowards.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Rotates a Vector3 direction from Current towards Target.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Current Direction</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Direction</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rotate Speed</div>
+	<div id="paramDesc">
+Rotation speed in degrees per second</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max Magnitude</div>
+	<div id="paramDesc">
+Max Magnitude per second</div>
+</div>
+

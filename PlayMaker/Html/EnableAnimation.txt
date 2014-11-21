@@ -1,0 +1,34 @@
+<div id="actionImg"><p><img src="__URLBASE__EnableAnimation.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Enables/Disables an Animation on a GameObject.
+Animation time is paused while disabled. Animation must also have a non zero weight to play.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject playing the animation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Anim Name</div>
+	<div id="paramDesc">
+The name of the animation to enable/disable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Enable</div>
+	<div id="paramDesc">
+Set to True to enable, False to disable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Reset On Exit</div>
+	<div id="paramDesc">
+Reset the initial enabled state when exiting the state.</div>
+</div>
+

@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__FindGameObject.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Finds a Game Object by Name and/or Tag.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Object Name</div>
+	<div id="paramDesc">
+The name of the GameObject to find. You can leave this empty if you specify a Tag.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+With Tag</div>
+	<div id="paramDesc">
+Find a GameObject with this tag. If Object Name is specified then both name and Tag must match.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store</div>
+	<div id="paramDesc">
+Store the result in a GameObject variable.</div>
+</div>
+

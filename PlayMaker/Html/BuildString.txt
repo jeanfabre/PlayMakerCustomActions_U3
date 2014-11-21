@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__BuildString.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Builds a String from other Strings.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+String Parts</div>
+	<div id="paramDesc">
+Array of Strings to combine.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Separator</div>
+	<div id="paramDesc">
+Separator to insert between each String. E.g. space character.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the final String in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame while the state is active.</div>
+</div>
+

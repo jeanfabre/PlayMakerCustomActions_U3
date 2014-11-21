@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__AudioFadeOut.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Fades out the Volume of the Audio Clip played by the AudioSource component on a Game Object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Out Volume</div>
+	<div id="paramDesc">
+The volume to reach</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+Fade in time in seconds.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+Event to send when finished.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Real Time</div>
+	<div id="paramDesc">
+Ignore TimeScale. Useful if the game is paused.</div>
+</div>
+

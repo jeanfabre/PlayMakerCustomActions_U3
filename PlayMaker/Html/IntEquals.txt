@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__IntEquals.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends Events based on the comparison of multiple Integers.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Integers</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Equal</div>
+	<div id="paramDesc">
+Event sent if all ints equal</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Not Equal</div>
+	<div id="paramDesc">
+Event sent if ints not equal</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

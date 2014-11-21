@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__SmoothFollowAction.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Action version of Unity's Smooth Follow script.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The game object to control. E.g. The camera.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Object</div>
+	<div id="paramDesc">
+The GameObject to follow.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Distance</div>
+	<div id="paramDesc">
+The distance in the x-z plane to the target.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Height</div>
+	<div id="paramDesc">
+The height we want the camera to be above the target</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Height Damping</div>
+	<div id="paramDesc">
+How much to dampen height movement.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rotation Damping</div>
+	<div id="paramDesc">
+How much to dampen rotation changes.</div>
+</div>
+

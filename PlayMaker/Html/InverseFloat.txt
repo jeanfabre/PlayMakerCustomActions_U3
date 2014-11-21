@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__InverseFloat.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Inverts a float variable. For example '20.5' becomes '-20.5'</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+The Float variable to inverse.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Float</div>
+	<div id="paramDesc">
+Where to store the result.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Base Value</div>
+	<div id="paramDesc">
+Set a base value, so as to offset growth.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame while the state is active.</div>
+</div>
+

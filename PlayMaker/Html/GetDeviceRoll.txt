@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__GetDeviceRoll.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the rotation of the device around its z axis (into the screen). For example when you steer with the iPhone in a driving game.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Base Orientation</div>
+	<div id="paramDesc">
+How the user is expected to hold the device (where angle will be zero).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Angle</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Limit Angle</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Smoothing</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

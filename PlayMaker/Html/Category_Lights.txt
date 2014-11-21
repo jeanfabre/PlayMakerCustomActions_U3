@@ -1,0 +1,11 @@
+<p>TODO: Category description...</p>
+<div id="linkList"><ul>
+<li>Set Light Color</li>
+<li>Set Light Cookie</li>
+<li>Set Light Flare</li>
+<li>Set Light Intensity</li>
+<li>Set Light Range</li>
+<li>Set Light Spot Angle</li>
+<li>Set Light Type</li>
+<li>Set Shadow Strength</li>
+</ul></div>

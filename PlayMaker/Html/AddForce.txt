@@ -1,0 +1,68 @@
+<div id="actionImg"><p><img src="__URLBASE__AddForce.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Adds a force to a Game Object. Use Vector3 variable and/or Float variables for each axis.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to apply the force to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+At Position</div>
+	<div id="paramDesc">
+Optionally apply the force at a position on the object. This will also add some torque. The position is often returned from MousePick or GetCollisionInfo actions.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector</div>
+	<div id="paramDesc">
+A Vector3 force to add. Optionally override any axis with the X, Y, Z parameters.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+X</div>
+	<div id="paramDesc">
+Force along the X axis. To leave unchanged, set to 'None'.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Y</div>
+	<div id="paramDesc">
+Force along the Y axis. To leave unchanged, set to 'None'.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Z</div>
+	<div id="paramDesc">
+Force along the Z axis. To leave unchanged, set to 'None'.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Space</div>
+	<div id="paramDesc">
+Apply the force in world or local space.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Force Mode</div>
+	<div id="paramDesc">
+The type of force to apply. See Unity Physics docs.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame while the state is active.</div>
+</div>
+

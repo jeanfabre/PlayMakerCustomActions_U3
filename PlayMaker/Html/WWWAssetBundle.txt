@@ -1,0 +1,61 @@
+<div id="actionImg"><p><img src="__URLBASE__WWWAssetBundle.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets Bundle from a url and store it in a FsmObject. See Unity WWW and Bundles docs for more details.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Url</div>
+	<div id="paramDesc">
+Url to download bundle from.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Load From Cache Or Download</div>
+	<div id="paramDesc">
+will get the cached version if available, else downloads normally</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Cache Version</div>
+	<div id="paramDesc">
+Version of the AssetBundle. The file will only be loaded from the disk cache if it has previously been downloaded with the same version parameter. By incrementing the version number requested by your application, you can force Caching to download a new copy of the AssetBunlde from url.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Bundle</div>
+	<div id="paramDesc">
+Gets bundle from the url.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Error String</div>
+	<div id="paramDesc">
+Error message if there was an error during the download.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Progress</div>
+	<div id="paramDesc">
+How far the download progressed (0-1).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Done</div>
+	<div id="paramDesc">
+Event to send when the bundle has finished loading (progress = 1).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Error</div>
+	<div id="paramDesc">
+Event to send if there was an error.</div>
+</div>
+

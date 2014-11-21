@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GetQuaternionEulerAngles.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets a quaternion as euler angles.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Quaternion</div>
+	<div id="paramDesc">
+The rotation</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Euler Angles</div>
+	<div id="paramDesc">
+The euler angles of the quaternion.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the values are changing.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame Option</div>
+	<div id="paramDesc">
+Defines how to perform the action when 'every Frame' is enabled.</div>
+</div>
+

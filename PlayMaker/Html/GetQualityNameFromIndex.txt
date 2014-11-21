@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GetQualityNameFromIndex.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the index of a quality settings from its name.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Quality Index</div>
+	<div id="paramDesc">
+The index of the quality level to find</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Quality Name</div>
+	<div id="paramDesc">
+The name of this quality level index.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Quality Found Event</div>
+	<div id="paramDesc">
+Event sent if quality index was found in the quality settings list</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Quality Not Found Event</div>
+	<div id="paramDesc">
+Event sent if quality index was not found in the quality settings list</div>
+</div>
+

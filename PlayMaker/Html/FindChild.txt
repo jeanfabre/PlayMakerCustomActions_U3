@@ -1,0 +1,27 @@
+<div id="actionImg"><p><img src="__URLBASE__FindChild.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Finds the Child of a GameObject by Name.
+Note, you can specify a path to the child, e.g., LeftShoulder/Arm/Hand/Finger. If you need to specify a tag, use GetChild.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to search.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Child Name</div>
+	<div id="paramDesc">
+The name of the child. Note, you can specify a path to the child, e.g., LeftShoulder/Arm/Hand/Finger</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the child in a GameObject variable.</div>
+</div>
+

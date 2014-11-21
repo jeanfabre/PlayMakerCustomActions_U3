@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__mouse3dPlaneDrag.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+drag around on a 3d plane.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Camera</div>
+	<div id="paramDesc">
+The camera, leave empty if you want to use the camera this fsm is attached to or if you want to use the main camera</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ground Point</div>
+	<div id="paramDesc">
+The ground position</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ground Normal</div>
+	<div id="paramDesc">
+The ground normal</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Screen Point</div>
+	<div id="paramDesc">
+The screen point</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+World Point Result</div>
+	<div id="paramDesc">
+The resulting world point</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Delta Drag Result</div>
+	<div id="paramDesc">
+The resulting drag in world space</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Delta Position Result</div>
+	<div id="paramDesc">
+The resulting delta movement in world space</div>
+</div>
+

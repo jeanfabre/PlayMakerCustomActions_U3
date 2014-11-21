@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__SetTag.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets a Game Object's Tag.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Tag</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

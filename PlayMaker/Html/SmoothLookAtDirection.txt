@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__SmoothLookAtDirection.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Smoothly Rotates a Game Object so its forward vector points in the specified Direction.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to rotate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Direction</div>
+	<div id="paramDesc">
+The direction to smoothly rotate towards.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Min Magnitude</div>
+	<div id="paramDesc">
+Only rotate if Target Direction Vector length is greater than this threshold.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Up Vector</div>
+	<div id="paramDesc">
+Keep this vector pointing up as the GameObject rotates.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Keep Vertical</div>
+	<div id="paramDesc">
+Eliminate any tilt up/down as the GameObject rotates.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Speed</div>
+	<div id="paramDesc">
+How quickly to rotate.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Late Update</div>
+	<div id="paramDesc">
+Perform in LateUpdate. This can help eliminate jitters in some situations.</div>
+</div>
+

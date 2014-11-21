@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetAudioVolume.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Volume of the Audio Clip played by the AudioSource component on a Game Object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Volume</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

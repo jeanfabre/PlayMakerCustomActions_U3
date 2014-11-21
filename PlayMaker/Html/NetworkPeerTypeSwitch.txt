@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkPeerTypeSwitch.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Send Events based on the status of the network interface peer type: Disconneced, Server, Client, Connecting.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Is Disconnected</div>
+	<div id="paramDesc">
+Event to send if no client connection running. Server not initialized.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Server</div>
+	<div id="paramDesc">
+Event to send if running as server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Client</div>
+	<div id="paramDesc">
+Event to send if running as client.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Connecting</div>
+	<div id="paramDesc">
+Event to send attempting to connect to a server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if you're waiting for a particular network state.</div>
+</div>
+

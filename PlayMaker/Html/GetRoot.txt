@@ -1,0 +1,20 @@
+<div id="actionImg"><p><img src="__URLBASE__GetRoot.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the top most parent of the Game Object.
+If the game object has no parent, returns itself.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Root</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

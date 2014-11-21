@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__SetMainCamera.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the main camera.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to set as the main camera (should have a Camera component).</div>
+</div>
+

@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__ResourcesLoad.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Loads an asset stored at path in a Resources folder. The path is relative to any Resources folder inside the Assets folder of your project, extensions must be omitted.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Asset Path</div>
+	<div id="paramDesc">
+The path is relative to any Resources folder inside the Assets folder of your project, extensions must be omitted.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Asset</div>
+	<div id="paramDesc">
+The stored asset</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Success Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Failure Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

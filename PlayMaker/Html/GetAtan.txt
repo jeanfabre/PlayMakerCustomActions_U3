@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GetAtan.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the Arc Tangent. You can get the result in degrees, simply check on the RadToDeg conversion</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Value</div>
+	<div id="paramDesc">
+The value of the tan</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Angle</div>
+	<div id="paramDesc">
+The resulting angle. Note:If you want degrees, simply check RadToDeg</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Rad To Deg</div>
+	<div id="paramDesc">
+Check on if you want the angle expressed in degrees.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

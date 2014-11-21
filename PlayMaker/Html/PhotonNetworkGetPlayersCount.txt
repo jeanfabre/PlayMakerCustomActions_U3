@@ -1,0 +1,20 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkGetPlayersCount.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the count of players currently using this application. 
+This is updated on the MasterServer (only) in 5sec intervals (if any count changed).</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Players Count</div>
+	<div id="paramDesc">
+The number of players currently using this application.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame</div>
+</div>
+

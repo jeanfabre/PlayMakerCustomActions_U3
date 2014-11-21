@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__MasterServerSetProperties.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set the IP address, port, update rate and dedicated server flag of the master server.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Ip Address</div>
+	<div id="paramDesc">
+Set the IP address of the master server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Port</div>
+	<div id="paramDesc">
+Set the connection port of the master server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Update Rate</div>
+	<div id="paramDesc">
+Set the minimum update rate for master server host information update. Default is 60 seconds.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Dedicated Server</div>
+	<div id="paramDesc">
+Set if this machine is a dedicated server.</div>
+</div>
+

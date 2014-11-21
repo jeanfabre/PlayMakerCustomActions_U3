@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkGetConnectionState.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Send Events based on the status of the Photon network connection: Connected, Connecting, Disconnected, Disconnecting, InitializingApplication</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Is Connected Event</div>
+	<div id="paramDesc">
+Event to send if Photon Network state is 'Connected'.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Connecting Event</div>
+	<div id="paramDesc">
+Event to send if Photon Network state is 'Connecting'.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Disconnected Event</div>
+	<div id="paramDesc">
+Event to send if Photon Network state is 'Disconnected'</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Disconnecting Event</div>
+	<div id="paramDesc">
+Event to send if Photon Network state is 'Disconnecting'</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Initializing Application Event</div>
+	<div id="paramDesc">
+Event to send if Photon Network state is 'InitializingApplication'</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if you're waiting for a particulare network state.</div>
+</div>
+

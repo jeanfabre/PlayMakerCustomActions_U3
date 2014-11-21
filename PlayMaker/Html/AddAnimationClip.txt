@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__AddAnimationClip.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Adds a named Animation Clip to a Game Object. Optionally trims the Animation.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to add the Animation Clip to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Animation Clip</div>
+	<div id="paramDesc">
+The animation clip to add. NOTE: Make sure the clip is compatible with the object's hierarchy.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Animation Name</div>
+	<div id="paramDesc">
+Name the animation. Used by other actions to reference this animation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+First Frame</div>
+	<div id="paramDesc">
+Optionally trim the animation by specifying a first and last frame.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Last Frame</div>
+	<div id="paramDesc">
+Optionally trim the animation by specifying a first and last frame.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Add Loop Frame</div>
+	<div id="paramDesc">
+Add an extra looping frame that matches the first frame.</div>
+</div>
+

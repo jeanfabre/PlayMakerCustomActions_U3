@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkIsClient.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Test if your peer type is client.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Is Client</div>
+	<div id="paramDesc">
+True if running as client.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Client Event</div>
+	<div id="paramDesc">
+Event to send if running as client.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Not Client Event</div>
+	<div id="paramDesc">
+Event to send if not running as client.</div>
+</div>
+

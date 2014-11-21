@@ -1,0 +1,72 @@
+<div id="actionImg"><p><img src="__URLBASE__PhysicsLineCast.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Performs a lineCast hit </p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+From Game Object</div>
+	<div id="paramDesc">
+The line start of the sweep. 
+Or use FromPosition parameter.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+From Position</div>
+	<div id="paramDesc">
+The line start of the sweep. 
+Or use FromGameObject parameter.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Game Object</div>
+	<div id="paramDesc">
+The end position of the linecast sweep. 
+Or use ToPosition parameter.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Position</div>
+	<div id="paramDesc">
+The end position of the linecast sweep. 
+Or use ToGameObject parameter.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layer Mask</div>
+	<div id="paramDesc">
+Pick only from these layers.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Invert Mask</div>
+	<div id="paramDesc">
+Invert the mask, so you pick from all layers except those defined above.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Hit</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Hit Event</div>
+	<div id="paramDesc">
+Event to send when there are no more hits to loop.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+No Hit Event</div>
+	<div id="paramDesc">
+Event to send if there is no hit at all</div>
+</div>
+

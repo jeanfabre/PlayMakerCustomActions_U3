@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__RigidbodyTranslatePositionAuto.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Moves the position of a Rigidbody, calcs and smoothing are internal.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to move.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Horizontal Axis</div>
+	<div id="paramDesc">
+The horizontal axis name as defined in the input manager.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vertical Axis</div>
+	<div id="paramDesc">
+The vertical axis name as defined in the input manager.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Speed</div>
+	<div id="paramDesc">
+The speed of the rigidbody.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Vector</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

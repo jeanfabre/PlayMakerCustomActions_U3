@@ -1,0 +1,41 @@
+<div id="actionImg"><p><img src="__URLBASE__CallMethod.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+TODO</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Behaviour</div>
+	<div id="paramDesc">
+Store the component in an Object variable.
+NOTE: Set theObject variable's Object Type to get a component of that type. E.g., set Object Type to UnityEngine.AudioListener to get the AudioListener component on the camera.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Method Name</div>
+	<div id="paramDesc">
+Name of the method to call on the component</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Parameters</div>
+	<div id="paramDesc">
+Method paramters. NOTE: these must match the method's signature!</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result of the method call.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

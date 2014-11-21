@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__QuaternionLookRotation.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Creates a rotation that looks along forward with the the head upwards along upwards.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Direction</div>
+	<div id="paramDesc">
+the rotation direction</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Up Vector</div>
+	<div id="paramDesc">
+The up direction</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Result</div>
+	<div id="paramDesc">
+Store the inverse of the rotation variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the values are changing.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame Option</div>
+	<div id="paramDesc">
+Defines how to perform the action when 'every Frame' is enabled.</div>
+</div>
+

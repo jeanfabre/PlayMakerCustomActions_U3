@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__PerSecond.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Multiplies a Float by Time.deltaTime to use in frame-rate independent operations. E.g., 10 becomes 10 units per second.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

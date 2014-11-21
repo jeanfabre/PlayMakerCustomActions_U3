@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__iTweenPause.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Pause an iTween action.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+ITween Type</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Include Children</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+In Scene</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,34 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkCreateRoom.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Create a room with given title. This will fail if the room title is already in use.
+Note: If you don't want to create a unique room-name yourself, leave the room name to empty, and the server will assign a roomName (a GUID as string).</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Room Name</div>
+	<div id="paramDesc">
+The room Name</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Visible</div>
+	<div id="paramDesc">
+Is the room visible</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Open</div>
+	<div id="paramDesc">
+Is the room open</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max Number Of PLayers</div>
+	<div id="paramDesc">
+Max numbers of players for this room.</div>
+</div>
+

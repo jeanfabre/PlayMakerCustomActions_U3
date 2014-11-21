@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__InverseTransformPoint.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Transforms position from world space to a Game Object's local space. The opposite of TransformPoint.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+World Position</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

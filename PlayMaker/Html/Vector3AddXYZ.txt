@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector3AddXYZ.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Adds a XYZ values to Vector3 Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 3Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Add X</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Add Y</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Add Z</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Per Second</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

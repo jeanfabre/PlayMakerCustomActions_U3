@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetMaterial.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the material on a game object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Material Index</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Material</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

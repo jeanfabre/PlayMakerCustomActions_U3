@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__RigidBodyMovePosition.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Moves a RigidBody to a particular position. It's more efficient then accessing the transform of the gameObject and interacts properly with colliders and physics materials</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The rigid body to move.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Position</div>
+	<div id="paramDesc">
+The position to move to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

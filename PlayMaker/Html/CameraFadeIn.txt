@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__CameraFadeIn.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Fade from a fullscreen Color. NOTE: Uses OnGUI so requires a PlayMakerGUI component in the scene.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Color</div>
+	<div id="paramDesc">
+Color to fade from. E.g., Fade up from black.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+Fade in time in seconds.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+Event to send when finished.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Real Time</div>
+	<div id="paramDesc">
+Ignore TimeScale. Useful if the game is paused.</div>
+</div>
+

@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__GUIEndSize.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+GUI End Size.</p>
+</div>

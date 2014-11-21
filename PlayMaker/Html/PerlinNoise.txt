@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__PerlinNoise.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+PerlinNoise action</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Speed</div>
+	<div id="paramDesc">
+PerlinNoise animation speed</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Perlin Noise</div>
+	<div id="paramDesc">
+the actual PerlinNoise result ranging from 0 to 1</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+If set to false, will not animate over time</div>
+</div>
+

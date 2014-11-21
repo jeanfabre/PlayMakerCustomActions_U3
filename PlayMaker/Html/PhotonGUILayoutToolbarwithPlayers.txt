@@ -1,0 +1,48 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonGUILayoutToolbarwithPlayers.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+GUILayout Toolbar listing Photon players.
+The selection event int data contains the player index, and the event string data contains the selected player name</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Other PLayer Only</div>
+	<div id="paramDesc">
+If true, list only other players.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Selected Player</div>
+	<div id="paramDesc">
+The selected player</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Selected Player Name</div>
+	<div id="paramDesc">
+The selected player name</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Selection Event</div>
+	<div id="paramDesc">
+Event sent when user select a player from the toolbar</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Style</div>
+	<div id="paramDesc">
+The gui style of the elements in that toolbar</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layout Options</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

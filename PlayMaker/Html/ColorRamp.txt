@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__ColorRamp.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Samples a Color on a continuous Colors gradient.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Colors</div>
+	<div id="paramDesc">
+Array of colors to defining the gradient.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Sample At</div>
+	<div id="paramDesc">
+Point on the gradient to sample. Should be between 0 and the number of colors in the gradient.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Color</div>
+	<div id="paramDesc">
+Store the sampled color in a Color variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame while the state is active.</div>
+</div>
+

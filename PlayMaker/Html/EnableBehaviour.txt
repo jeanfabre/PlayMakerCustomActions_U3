@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__EnableBehaviour.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Enables/Disables a Behaviour on a GameObject. Optionally reset the Behaviour on exit - useful if you only want the Behaviour to be active while this state is active.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject that owns the Behaviour.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Behaviour</div>
+	<div id="paramDesc">
+The name of the Behaviour to enable/disable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Component</div>
+	<div id="paramDesc">
+Optionally drag a component directly into this field (behavior name will be ignored).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Enable</div>
+	<div id="paramDesc">
+Set to True to enable, False to disable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Reset On Exit</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

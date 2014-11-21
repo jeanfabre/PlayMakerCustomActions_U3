@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__ConvertBoolToColor.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Converts a Bool value to a Color.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Bool Variable</div>
+	<div id="paramDesc">
+The Bool variable to test.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Color Variable</div>
+	<div id="paramDesc">
+The Color variable to set based on the bool variable value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+False Color</div>
+	<div id="paramDesc">
+Color if Bool variable is false.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+True Color</div>
+	<div id="paramDesc">
+Color if Bool variable is true.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the Bool variable is changing.</div>
+</div>
+

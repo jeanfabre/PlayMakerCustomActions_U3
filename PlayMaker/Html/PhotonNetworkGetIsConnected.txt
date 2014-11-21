@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkGetIsConnected.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Test if the Photon network is connected.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Is Connected</div>
+	<div id="paramDesc">
+True if the Photon network is connected.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Connected Event</div>
+	<div id="paramDesc">
+Send this event if the Photon network is connected.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Not Connected Event</div>
+	<div id="paramDesc">
+Send this event if the Photon network is NOT connected.</div>
+</div>
+

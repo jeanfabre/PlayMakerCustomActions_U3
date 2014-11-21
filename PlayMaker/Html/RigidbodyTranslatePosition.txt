@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__RigidbodyTranslatePosition.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Moves the position of a Rigidbody, calcs and smoothing are NOT included.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to move.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Input Vector</div>
+	<div id="paramDesc">
+The vector input for the rigidbody. This is the distance in units that it will move from its current position per FixedUpdate.</div>
+</div>
+

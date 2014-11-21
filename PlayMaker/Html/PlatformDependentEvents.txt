@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__PlatformDependentEvents.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends Events based on platform dependent flags</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Platforms</div>
+	<div id="paramDesc">
+The platform</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Events</div>
+	<div id="paramDesc">
+The event to send for that platform</div>
+</div>
+

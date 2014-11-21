@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatAbs.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets a Float variable to its absolute value.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+The Float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the Float variable is changing.</div>
+</div>
+

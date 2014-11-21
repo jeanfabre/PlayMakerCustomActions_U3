@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetStreamProgressForLevelNum.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the Stream progres for a level id</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Level</div>
+	<div id="paramDesc">
+The id of the level to load. NOTE: Must be in the list of levels defined in File->Build Settings... </div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loading Progress</div>
+	<div id="paramDesc">
+Store the loading progress: range 0-1</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loaded Event</div>
+	<div id="paramDesc">
+Event to send when the level has loaded. NOTE: This only makes sense if the FSM is still in the scene!</div>
+</div>
+

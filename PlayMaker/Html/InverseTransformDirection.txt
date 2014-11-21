@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__InverseTransformDirection.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Transforms a Direction from world space to a Game Object's local space. The opposite of TransformDirection.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+World Direction</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

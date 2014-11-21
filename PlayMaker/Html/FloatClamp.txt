@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatClamp.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Clamps the value of Float Variable to a Min/Max range.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+Float variable to clamp.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Min Value</div>
+	<div id="paramDesc">
+The minimum value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max Value</div>
+	<div id="paramDesc">
+The maximum value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeate every frame. Useful if the float variable is changing.</div>
+</div>
+

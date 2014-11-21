@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__DrawDebugLine.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Draws a line from a Start point to an End point. Specify the points as Game Objects or Vector3 world positions. If both are specified, position is used as a local offset from the Object's position.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+From Object</div>
+	<div id="paramDesc">
+Draw line from a GameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+From Position</div>
+	<div id="paramDesc">
+Draw line from a world position, or local offset from GameObject if provided.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Object</div>
+	<div id="paramDesc">
+Draw line to a GameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Position</div>
+	<div id="paramDesc">
+Draw line to a world position, or local offset from GameObject if provided.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Color</div>
+	<div id="paramDesc">
+The color of the line.</div>
+</div>
+

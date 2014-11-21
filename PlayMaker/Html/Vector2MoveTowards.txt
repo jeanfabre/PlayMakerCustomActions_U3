@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector2MoveTowards.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Moves a Vector2 towards a Target. Optionally sends an event when successful.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Source</div>
+	<div id="paramDesc">
+The Vector2 to Move</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target</div>
+	<div id="paramDesc">
+A target Vector2 to move towards.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max Speed</div>
+	<div id="paramDesc">
+The maximum movement speed. HINT: You can make this a variable to change it over time.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Distance</div>
+	<div id="paramDesc">
+Distance at which the move is considered finished, and the Finish Event is sent.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+Event to send when the Finish Distance is reached.</div>
+</div>
+

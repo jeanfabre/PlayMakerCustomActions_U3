@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector2Interpolate.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Interpolates between 2 Vector2 values over a specified Time.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Mode</div>
+	<div id="paramDesc">
+The interpolcation type</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+From Vector</div>
+	<div id="paramDesc">
+The vector to interpolate from</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Vector</div>
+	<div id="paramDesc">
+The vector to interpolate to</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+the interpolate time</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+the interpolated result</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+This event is fired when the interpolation is done.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Real Time</div>
+	<div id="paramDesc">
+Ignore TimeScale</div>
+</div>
+

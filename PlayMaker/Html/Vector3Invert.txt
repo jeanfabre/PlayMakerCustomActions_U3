@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector3Invert.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Reverses the direction of a Vector3 Variable. Same as multiplying by -1.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 3Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

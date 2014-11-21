@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__WakeUp.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Forces a Game Object's Rigid Body to wake up.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

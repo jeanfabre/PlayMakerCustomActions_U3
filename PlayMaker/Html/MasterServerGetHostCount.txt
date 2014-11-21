@@ -1,0 +1,14 @@
+<div id="actionImg"><p><img src="__URLBASE__MasterServerGetHostCount.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the number of hosts on the master server.
+
+Use MasterServer Get Host Data to get host data at a specific index.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Count</div>
+	<div id="paramDesc">
+The number of hosts on the MasterServer.</div>
+</div>
+

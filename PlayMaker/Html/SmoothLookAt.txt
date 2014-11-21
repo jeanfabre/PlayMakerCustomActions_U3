@@ -1,0 +1,68 @@
+<div id="actionImg"><p><img src="__URLBASE__SmoothLookAt.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Smoothly Rotates a Game Object so its forward vector points at a Target. The target can be defined as a Game Object or a world Position. If you specify both, then the position will be used as a local offset from the object's position.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to rotate to face a target.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Object</div>
+	<div id="paramDesc">
+A target GameObject.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Position</div>
+	<div id="paramDesc">
+A target position. If a Target Object is defined, this is used as a local offset.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Up Vector</div>
+	<div id="paramDesc">
+Used to keep the game object generally upright. If left undefined the world y axis is used.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Keep Vertical</div>
+	<div id="paramDesc">
+Force the game object to remain vertical. Useful for characters.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Speed</div>
+	<div id="paramDesc">
+How fast the look at moves.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Debug</div>
+	<div id="paramDesc">
+Draw a line in the Scene View to the look at position.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Tolerance</div>
+	<div id="paramDesc">
+If the angle to the target is less than this, send the Finish Event below. Measured in degrees.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+Event to send if the angle to target is less than the Finish Tolerance.</div>
+</div>
+

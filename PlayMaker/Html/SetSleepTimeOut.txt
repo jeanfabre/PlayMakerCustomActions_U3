@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__SetSleepTimeOut.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+A power saving setting, allowing the screen to dim some time after the last active user interaction. 0 means never sleep, -1 means revert to system settings, above zero values are in seconds. Most useful for handheld devices, allowing OS to preserve battery life in most efficient ways. Does nothing on non-handheld devices. SleepTimeout is measured in seconds. The default value varies from platform to platform, generally being non-zero.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Sleep Timeout</div>
+	<div id="paramDesc">
+0 means never sleep, -1 means revert to system settings, above zero values are in seconds.</div>
+</div>
+

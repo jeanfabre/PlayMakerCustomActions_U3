@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__ConvertStringToColor.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Converts a string into a color variable. Format is flexible, [r] [g] [b] and [a] are placeholders, escape special chars like \ for parenthesis for example </p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Source</div>
+	<div id="paramDesc">
+The string representing the color value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Format</div>
+	<div id="paramDesc">
+The expected string pattern for the color value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Use 32Bit Color</div>
+	<div id="paramDesc">
+32bit colors ranges from 0 to 255 for their values, else, it ranges from 0 to 1</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+The result</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeats every frame. Warning, performance will be affected</div>
+</div>
+

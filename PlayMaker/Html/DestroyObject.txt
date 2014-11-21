@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__DestroyObject.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Destroys a Game Object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject to destroy.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Delay</div>
+	<div id="paramDesc">
+Optional delay before destroying the Game Object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Detach Children</div>
+	<div id="paramDesc">
+Detach children before destroying the Game Object.</div>
+</div>
+

@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__GetLayer2.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets a Game Object's Layer and stores it in an Int Variable or a String Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Int Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Name Value</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

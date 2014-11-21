@@ -1,0 +1,28 @@
+<div id="actionImg"><p><img src="__URLBASE__SendEventFromState.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends an Event. If optional delay is set, WILL ONLY SEND THE DELAYED EVENT IF IT IS STILL IN THE STATE.
+NOTE: 'Send Event' will fire a delayed event even if the action is not running anymore as the state exited. 
+NOTE: To send events between FSMs they must be marked as Global in the Events Browser.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Event Target</div>
+	<div id="paramDesc">
+Where to send the event.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send Event</div>
+	<div id="paramDesc">
+The event to send. NOTE: Events must be marked Global to send between FSMs.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Delay</div>
+	<div id="paramDesc">
+Optional delay in seconds. NOTE: The event will not be fired if the state has exited before the delay</div>
+</div>
+

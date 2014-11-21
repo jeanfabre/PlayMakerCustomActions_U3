@@ -1,0 +1,37 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkJoinRandomRoom.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Joins any available room but will fail if none is currently available.
+Optionnally define expected custom properties to match, max Players and matchmkaing mode: http://doc.exitgames.com/photon-cloud/MatchmakingAndLobby/#cat-reference</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Match Making Mode</div>
+	<div id="paramDesc">
+Max Player in rooms to filter. Leave to 0 if you don't want to filter by players numbers in rooms
+-- FillRoom (Default): Fills up rooms (oldest first) to get players together as fast as possible.Makes most sense with MaxPlayers > 0 and games that can only start with more players.
+-- SerialMatching: Distributes players across available rooms sequentially but takes filter into account. Without filter, rooms get players evenly distributed.
+-- RandomMatching: Joins a (fully) random room. Expected properties must match but aside from this, any available room might be selected.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max Player</div>
+	<div id="paramDesc">
+Max Player in rooms to filter. Leave to 0 if you don't want to filter by players numbers in rooms</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Keys</div>
+	<div id="paramDesc">
+room properties to filter rooms before picking a random one.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Properties Values</div>
+	<div id="paramDesc">
+Values related to the properties</div>
+</div>
+

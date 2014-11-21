@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__RebuildTextures.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Rebuilds all dirty textures. By default the rebuild is spread over multiple frames so it won't halt the game. Check Immediately to rebuild all textures in a single frame.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Substance Material</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Immediately</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

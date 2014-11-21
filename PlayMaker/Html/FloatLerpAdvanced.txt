@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatLerpAdvanced.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Advanced interpolation between 2 floats.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+From Float</div>
+	<div id="paramDesc">
+First Vector.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+To Float</div>
+	<div id="paramDesc">
+Second Vector.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Amount</div>
+	<div id="paramDesc">
+Interpolate between From Vector and ToVector by this amount. Value is clamped to -1 1 range. interpolation can be choosen below</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Interpolation</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result in this float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the values are changing.</div>
+</div>
+

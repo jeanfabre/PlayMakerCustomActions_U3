@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__UseGUILayout.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Turn GUILayout on/off. If you don't use GUILayout actions you can get some performace back by turning GUILayout off. This can make a difference on iOS platforms.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Turn Off GUIlayout</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

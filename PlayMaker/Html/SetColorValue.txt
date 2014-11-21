@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetColorValue.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the value of a Color Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Color Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Color</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

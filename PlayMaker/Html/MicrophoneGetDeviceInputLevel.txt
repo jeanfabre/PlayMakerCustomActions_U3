@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__MicrophoneGetDeviceInputLevel.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get a microphone device current input volume level</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Device Name</div>
+	<div id="paramDesc">
+The name of the device. Passing null or an empty string will pick the default device. Get device names using the action MicrophoneGetDeviceById for example</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Audio Clip</div>
+	<div id="paramDesc">
+The audio clip where the record is saved.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Level</div>
+	<div id="paramDesc">
+The Device input volume level</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Max Level</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Multiplier</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

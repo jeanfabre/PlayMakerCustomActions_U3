@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__MasterServerClearHostList.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Clear the host list which was received by MasterServer Request Host List</p>
+</div>

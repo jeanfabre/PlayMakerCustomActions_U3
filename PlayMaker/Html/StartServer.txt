@@ -1,0 +1,62 @@
+<div id="actionImg"><p><img src="__URLBASE__StartServer.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Start a server.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Connections</div>
+	<div id="paramDesc">
+The number of allowed incoming connections/number of players allowed in the game.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Listen Port</div>
+	<div id="paramDesc">
+The port number we want to listen to.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Incoming Password</div>
+	<div id="paramDesc">
+Sets the password for the server. This must be matched in the NetworkConnect action.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Use NAT</div>
+	<div id="paramDesc">
+Sets the NAT punchthrough functionality.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Use Security Layer</div>
+	<div id="paramDesc">
+Unity handles the network layer by providing secure connections if you wish to use them. 
+Most games will want to use secure connections. However, they add up to 15 bytes per packet and take time to compute so you may wish to limit usage to deployed games only.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Run In Background</div>
+	<div id="paramDesc">
+Run the server in the background, even if it doesn't have focus.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Error Event</div>
+	<div id="paramDesc">
+Event to send in case of an error creating the server.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Error String</div>
+	<div id="paramDesc">
+Store the error string in a variable.</div>
+</div>
+

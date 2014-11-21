@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__iTweenRotateUpdate2.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Similar to RotateTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a 'live' set of changing values. Does not utilize an EaseType. Let's you choose the tyoe of update.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Transform Rotation</div>
+	<div id="paramDesc">
+Rotate to a transform rotation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector Rotation</div>
+	<div id="paramDesc">
+A rotation the GameObject will animate from.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Time</div>
+	<div id="paramDesc">
+The time in seconds the animation will take to complete. If transformRotation is set, this is used as an offset.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Space</div>
+	<div id="paramDesc">
+Whether to animate in local or world space.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Update Call</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

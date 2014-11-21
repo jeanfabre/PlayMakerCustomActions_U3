@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GetBoolInvert.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Flips the value of a Bool Variable and save it into another bool</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Bool Variable</div>
+	<div id="paramDesc">
+Bool variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Inverted Bool Variable</div>
+	<div id="paramDesc">
+Store the invertion of boolVariable.</div>
+</div>
+

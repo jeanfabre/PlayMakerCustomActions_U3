@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__RestartLevel.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Restarts current level.</p>
+</div>

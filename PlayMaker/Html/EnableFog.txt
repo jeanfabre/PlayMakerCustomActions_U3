@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__EnableFog.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Enables/Disables Fog in the scene.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Enable Fog</div>
+	<div id="paramDesc">
+Set to True to enable, False to disable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the Enable Fog setting is changing.</div>
+</div>
+

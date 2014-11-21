@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__ForwardAllEvents.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Forwards all event recieved by this FSM to another target. Optionally specify a list of events to ignore.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Forward To</div>
+	<div id="paramDesc">
+Forward to this target.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Except These</div>
+	<div id="paramDesc">
+Don't forward these events.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Eat Events</div>
+	<div id="paramDesc">
+Should this action eat the events or pass them on.</div>
+</div>
+

@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__DebugGameObject.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Logs the value of a Game Object Variable in the PlayMaker Log Window.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Log Level</div>
+	<div id="paramDesc">
+Info, Warning, or Error.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+Prints the value of a GameObject variable in the PlayMaker log window.</div>
+</div>
+

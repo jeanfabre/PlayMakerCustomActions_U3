@@ -1,0 +1,55 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector3OperatorAdvanced.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Performs most possible operations on 2 Vector3: Dot product, Cross product, Distance, Angle, Project, Reflect, Add, Subtract, Multiply, Divide, Min, Max.
+ Advanced features allows selection of update type.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 1</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector 2</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Operation</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Vector 3Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Float Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Update Type</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

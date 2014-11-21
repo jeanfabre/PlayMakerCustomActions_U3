@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GetFlareStrength.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the intensity of all flares in the scene.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Flare Strength</div>
+	<div id="paramDesc">
+The intensity of all flares in the scene.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the value is changing.</div>
+</div>
+

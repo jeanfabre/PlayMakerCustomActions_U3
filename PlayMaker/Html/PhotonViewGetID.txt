@@ -1,0 +1,27 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonViewGetID.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the photon ID Photon network View is controlled by a GameObject. Optionnaly save it as a string for convenience. 
+ A PhotonView component is required on the gameObject</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The Game Object with the PhotonView attached.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+ID</div>
+	<div id="paramDesc">
+The PhotonView ID as int</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+IDAs String</div>
+	<div id="paramDesc">
+The PhotonView ID as string</div>
+</div>
+

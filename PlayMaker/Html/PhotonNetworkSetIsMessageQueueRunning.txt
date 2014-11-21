@@ -1,0 +1,14 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkSetIsMessageQueueRunning.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Enable or disable the processing of Photon network messages.
+
+If this is disabled no Photon RPC call execution or Photon network view synchronization takes place.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Is Message Queue Running</div>
+	<div id="paramDesc">
+Is Message Queue Running. If this is disabled no Photon RPC call execution or Photon network view synchronization takes place</div>
+</div>
+

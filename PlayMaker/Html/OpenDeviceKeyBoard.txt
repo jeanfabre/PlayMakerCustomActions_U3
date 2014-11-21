@@ -1,0 +1,5 @@
+<div id="actionImg"><p><img src="__URLBASE__OpenDeviceKeyBoard.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Opens the native keyboard provided by OS on the screen</p>
+</div>

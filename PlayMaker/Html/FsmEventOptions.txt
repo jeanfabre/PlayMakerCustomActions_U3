@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__FsmEventOptions.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets how subsequent events sent in this state are handled.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Send To Fsm Component</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send To Game Object</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Fsm Name</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Send To Children</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Broadcast To All</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

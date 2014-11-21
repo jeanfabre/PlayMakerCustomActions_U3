@@ -1,0 +1,61 @@
+<div id="actionImg"><p><img src="__URLBASE__DeviceOrientationWatcher.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends discrete Event based on the Orientation changes of the mobile device.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Face Up Event</div>
+	<div id="paramDesc">
+send when device entered face up orientation</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Face Down Event</div>
+	<div id="paramDesc">
+send when device entered face down orientation</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Landscape Left Event</div>
+	<div id="paramDesc">
+send when device entered llndscape left orientation</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Landscape Right Event</div>
+	<div id="paramDesc">
+send when device entered landscape right orientation</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Portrait Event</div>
+	<div id="paramDesc">
+send when device entered portrait orientation</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Portrait Upside Down Event</div>
+	<div id="paramDesc">
+send when device entered upside down portrait orientation</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Unknown Event</div>
+	<div id="paramDesc">
+send when device entered unkown orientation</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ignore Initial Orientation</div>
+	<div id="paramDesc">
+if true, do not fire an event on the orientation found when this action starts</div>
+</div>
+

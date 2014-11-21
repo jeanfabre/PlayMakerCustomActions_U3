@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GUILayoutTextLabel.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+GUILayout Label for simple text.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Text</div>
+	<div id="paramDesc">
+Text to display.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Style</div>
+	<div id="paramDesc">
+Optional GUIStyle in the active GUISkin.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Layout Options</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

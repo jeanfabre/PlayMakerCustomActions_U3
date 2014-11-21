@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__RandomBool.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets a Bool Variable to True or False randomly.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

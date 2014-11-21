@@ -1,0 +1,48 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkGetLastPing.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the last ping time to the given player in milliseconds. 
+If the player can't be found -1 will be returned. Pings are automatically sent out every couple of seconds.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Player Index</div>
+	<div id="paramDesc">
+The Index of the player in the network connections list.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Cache Player Reference</div>
+	<div id="paramDesc">
+The player reference is cached, that is if the connections list changes, the player reference remains.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Last Ping</div>
+	<div id="paramDesc">
+Get the last ping time to the given player in milliseconds.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Player Not Found Event</div>
+	<div id="paramDesc">
+Event to send if the player can't be found. Average Ping is set to -1.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Player Found Event</div>
+	<div id="paramDesc">
+Event to send if the player is found (pings back).</div>
+</div>
+

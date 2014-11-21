@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector3PerSecond.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Multiplies a Vector3 variable by Time.deltaTime. Useful for frame rate independent motion.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 3Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetVector2Value.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the value of a Vector2 Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 2Variable</div>
+	<div id="paramDesc">
+The vector2 target</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Vector 2Value</div>
+	<div id="paramDesc">
+The vector2 source</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

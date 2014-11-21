@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__Comment.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Adds a text area to the action list. NOTE: Doesn't do anything, just for notes...</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Comment</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

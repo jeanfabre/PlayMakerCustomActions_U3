@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkDeleteRoomCustomProperty.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Delete the named custom property of this Room.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Key</div>
+	<div id="paramDesc">
+The custom property to delete</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Success Event</div>
+	<div id="paramDesc">
+Send this event if the custom property was deleted</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Failure Event</div>
+	<div id="paramDesc">
+Send this event if the custom property deletion failed, likely because we are not in a room.</div>
+</div>
+

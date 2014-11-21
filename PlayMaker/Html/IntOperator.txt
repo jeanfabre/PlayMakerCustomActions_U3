@@ -1,0 +1,40 @@
+<div id="actionImg"><p><img src="__URLBASE__IntOperator.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Performs math operation on 2 Integers: Add, Subtract, Multiply, Divide, Min, Max.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Integer 1</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Integer 2</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Operation</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

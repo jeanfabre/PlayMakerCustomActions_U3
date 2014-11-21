@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkSetPlayerCustomProperty.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Updates and synchronizes the named custom property of the local player. New properties are added, existing values are updated. CustomProperties can be set before entering a room and will be synced as well.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Key</div>
+	<div id="paramDesc">
+The Custom Property to set or update</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Value</div>
+	<div id="paramDesc">
+Value of the property</div>
+</div>
+

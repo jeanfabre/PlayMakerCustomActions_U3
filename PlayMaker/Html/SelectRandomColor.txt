@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SelectRandomColor.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Select a random Color from an array of Colors.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Colors</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Weights</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Color</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

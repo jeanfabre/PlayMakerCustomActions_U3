@@ -1,0 +1,61 @@
+<div id="actionImg"><p><img src="__URLBASE__PlayRandomAnimation.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Plays a Random Animation on a Game Object. You can set the relative weight of each animation to control how often they are selected.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+Game Object to play the animation on.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Animations</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Weights</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Play Mode</div>
+	<div id="paramDesc">
+How to treat previously playing animations.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Blend Time</div>
+	<div id="paramDesc">
+Time taken to blend to this animation.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finish Event</div>
+	<div id="paramDesc">
+Event to send when the animation is finished playing. NOTE: Not sent with Loop or PingPong wrap modes!</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Loop Event</div>
+	<div id="paramDesc">
+Event to send when the animation loops. If you want to send this event to another FSM use Set Event Target. NOTE: This event is only sent with Loop and PingPong wrap modes.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Stop On Exit</div>
+	<div id="paramDesc">
+Stop playing the animation when this state is exited.</div>
+</div>
+

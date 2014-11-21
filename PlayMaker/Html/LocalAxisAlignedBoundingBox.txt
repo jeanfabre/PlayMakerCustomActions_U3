@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__LocalAxisAlignedBoundingBox.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the Bounds of a Target Mesh using a local Transform. Typically, this allows you to know the Bounding size in arbitrary directions.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Axis</div>
+	<div id="paramDesc">
+The transform to represent the bounds</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Mesh Target</div>
+	<div id="paramDesc">
+The Mesh to use to compute bounds from</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Bounds Size</div>
+	<div id="paramDesc">
+Store the result in a Vector3 variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Typically this would be set to True.</div>
+</div>
+

@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SetTagsOnChildren.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Set the Tag on all children of a GameObject. Optionally filter by component.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+GameObject Parent</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Tag</div>
+	<div id="paramDesc">
+Set Tag To...</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Filter By Component</div>
+	<div id="paramDesc">
+Only set the Tag on children with this component.</div>
+</div>
+

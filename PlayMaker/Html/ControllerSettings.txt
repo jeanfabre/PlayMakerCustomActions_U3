@@ -1,0 +1,62 @@
+<div id="actionImg"><p><img src="__URLBASE__ControllerSettings.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Modify various character controller settings.
+'None' leaves the setting unchanged.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The GameObject that owns the CharacterController.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Height</div>
+	<div id="paramDesc">
+The height of the character's capsule.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Radius</div>
+	<div id="paramDesc">
+The radius of the character's capsule.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Slope Limit</div>
+	<div id="paramDesc">
+The character controllers slope limit in degrees.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Step Offset</div>
+	<div id="paramDesc">
+The character controllers step offset in meters.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Center</div>
+	<div id="paramDesc">
+The center of the character's capsule relative to the transform's position</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Detect Collisions</div>
+	<div id="paramDesc">
+Should other rigidbodies or character controllers collide with this character controller (By default always enabled).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame while the state is active.</div>
+</div>
+

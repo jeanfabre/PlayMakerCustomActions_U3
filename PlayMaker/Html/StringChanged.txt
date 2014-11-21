@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__StringChanged.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Tests if the value of a string variable has changed. Use this to send an event on change, or store a bool that can be used in other operations.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+String Variable</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Changed Event</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatMultiplyAdvanced.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Multiplies one Float by another. This advanced version lets you choose betweent the different types of updates</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+The float variable to multiply.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Multiply By</div>
+	<div id="paramDesc">
+Multiply the float variable by this value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Update Type</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

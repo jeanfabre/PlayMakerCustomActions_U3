@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__GetIsSubFsm.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets if the fsm is a sub fsm.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Is Sub Fsm</div>
+	<div id="paramDesc">
+True if the fsm is a sub fsm.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Sub Fsm Event</div>
+	<div id="paramDesc">
+Event sent if the fsm is a sub fsm.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Not Sub Fsm Event</div>
+	<div id="paramDesc">
+Event sent if the fsm is a NOT sub fsm.</div>
+</div>
+

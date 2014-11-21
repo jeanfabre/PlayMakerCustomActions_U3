@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__QuaternionLowPassFilter.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Use a low pass filter to reduce the influence of sudden changes in a quaternion Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Quaternion Variable</div>
+	<div id="paramDesc">
+quaternion Variable to filter. Should generally come from some constantly updated input</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Filtering Factor</div>
+	<div id="paramDesc">
+Determines how much influence new changes have. E.g., 0.1 keeps 10 percent of the unfiltered quaternion and 90 percent of the previously filtered value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the values are changing.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame Option</div>
+	<div id="paramDesc">
+Defines how to perform the action when 'every Frame' is enabled.</div>
+</div>
+

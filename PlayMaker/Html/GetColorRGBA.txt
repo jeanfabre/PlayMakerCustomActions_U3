@@ -1,0 +1,47 @@
+<div id="actionImg"><p><img src="__URLBASE__GetColorRGBA.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the RGBA channels of a Color Variable and store them in Float Variables.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Color</div>
+	<div id="paramDesc">
+The Color variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Red</div>
+	<div id="paramDesc">
+Store the red channel in a float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Green</div>
+	<div id="paramDesc">
+Store the green channel in a float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Blue</div>
+	<div id="paramDesc">
+Store the blue channel in a float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Alpha</div>
+	<div id="paramDesc">
+Store the alpha channel in a float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if the color variable is changing.</div>
+</div>
+

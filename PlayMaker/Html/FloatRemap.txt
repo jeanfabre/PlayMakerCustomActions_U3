@@ -1,0 +1,54 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatRemap.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Remap a float from one scale to the other. example: we have 2 existing between 1 and 3, remapping 2 between 0 and 10 would give 5</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+The Float</div>
+	<div id="paramDesc">
+The Valuae</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Base Start</div>
+	<div id="paramDesc">
+The base start reference</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Base End</div>
+	<div id="paramDesc">
+The base end reference</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target Start</div>
+	<div id="paramDesc">
+The target start reference</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Target End</div>
+	<div id="paramDesc">
+The target end reference</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result in this float variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame. Useful if any of the values are changing.</div>
+</div>
+

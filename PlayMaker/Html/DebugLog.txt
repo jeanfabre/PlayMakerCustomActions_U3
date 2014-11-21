@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__DebugLog.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends a log message to the PlayMaker Log Window.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Log Level</div>
+	<div id="paramDesc">
+Info, Warning, or Error.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Text</div>
+	<div id="paramDesc">
+Text to print to the PlayMaker log window.</div>
+</div>
+

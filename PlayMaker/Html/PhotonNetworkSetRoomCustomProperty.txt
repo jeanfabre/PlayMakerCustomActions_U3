@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__PhotonNetworkSetRoomCustomProperty.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Updates and synchronizes the named custom property of this Room. New properties are added, existing values are updated.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Key</div>
+	<div id="paramDesc">
+The Custom Property to set or update</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Custom Property Value</div>
+	<div id="paramDesc">
+Value of the property</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Success Event</div>
+	<div id="paramDesc">
+Send this event if the custom property was set or update.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Failure Event</div>
+	<div id="paramDesc">
+Send this event if the custom property set failed, likely because we are not in a room.</div>
+</div>
+

@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__FloatDivide.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Divides one Float by another.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Float Variable</div>
+	<div id="paramDesc">
+The float variable to divide.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Divide By</div>
+	<div id="paramDesc">
+Divide the float variable by this value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeate every frame. Useful if the variables are changing.</div>
+</div>
+

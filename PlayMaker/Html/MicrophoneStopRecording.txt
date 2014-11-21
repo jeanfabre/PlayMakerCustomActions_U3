@@ -1,0 +1,12 @@
+<div id="actionImg"><p><img src="__URLBASE__MicrophoneStopRecording.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Stop Recording sound from a microphone device</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Device Name</div>
+	<div id="paramDesc">
+The name of the device. Passing null or an empty string will pick the default device. Get device names using the action MicrophoneGetDeviceById for example</div>
+</div>
+

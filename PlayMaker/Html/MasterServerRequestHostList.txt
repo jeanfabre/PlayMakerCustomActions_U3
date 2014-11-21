@@ -1,0 +1,21 @@
+<div id="actionImg"><p><img src="__URLBASE__MasterServerRequestHostList.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Request a host list from the master server.
+
+Use MasterServer Get Host Data to get info on each host in the host list.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Type Name</div>
+	<div id="paramDesc">
+The unique game type name.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Host List Arrived Event</div>
+	<div id="paramDesc">
+Event sent when the host list has arrived. NOTE: The action will not Finish until the host list arrives.</div>
+</div>
+

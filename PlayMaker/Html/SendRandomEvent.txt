@@ -1,0 +1,26 @@
+<div id="actionImg"><p><img src="__URLBASE__SendRandomEvent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sends a Random Event picked from an array of Events. Optionally set the relative weight of each event.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Events</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Weights</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Delay</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

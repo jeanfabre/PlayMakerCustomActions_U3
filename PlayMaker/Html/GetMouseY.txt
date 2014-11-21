@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__GetMouseY.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets the Y Position of the mouse and stores it in a Float Variable.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Normalize</div>
+	<div id="paramDesc">
+TODO</div>
+</div>
+

@@ -1,0 +1,19 @@
+<div id="actionImg"><p><img src="__URLBASE__Vector3LowPassFilter.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Use a low pass filter to reduce the influence of sudden changes in a Vector3 Variable. Useful when working with Get Device Acceleration to isolate gravity.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Vector 3Variable</div>
+	<div id="paramDesc">
+Vector3 Variable to filter. Should generally come from some constantly updated input, e.g., acceleration.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Filtering Factor</div>
+	<div id="paramDesc">
+Determines how much influence new changes have. E.g., 0.1 keeps 10 percent of the unfiltered vector and 90 percent of the previously filtered value.</div>
+</div>
+

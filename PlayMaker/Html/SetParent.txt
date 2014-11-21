@@ -1,0 +1,33 @@
+<div id="actionImg"><p><img src="__URLBASE__SetParent.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Sets the Parent of a Game Object.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Game Object</div>
+	<div id="paramDesc">
+The Game Object to parent.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Parent</div>
+	<div id="paramDesc">
+The new parent for the Game Object.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Reset Local Position</div>
+	<div id="paramDesc">
+Set the local position to 0,0,0 after parenting.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Reset Local Rotation</div>
+	<div id="paramDesc">
+Set the local rotation to 0,0,0 after parenting.</div>
+</div>
+

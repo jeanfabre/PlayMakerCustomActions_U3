@@ -1,0 +1,61 @@
+<div id="actionImg"><p><img src="__URLBASE__WWWObject.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Gets data from a url and store it in variables. See Unity WWW docs for more details.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Url</div>
+	<div id="paramDesc">
+Url to download data from.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Text</div>
+	<div id="paramDesc">
+Gets text from the url.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Texture</div>
+	<div id="paramDesc">
+Gets a Texture from the url.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Movie Texture</div>
+	<div id="paramDesc">
+Gets a Texture from the url.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Error String</div>
+	<div id="paramDesc">
+Error message if there was an error during the download.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Progress</div>
+	<div id="paramDesc">
+How far the download progressed (0-1).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Done</div>
+	<div id="paramDesc">
+Event to send when the data has finished loading (progress = 1).</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Is Error</div>
+	<div id="paramDesc">
+Event to send if there was an error.</div>
+</div>
+

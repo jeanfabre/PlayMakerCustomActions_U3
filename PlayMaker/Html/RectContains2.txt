@@ -1,0 +1,61 @@
+<div id="actionImg"><p><img src="__URLBASE__RectContains2.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Tests if a point is inside a rectangle. It also takes in account negative width and height</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Rectangle</div>
+	<div id="paramDesc">
+Rectangle to test.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Point</div>
+	<div id="paramDesc">
+Point to test.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+X</div>
+	<div id="paramDesc">
+Specify/override X value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Y</div>
+	<div id="paramDesc">
+Specify/override Y value.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+True Event</div>
+	<div id="paramDesc">
+Event to send if the Point is inside the Rectangle.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+False Event</div>
+	<div id="paramDesc">
+Event to send if the Point is outside the Rectangle.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Store Result</div>
+	<div id="paramDesc">
+Store the result in a variable.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Every Frame</div>
+	<div id="paramDesc">
+Repeat every frame.</div>
+</div>
+

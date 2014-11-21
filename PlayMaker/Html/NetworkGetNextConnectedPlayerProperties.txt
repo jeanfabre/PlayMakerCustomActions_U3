@@ -1,0 +1,62 @@
+<div id="actionImg"><p><img src="__URLBASE__NetworkGetNextConnectedPlayerProperties.png" title="" /></p></div>
+<div id="actionDesc">
+<p>
+Get the next connected player properties. 
+Each time this action is called it gets the next child of a GameObject.This lets you quickly loop through all the connected player to perform actions on them.</p>
+</div>
+<div id="paramRow">
+	<div id="paramName">
+Loop Event</div>
+	<div id="paramDesc">
+Event to send for looping.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Finished Event</div>
+	<div id="paramDesc">
+Event to send when there are no more children.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Index</div>
+	<div id="paramDesc">
+The player connection index.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Ip Address</div>
+	<div id="paramDesc">
+Get the IP address of this player.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Port</div>
+	<div id="paramDesc">
+Get the port of this player.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+Guid</div>
+	<div id="paramDesc">
+Get the GUID for this player, used when connecting with NAT punchthrough.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+External IPAddress</div>
+	<div id="paramDesc">
+Get the external IP address of the network interface. This will only be populated after some external connection has been made.</div>
+</div>
+
+<div id="paramRow">
+	<div id="paramName">
+External Port</div>
+	<div id="paramDesc">
+Get the external port of the network interface. This will only be populated after some external connection has been made.</div>
+</div>
+
