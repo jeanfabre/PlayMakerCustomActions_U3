@@ -92,7 +92,7 @@ namespace HutongGames.PlayMaker.Actions
 				return;
 			}
 			
-			bool hit = _wheel.GetGroundHit(out _wheelhit);
+			_wheel.GetGroundHit(out _wheelhit);
 			
 			if (!collider.IsNone) collider.Value = _wheelhit.collider.gameObject;
 			if (!point.IsNone) point.Value = _wheelhit.point;
