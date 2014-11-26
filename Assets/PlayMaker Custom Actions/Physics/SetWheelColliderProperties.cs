@@ -2,7 +2,7 @@
 /*--- __ECO__ __ACTION__
 EcoMetaStart
 {
-"script dependancies":["Assets/PlayMaker Custom Actions/Physics/internal/PlayMakerWheelFrictionCurve.cs"]
+"script dependancies":["Assets/PlayMaker Custom Actions/Physics/internal/PlayMakerWheelFrictionCurveClass.cs"]
 }
 EcoMetaEnd
 ---*/
