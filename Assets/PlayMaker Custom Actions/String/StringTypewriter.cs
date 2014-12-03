@@ -54,10 +54,10 @@ namespace HutongGames.PlayMaker.Actions
 		char[] punctuaction = {'.', '!', '?', ',', ';', ':'};
 		float p = 0.0f;
 		int index = 0;
-		int length;
+		int length = 0;
 		float startTime;
 		float timer = 0.0f;
-		string message;
+		string message = "";
 		char lastChar;
 		char nextChar;
 		private AudioSource audioSource;
@@ -105,6 +105,7 @@ namespace HutongGames.PlayMaker.Actions
 				}
 			}
 
+			index = 0;
 			message = baseString.Value; // clone the base string.
 			length = message.Length; // get the length of the message.
 			resultString.Value = ""; // clear the target string.
