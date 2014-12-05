@@ -2,9 +2,18 @@
 /*--- __ECO__ __ACTION__
 EcoMetaStart
 {
-"script dependancies":["Assets/PlayMaker Custom Actions/Physics/internal/PlayMakerWheelFrictionCurveClass.cs"]
+"script dependancies":["Assets/PlayMaker Custom Actions/Physics/internal/PlayMakerWheelFrictionCurveClass.cs"],
+"version":"1.0.1"
 }
 EcoMetaEnd
+
+ChangeLogStart
+###1.0.1
+**Fix:** Added Stiffness access for forwardFriction and sidewaysFriction, thanks to [600](http://hutonggames.com/playmakerforum/index.php?topic=3981.msg42561#msg42561)
+
+###1.0.0
+**note:** Initial Public Release
+ChangeLogEnd
 ---*/
 
 using UnityEngine;
@@ -139,6 +148,10 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				_forwardFrictionCurve.asymptoteSlip = forwardFriction.asymptoteSlip.Value;
 			}
+			if (!forwardFriction.stiffness.IsNone)
+			{
+				_forwardFrictionCurve.stiffness = forwardFriction.stiffness.Value;
+			}
 			_wc.forwardFriction =  _forwardFrictionCurve;
 			
 			
@@ -161,6 +174,10 @@ namespace HutongGames.PlayMaker.Actions
 			if (!sidewaysFriction.asymptoteSlip.IsNone)
 			{
 				_sidewaysFrictionCurve.asymptoteSlip = sidewaysFriction.asymptoteSlip.Value;
+			}
+			if (!sidewaysFriction.stiffness.IsNone)
+			{
+				_sidewaysFrictionCurve.stiffness = sidewaysFriction.stiffness.Value;
 			}
 			_wc.sidewaysFriction =  _sidewaysFrictionCurve;
 			
