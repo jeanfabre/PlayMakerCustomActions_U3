@@ -44,12 +44,14 @@ namespace HutongGames.PlayMaker.Actions
 			GameObject root = Fsm.GetOwnerDefaultTarget(axis);
 			if (root == null)
 			{
+				Finish();
 				return;
 			}
 			
 			GameObject target = Fsm.GetOwnerDefaultTarget(meshTarget);
 			if (target == null)
 			{
+				Finish();
 				return;
 			}
 			
