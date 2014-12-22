@@ -54,7 +54,6 @@ namespace HutongGames.PlayMaker.Actions
 		char[] punctuaction = {'.', '!', '?', ',', ';', ':'};
 		float p = 0.0f;
 		int index = 0;
-		int length = 0;
 		float startTime;
 		float timer = 0.0f;
 		string message = "";
@@ -107,7 +106,6 @@ namespace HutongGames.PlayMaker.Actions
 
 			index = 0;
 			message = baseString.Value; // clone the base string.
-			length = message.Length; // get the length of the message.
 			resultString.Value = ""; // clear the target string.
 			startTime = Time.realtimeSinceStartup; // get the actual time since the game started.
 		}
@@ -115,44 +113,53 @@ namespace HutongGames.PlayMaker.Actions
 		// in update we handle the pausing between letters.
 		public override void OnUpdate()
 		{
-			p = pause.Value; // clone the pause variable in OnUpdate in case it is changed by the user at runtime.
-
-			nextChar = message[index];
-			int _iLast = Array.IndexOf (punctuaction, lastChar); // get last index
-			int _iNext = Array.IndexOf (punctuaction, nextChar); // get next index
-			bool _lastIsMark = _iLast != -1; // if index is not -1, there is a mark.
-			bool _nextIsMark = _iNext != -1; // if index is not -1, there is a mark.
-
-			if (_lastIsMark)
+			// Check if the string is complete
+			if (message == resultString.Value)
 			{
-				// if the next char is a p.mark, we should not pause.
-				if (!_nextIsMark)
-				{
-					pause = (p * punctuationMultiplier.Value);
-				}
+				DoFinish();
 			}
 
-			if (realtime.Value)
-			{	
-				// check the current time minus the previous Typing event time.
-				// if that's more than the pause gap, then its time for another character.
-				if (Time.realtimeSinceStartup - startTime >= pause.Value)
-				{
-					DoTyping();
-				}
-			}
-		
-			if (!realtime.Value)
+			// If the string is not complete, continue work
+			else
 			{
-				// add delta time until its more than the pause gap.
-				timer += Time.deltaTime;
-				if (timer >= pause.Value)
-				{
-					DoTyping();
-				}
-			}
+				p = pause.Value; // clone the pause variable in OnUpdate in case it is changed by the user at runtime.
 
-			pause.Value = p; // done with pausing, so revert the pause in case it was changed for punctuation.
+				nextChar = message[index];
+				int _iLast = Array.IndexOf (punctuaction, lastChar); // get last index
+				int _iNext = Array.IndexOf (punctuaction, nextChar); // get next index
+				bool _lastIsMark = _iLast != -1; // if index is not -1, there is a mark.
+				bool _nextIsMark = _iNext != -1; // if index is not -1, there is a mark.
+				 
+				if (_lastIsMark)
+				{
+					// if the next char is a p.mark, we should not pause.
+					if (!_nextIsMark)
+					{
+						pause = (p * punctuationMultiplier.Value);
+					}
+				}
+
+				if (realtime.Value)
+				{	
+					// check the current time minus the previous Typing event time.
+					// if that's more than the pause gap, then its time for another character.
+					if (Time.realtimeSinceStartup - startTime >= pause.Value)
+					{
+						DoTyping();
+					}
+				}
+			
+				if (!realtime.Value)
+				{
+					// add delta time until its more than the pause gap.
+					timer += Time.deltaTime;
+					if (timer >= pause.Value)
+					{
+						DoTyping();
+					}
+				}
+				pause.Value = p; // done with pausing, so revert the pause in case it was changed for punctuation.
+			}
 		}
 
 		// in DoTyping we handle firing sounds and creating the next char in the string.
@@ -175,11 +182,6 @@ namespace HutongGames.PlayMaker.Actions
 			resultString.Value += message[index]; 	// add one character to the string
 			lastChar = message[index]; 				// store the index that we just typed
 			index++;								// iterate the index
-
-			if (index >= length)
-			{
-				DoFinish();
-			}
 
 			timer = 0.0f;							// reset timer
 			startTime = Time.realtimeSinceStartup;	// update realtime
