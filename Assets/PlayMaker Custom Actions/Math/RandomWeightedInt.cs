@@ -19,7 +19,7 @@ namespace HutongGames.PlayMaker.Actions
 		[UIHint(UIHint.Variable)]
 		public FsmInt result;
 		[Tooltip("Can hit the same number twice in a row")]
-		public FsmBool canHitTwiceInARow;
+		public FsmBool Repeat;
 		
 		private int randomIndex;
 		private int lastIndex = -1;
@@ -32,7 +32,7 @@ namespace HutongGames.PlayMaker.Actions
 			ints[2] = 3;
 			weights = new FsmFloat[] {1,1,1};
 			result = null;
-			canHitTwiceInARow = false;
+			Repeat = false;
 		}
 		public override void OnEnter()
 		{
@@ -48,7 +48,7 @@ namespace HutongGames.PlayMaker.Actions
 				return;
 			}
 			
-			if (canHitTwiceInARow.Value)
+			if (Repeat.Value)
 			{
 				randomIndex = ActionHelpers.GetRandomWeightedIndex(weights);
 				result.Value = ints[randomIndex].Value;
