@@ -19,6 +19,11 @@ namespace HutongGames.PlayMaker.Actions
 		public FsmFloat[] weights;
 		[HasFloatSlider(0, 1)]
 		public FsmFloat volume = 1f;
+		[Tooltip("Can hit the same number twice in a row")]
+		public FsmBool Repeat;
+		
+		private int randomIndex;
+		private int lastIndex = -1;
 		
 		public override void Reset()
 		{
@@ -27,6 +32,7 @@ namespace HutongGames.PlayMaker.Actions
 			weights = new FsmFloat[] {1,1,1};
 			audioClips = new FsmObject[3];
 			volume = 1;
+			Repeat = true;
 		}
 
 		public override void OnEnter()
@@ -38,9 +44,24 @@ namespace HutongGames.PlayMaker.Actions
 
 		void DoPlayRandomClip()
 		{
-			if (audioClips.Length == 0) return;
+			if (audioClips.Length == 0) 
+			{
+			return;
+			}
+			if (Repeat.Value)
+			{
+				randomIndex = ActionHelpers.GetRandomWeightedIndex(weights);
+			}
+			else
+			{
+				do
+				{
+					randomIndex = ActionHelpers.GetRandomWeightedIndex(weights);
+				} while ( randomIndex == lastIndex);
+				
+				lastIndex = randomIndex;
 
-			int randomIndex = ActionHelpers.GetRandomWeightedIndex(weights);
+			}
 			
 			if (randomIndex != -1)
 			{
