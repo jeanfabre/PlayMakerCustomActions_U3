@@ -23,6 +23,7 @@ namespace HutongGames.PlayMaker.Actions
 		
 		private int randomIndex;
 		private int lastIndex = -1;
+		
 		public override void Reset()
 		{
 			gameObject = null;
