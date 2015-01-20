@@ -9,9 +9,9 @@ namespace HutongGames.PlayMaker.Actions
 	[Tooltip("Gets Vector3 positions of multiple GameObjects.")]
 	public class GetPositionMultiple : FsmStateAction
 	{
-		[RequiredField]
+		[CompoundArray("Variables", "GameObject", "Store Position")]
+		[UIHint(UIHint.FsmGameObject)]
 		public FsmGameObject[] gameObjects;
-		
 		[UIHint(UIHint.Variable)]
 		public FsmVector3[] storePositions;
 
@@ -20,8 +20,8 @@ namespace HutongGames.PlayMaker.Actions
 
 		public override void Reset()
 		{
-			gameObjects = null;
-			storePositions = null;
+			gameObjects = new FsmGameObject[1];
+			storePositions = new FsmVector3[1];
 			space = Space.World;
 			everyFrame = false;
 		}
