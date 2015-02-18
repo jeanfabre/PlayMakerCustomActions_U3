@@ -25,7 +25,10 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			if (Application.isWebPlayer)
 			{
+#if UNITY_IPHONE
+#else
 				Application.ExternalEval("window.open('"+url+"','"+WebWindowTitle.Value+"')");
+#endif
 			}else{
 				Application.OpenURL(url.Value);
 			}
