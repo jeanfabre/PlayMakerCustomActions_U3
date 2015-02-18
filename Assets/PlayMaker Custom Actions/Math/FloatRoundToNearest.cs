@@ -50,7 +50,7 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			resultAsFloat.Value = Mathf.Round (floatVariable.Value / nearest.Value) * nearest.Value;
 
-			if (resultAsInt.Value != null)
+			if (resultAsInt != null)
 			{
 				resultAsInt.Value = Mathf.RoundToInt(resultAsFloat.Value);
 			}
