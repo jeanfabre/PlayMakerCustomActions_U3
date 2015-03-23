@@ -63,9 +63,9 @@ namespace HutongGames.PlayMaker.Actions
 			Vector3 end = Vector3.zero;
 			if (target.Value!=null)
 			{
-				start = target.Value.transform.position;
+			    end = target.Value.transform.position;
 			}
-			start += orVector3Target.Value;
+			end += orVector3Target.Value;
 			
 			storeResult.Value = Vector3.Distance(start, end);
 		}
