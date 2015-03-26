@@ -1,4 +1,4 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
 /*--- __ECO__ __ACTION__ ---*/
 
 using UnityEngine;
@@ -50,12 +50,12 @@ namespace HutongGames.PlayMaker.Actions
 		
 		void DoMath()
 		{
-			if (floatResult.Value != null)
+			if (!floatResult.IsNone)
 			{
 				floatResult.Value = (Mathf.Floor(floatVariable.Value));
 			}
 
-			if (intResult.Value != null)
+			if (!intResult.IsNone)
 			{
 				intResult.Value = (Mathf.FloorToInt(floatVariable.Value));
 			}

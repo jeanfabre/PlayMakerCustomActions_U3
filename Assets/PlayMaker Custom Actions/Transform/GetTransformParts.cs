@@ -1,4 +1,4 @@
-// (c) Copyright HutongGames, LLC 2010-2013. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
 /*--- __ECO__ __ACTION__ ---*/
 
 using UnityEngine;
@@ -75,19 +75,19 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				storeTransform.Value = go.transform;
 			}
-			if (storePosition.Value != null)
+			if (!storePosition.IsNone)
 			{
 				storePosition.Value = go.transform.position;	
 			}
-			if (storeRotation.Value != null)
+			if (!storeRotation.IsNone)
 			{
 				storeRotation.Value = go.transform.rotation.eulerAngles;
 			}
-			if (storeQuaternion.Value != null)
+			if (!storeQuaternion.IsNone)
 			{
 				storeQuaternion.Value = go.transform.rotation;
 			}
-			if (storeScale.Value != null)
+			if (!storeScale.IsNone)
 			{
 				storeScale.Value = go.transform.localScale;
 			}
