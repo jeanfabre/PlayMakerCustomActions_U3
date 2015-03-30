@@ -1,4 +1,4 @@
-// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
 /*--- __ECO__ __ACTION__ ---*/
 
 #if !(UNITY_IPHONE || UNITY_ANDROID || UNITY_FLASH || UNITY_PS3)
@@ -35,7 +35,19 @@ namespace HutongGames.PlayMaker.Actions
 		[ObjectType(typeof(MovieTexture))]
 		[Tooltip("Gets a Texture from the url.")]
 		public FsmObject storeMovieTexture;
+		
+		[UIHint(UIHint.Variable)]
+		[Tooltip("Gets a audio from the url.")]
+		[ObjectType(typeof(AudioClip))]
+		public FsmObject storeAudio;
 
+		[Tooltip("Audio setting: Is it 3d")]
+		public FsmBool audio3d;
+		[Tooltip("Audio setting: Is it a stream")]
+		public FsmBool audioStream;
+		[Tooltip("Audio setting: type")]
+		public AudioType audioType;
+		
 		[UIHint(UIHint.Variable)]
 		[Tooltip("Error message if there was an error during the download.")]
 		public FsmString errorString;
@@ -63,6 +75,12 @@ namespace HutongGames.PlayMaker.Actions
 			
 			storeText = null;
 			storeTexture = null;
+			
+			storeAudio =null;
+			audio3d = false;
+			audioStream =false;
+			audioType = AudioType.UNKNOWN;
+			
 			errorString = null;
 			progress = null;
 			isDone = null;
@@ -142,7 +160,13 @@ namespace HutongGames.PlayMaker.Actions
 				storeTexture.Value = wwwObject.texture;
 
                 storeMovieTexture.Value = wwwObject.movie;
-
+				
+				if (!storeAudio.IsNone)
+				{
+					storeAudio.Value = wwwObject.GetAudioClip(audio3d.Value,audioStream.Value,audioType);
+				}
+				
+				
 				errorString.Value = wwwObject.error;
 
 				Fsm.Event(string.IsNullOrEmpty(errorString.Value) ? isDone : isError);
