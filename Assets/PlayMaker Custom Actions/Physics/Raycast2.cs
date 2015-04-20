@@ -1,5 +1,4 @@
-// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
-/*--- __ECO__ __ACTION__ ---*/
+// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
 
 using UnityEngine;
 using System.Collections;
@@ -10,8 +9,6 @@ namespace HutongGames.PlayMaker.Actions
 	[Tooltip("Casts a Ray against all Colliders in the scene. Use either a Game Object or Vector3 world position as the origin of the ray. Use GetRaycastInfo to get more detailed info.")]
 	public class Raycast2 : FsmStateAction
 	{
-        //[ActionSection("Setup Raycast")]
- 
 		[Tooltip("Start ray at game object position. \nOr use From Position parameter.")]
 		public FsmOwnerDefault fromGameObject;
 
@@ -63,6 +60,9 @@ namespace HutongGames.PlayMaker.Actions
 		[Tooltip("If true the script will store hitDistance regardless of whether or not the ray hit something.")]
 		public FsmBool storeDistanceOnMiss;
 
+		[Tooltip("If the ray doesn't hit anything, update hitPoint correctly.")]
+		public FsmBool storeHitPointOnMiss;
+
         [ActionSection("Filter")] 
 
         [Tooltip("Set how often to cast a ray. 0 = once, don't repeat; 1 = everyFrame; 2 = every other frame... \nSince raycasts can get expensive use the highest repeat interval you can get away with.")]
@@ -101,6 +101,7 @@ namespace HutongGames.PlayMaker.Actions
 		    storeHitNormal = null;
 		    storeHitDistance = null;
 			storeDistanceOnMiss = true;
+			storeHitPointOnMiss = true;
 			repeatInterval = 1;
 			layerMask = new FsmInt[0];
 			invertMask = false;
@@ -170,15 +171,21 @@ namespace HutongGames.PlayMaker.Actions
 
 			if (didHit)
 			{
-				storeHitObject.Value = hitInfo.collider.collider.gameObject;
+				storeHitObject.Value = hitInfo.collider.GetComponent<Collider>().gameObject;
                 storeHitPoint.Value = Fsm.RaycastHitInfo.point;
 				storeHitNormal.Value = Fsm.RaycastHitInfo.normal;
                 storeHitDistance.Value = Fsm.RaycastHitInfo.distance;
 				Fsm.Event(hitEvent);
 			}
 
+			if (storeHitPointOnMiss.Value && !didHit)
+			{
+				storeHitPoint.Value = originPos + dirVector * rayLength;
+			}
+
 			if (!didHit)
 			{
+
 				Fsm.Event(noHitEvent);
 			}
 
