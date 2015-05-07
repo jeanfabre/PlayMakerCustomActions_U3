@@ -67,7 +67,7 @@ namespace HutongGames.PlayMaker.Actions
 			
 			if (space == Space.Self)
 			{
-				delta = go.transform.InverseTransformPoint(delta);
+				delta = go.transform.InverseTransformPoint(go.transform.position + delta);
 			}
 			
 			speedVector.Value = delta;
