@@ -1,4 +1,4 @@
-// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
 /*--- __ECO__ __ACTION__ ---*/
 
 using UnityEngine;
@@ -20,6 +20,9 @@ namespace HutongGames.PlayMaker.Actions
 		[UIHint(UIHint.Variable)]
 		public FsmVector3 speedVector;
 		
+		[Tooltip("Use local or world space for the Speed vector.")]
+		public Space space;
+		
 		private GameObject go;
 		
 		private Vector3 lastPosition;
@@ -29,7 +32,7 @@ namespace HutongGames.PlayMaker.Actions
 			gameObject = null;
 			speed = null;
 			speedVector = null;
-			
+			space = Space.World;
 		}
 
 		public override void OnEnter()
@@ -55,14 +58,21 @@ namespace HutongGames.PlayMaker.Actions
 				return;
 			}
 			
-			Vector3 currentPosition = go.transform.position;
-			
+			Vector3 currentPosition = go.transform.position;		
+
 			Vector3 delta = currentPosition-lastPosition;
 			if (!speed.IsNone){
 				speed.Value = delta.magnitude/Time.deltaTime;
 			}
+			
+			if (space == Space.Self)
+			{
+				delta = go.transform.InverseTransformPoint(delta);
+			}
+			
 			speedVector.Value = delta;
-
+			
+			
 			lastPosition = currentPosition;
 		}
 
