@@ -20,7 +20,7 @@ using System;
 
 namespace HutongGames.PlayMaker.Actions
 {
-	[ActionCategory(ActionCategory.Math)]
+	[ActionCategory("NumericSpring")]
 	[Tooltip("Numerical spring behavior. You can apply this technique to all sorts of numeric properties. Do not require physics, totally math driven. Runs every frame by default")]
 	public class NumericSpring : FsmStateAction
 	{
