@@ -1,12 +1,27 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+﻿// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
 /*--- __ECO__ __ACTION__
 EcoMetaStart
 {
 "script dependancies":[
 						"Assets/PlayMaker Custom Actions/__Internal/PlayMakerActionsUtils.cs"
-					]
+					],
+"version":"1.1.0"
 }
 EcoMetaEnd
+ 
+EcoChangeLogStart
+### 1.1.0
+**Improvement**  
+- new operation "SqrMagnitude" for faster operation then "distance".
+
+### 1.0.0
+**Note**  
+Based on Vector3Operator official Action
+
+**New**  
+- Using PlayMakerActionsUtils flexible update selector system  
+EcoChangeLogEnd
+
 ---*/
 
 using UnityEngine;
@@ -14,7 +29,7 @@ using UnityEngine;
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Vector3)]
-	[Tooltip("Performs most possible operations on 2 Vector3: Dot product, Cross product, Distance, Angle, Project, Reflect, Add, Subtract, Multiply, Divide, Min, Max.\n Advanced features allows selection of update type.")]
+	[Tooltip("Performs most possible operations on 2 Vector3: Dot product, Cross product, Distance, Angle, Project, Reflect, Add, Subtract, Multiply, Divide, Min, Max, SqrMagnitude.\n Advanced features allows selection of update type.")]
 	public class Vector3OperatorAdvanced : FsmStateAction
 	{
 		public enum Vector3Operation
@@ -30,7 +45,8 @@ namespace HutongGames.PlayMaker.Actions
 			Multiply,
 			Divide,
 			Min,
-			Max
+			Max,
+			SqrMagnitude
 		}
 		
 		[RequiredField]
@@ -172,6 +188,10 @@ namespace HutongGames.PlayMaker.Actions
 				
 			case Vector3Operation.Max:
 				storeVector3Result.Value = Vector3.Max(v1, v2);
+				break;
+				
+			case Vector3Operation.SqrMagnitude:
+       			storeFloatResult.Value = (v1 - v2).sqrMagnitude;
 				break;
 			}
 		}
