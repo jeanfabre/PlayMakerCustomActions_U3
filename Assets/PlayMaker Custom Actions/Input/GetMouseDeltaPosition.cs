@@ -61,24 +61,24 @@ namespace HutongGames.PlayMaker.Actions
 				_delta.y /= Screen.height;
 			}
 		
-			if (!mouseDeltaPosition.isNone)
+			if (!mouseDeltaPosition.IsNone)
 			{
-				MouseDeltaPosition.Value = _delta;
+				mouseDeltaPosition.Value = _delta;
 			}
 			
-			if (!mousePositionDeltaVector2.isNone)
+			if (!mousePositionDeltaVector2.IsNone)
 			{
 				mousePositionDeltaVector2.Value = new Vector2(_delta.x,_delta.y);
 			}
 			
-			if (!mouseDeltaPositionX.isNone)
+			if (!mouseDeltaPositionX.IsNone)
 			{
-				mouseDeltaPositionX.Value.x = _delta.x;
+				mouseDeltaPositionX.Value = _delta.x;
 
 			}
-			if (!mouseDeltaPositionY.isNone)
+			if (!mouseDeltaPositionY.IsNone)
 			{
-				mouseDeltaPositionY.Value.y = _delta.y;
+				mouseDeltaPositionY.Value = _delta.y;
 			}
 			
 			_lastPosition = _mousePosition;
