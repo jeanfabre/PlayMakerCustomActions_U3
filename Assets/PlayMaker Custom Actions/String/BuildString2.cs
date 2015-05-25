@@ -7,7 +7,7 @@ namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.String)]
 	[Tooltip("Builds a String from other Strings. Separator is optional and can be inserted before, after or in between parts.")]
-	public class BuildString : FsmStateAction
+	public class BuildString2 : FsmStateAction
 	{
 		public enum separatorInsertion {InBetween,After,Before};
 
