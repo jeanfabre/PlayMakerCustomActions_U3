@@ -2,20 +2,24 @@
 /*--- __ECO__ __ACTION__ ---*/
 
 using UnityEngine;
-using System;
 
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.String)]
-	[Tooltip("Builds a String from other Strings. This is the same as BuildString but this one properly insert elements between items, not after.")]
-	public class BuildString2 : FsmStateAction
+	[Tooltip("Builds a String from other Strings. Separator is optional and can be inserted before, after or in between parts.")]
+	public class BuildString : FsmStateAction
 	{
+		public enum separatorInsertion {InBetween,After,Before};
+
 		[RequiredField]
         [Tooltip("Array of Strings to combine.")]
 		public FsmString[] stringParts;
 
-        [Tooltip("Separator to insert between each String. E.g. space character.")]
+        [Tooltip("Separator. E.g. space character.")]
         public FsmString separator;
+
+		[Tooltip("Separator behavior.")]
+		public separatorInsertion separatorInsert;
 
 		[RequiredField]
 		[UIHint(UIHint.Variable)]
@@ -32,6 +36,9 @@ namespace HutongGames.PlayMaker.Actions
 			stringParts = new FsmString[3];
 			separator = null;
 			storeResult = null;
+
+			separatorInsert = separatorInsertion.After;
+
 			everyFrame = false;
 		}
 
@@ -53,21 +60,29 @@ namespace HutongGames.PlayMaker.Actions
 		void DoBuildString()
 		{
 			if (storeResult == null) return;
-
+			
 			result = "";
-			int i = 1;
-			foreach (var stringPart in stringParts)
-			{
-				result += stringPart;
 
-				if (i < stringParts.Length)
+		    for (var i = 0; i < stringParts.Length; i++)
+		    {
+				if (separatorInsert == separatorInsertion.Before)
+				{
+					result += separator.Value;
+				}
+		        result += stringParts[i];
+		       
+				if (separatorInsert == separatorInsertion.After)
 				{
 					result += separator.Value;
 				}
 
-				i++;
-			}
+				if (separatorInsert == separatorInsertion.InBetween && i<(stringParts.Length-1))
+				{
+					result += separator.Value;
+				}
 
+		    }
+		    
 		    storeResult.Value = result;
 		}
 		
