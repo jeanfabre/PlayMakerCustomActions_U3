@@ -4,6 +4,7 @@
 
 using UnityEngine;
 
+
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory("Resources")]
@@ -68,7 +69,7 @@ namespace HutongGames.PlayMaker.Actions
 					break;
 				default:
 					// not supported.
-					return "Only GameObject, Texture, AudioClip and Material are supported";
+					return "Only GameObject, Texture, Sprites, AudioClip and Material are supported";
 				}	
 			
 			return "";
@@ -125,14 +126,59 @@ namespace HutongGames.PlayMaker.Actions
 				}
 				break;
 			case VariableType.Object:
-				AudioClip audioClip = (AudioClip)Resources.Load(assetPath.Value,typeof(AudioClip));
-				if (audioClip==null)
+
+				
+				
+				#if ! UNITY_3_5 
+				System.Type _type = storeAsset.ObjectType;
+				if (_type == typeof(UnityEngine.Sprite))
 				{
-					return false;
-				}else{
+					/* Can't find a way to make a reusable code for All types...
 					FsmObject _target= this.Fsm.Variables.GetFsmObject(storeAsset.variableName);
-					_target.Value = audioClip;
+					//	_target.Value = this.LoadResourceByType<_type>(assetPath.Value);
+
+					var mi = typeof(ResourcesLoad).GetMethod("LoadResourceByType");
+					var fooRef = mi.MakeGenericMethod(_type);
+					_target.Value = (Object)fooRef.Invoke(new ResourcesLoad(), new object[] { assetPath.Value });
+					*/
+					
+					
+					UnityEngine.Sprite _sprite = (UnityEngine.Sprite)Resources.Load(assetPath.Value,typeof(UnityEngine.Sprite));
+					if (_sprite==null)
+					{
+						return false;
+					}else{
+						FsmObject _target= this.Fsm.Variables.GetFsmObject(storeAsset.variableName);
+						_target.Value = _sprite;
+						return true;
+					}
 				}
+				if (_type == typeof(AudioClip))
+					{
+					AudioClip audioClip = (AudioClip)Resources.Load(assetPath.Value,typeof(AudioClip));
+					if (audioClip==null)
+					{
+						return false;
+					}else{
+						FsmObject _target= this.Fsm.Variables.GetFsmObject(storeAsset.variableName);
+						_target.Value = audioClip;
+						return true;
+					}
+				}
+				#else
+					AudioClip audioClip = (AudioClip)Resources.Load(assetPath.Value,typeof(AudioClip));
+					if (audioClip==null)
+					{
+						return false;
+					}else{
+						FsmObject _target= this.Fsm.Variables.GetFsmObject(storeAsset.variableName);
+						_target.Value = audioClip;
+						return true;
+					}
+				#endif
+				
+				
+
 				break;
 			default:
 				// not supported.
@@ -141,6 +187,12 @@ namespace HutongGames.PlayMaker.Actions
 			return true;
 		}
 
+		/*
+		System.Object LoadResourceByType<T>(string assetPath)
+		{
+			return (T)Resources.Load(assetPath,typeof(T));
+		}
+		*/
 	}
 }
 
