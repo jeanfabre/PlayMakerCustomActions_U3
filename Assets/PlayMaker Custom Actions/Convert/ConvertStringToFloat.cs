@@ -17,7 +17,7 @@ namespace HutongGames.PlayMaker.Actions
 		
 		[RequiredField]
 		[UIHint(UIHint.Variable)]
-        [Tooltip("Store the result in an Int variable.")]
+        [Tooltip("Store the result in an Float variable.")]
 		public FsmFloat floatVariable;
 
 
@@ -34,7 +34,7 @@ namespace HutongGames.PlayMaker.Actions
 
 		public override void OnEnter()
 		{
-			DoConvertStringToInt();
+			DoConvertStringToFloat();
 			
 			if (!everyFrame)
 				Finish();
@@ -42,10 +42,10 @@ namespace HutongGames.PlayMaker.Actions
 		
 		public override void OnUpdate()
 		{
-			DoConvertStringToInt();
+			DoConvertStringToFloat();
 		}
 		
-		void DoConvertStringToInt()
+		void DoConvertStringToFloat()
 		{
 			floatVariable.Value = float.Parse(stringVariable.Value);
 		}
