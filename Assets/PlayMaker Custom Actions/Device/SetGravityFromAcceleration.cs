@@ -19,14 +19,13 @@ namespace HutongGames.PlayMaker.Actions
 			multiplier = 10f;
 		}
 		
-		public override void OnEnter()
-		{
-
-			SetGravity();
-		}
+		public override void Awake()
+        {
+            Fsm.HandleFixedUpdate = true;
+        }
 		
 
-		public override void OnUpdate()
+		public override void OnFixedUpdate()
 		{
 			SetGravity();
 		}
