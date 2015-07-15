@@ -130,7 +130,7 @@ namespace HutongGames.PlayMaker.Actions
 				
 				
 				#if ! UNITY_3_5 
-				System.Type _type = storeAsset.ObjectType;
+				System.Type _type = storeAsset.objectReference.GetType();
 				if (_type == typeof(UnityEngine.Sprite))
 				{
 					/* Can't find a way to make a reusable code for All types...
