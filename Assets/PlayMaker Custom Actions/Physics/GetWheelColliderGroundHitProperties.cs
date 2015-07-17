@@ -1,4 +1,5 @@
-// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
+/*--- __ECO__ __ACTION__ ---*/
 
 using System;
 using UnityEngine;
@@ -64,13 +65,13 @@ namespace HutongGames.PlayMaker.Actions
 		public override void OnEnter()
 		{
 			var go = Fsm.GetOwnerDefaultTarget(gameObject);
-
+			
 			if (go != null)
 			{
 				_wheel = go.GetComponent<WheelCollider>();
 			}
 			
-				
+			
 			DoGetGroundHit();
 			
 			if (!everyFrame)
@@ -78,23 +79,32 @@ namespace HutongGames.PlayMaker.Actions
 				Finish();
 			}
 		}
-
+		
 		public override void OnUpdate()
 		{
 			DoGetGroundHit();
 		}
-
+		
 		void DoGetGroundHit()
 		{
 			
-			if (_wheel!=null)
+			if (_wheel==null)
 			{
 				return;
 			}
-			
+
+
 			_wheel.GetGroundHit(out _wheelhit);
-			
-			if (!collider.IsNone) collider.Value = _wheelhit.collider.gameObject;
+
+			if (!collider.IsNone)
+			{
+				if (_wheelhit.collider!=null)
+				{
+					collider.Value = _wheelhit.collider.gameObject;
+				}else{
+					UnityEngine.Debug.LogWarning("Missing Collider in wheelhit data");
+				}
+			}
 			if (!point.IsNone) point.Value = _wheelhit.point;
 			if (!normal.IsNone) normal.Value = _wheelhit.normal;
 			if (!forwardDir.IsNone) forwardDir.Value = _wheelhit.forwardDir;
@@ -104,4 +114,3 @@ namespace HutongGames.PlayMaker.Actions
 		}
 	}
 }
-
