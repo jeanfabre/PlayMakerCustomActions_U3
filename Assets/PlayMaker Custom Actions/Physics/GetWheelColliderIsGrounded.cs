@@ -8,7 +8,7 @@ namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Physics)]
 	[Tooltip("Tests if a wheel Collider is grounded.")]
-	public class GetWheelColliderisGrounded : FsmStateAction
+	public class GetWheelColliderIsGrounded : FsmStateAction
 	{
 		[RequiredField]
 		[CheckForComponent(typeof(WheelCollider))]
