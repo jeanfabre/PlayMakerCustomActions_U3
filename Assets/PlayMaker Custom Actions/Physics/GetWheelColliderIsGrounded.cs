@@ -1,4 +1,5 @@
-// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
+/*--- __ECO__ __ACTION__ ---*/
 
 using System;
 using UnityEngine;
@@ -65,7 +66,7 @@ namespace HutongGames.PlayMaker.Actions
 		void DoIsGrounded()
 		{
 			
-			if (_wheel!=null)
+			if (_wheel==null)
 			{
 				return;
 			}
