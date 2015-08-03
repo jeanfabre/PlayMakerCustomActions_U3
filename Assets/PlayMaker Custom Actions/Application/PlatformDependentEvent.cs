@@ -1,4 +1,4 @@
-// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
 /*--- __ECO__ __ACTION__ ---*/
 
 using System;
@@ -7,8 +7,8 @@ using UnityEngine;
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Application)]
-	[Tooltip("Sends Events based on platform dependent flags")]
-	public class PlatformDependentEvents : FsmStateAction
+	[Tooltip("Sends Events based on platform dependent flag")]
+	public class PlatformDependentEvent : FsmStateAction
 	{
 		public enum platformDependentFlags
 		{
@@ -44,44 +44,42 @@ namespace HutongGames.PlayMaker.Actions
 			UNITY_WINRT_8_1,
 			UNITY_WEBGGL
 		}
-		
-		[ActionSection("Platforms")]
-		[CompoundArray("Count", "Key", "Value")]
-		
-		[RequiredField]
+
 		[Tooltip("The platform")]
-		public platformDependentFlags[] platforms;
+		public platformDependentFlags platform;
+
 		[Tooltip("The event to send for that platform")]
-		public FsmEvent[] events;
-		
+		public FsmEvent matchEvent;
+
+		[Tooltip("The event to send for that platform")]
+		public FsmEvent noMatchEvent;
+
 		public override void Reset()
 		{
-			platforms = new platformDependentFlags[1];
-			platforms[0] = platformDependentFlags.UNITY_WEBPLAYER;
-			events = new FsmEvent[1];
-			events[0] = null;
+			platform = platformDependentFlags.UNITY_WEBPLAYER;
+			matchEvent =null;
+			noMatchEvent = null;
 		}
-		
-		
+
+
 		bool isMatch(platformDependentFlags valueA,platformDependentFlags valueB)
 		{
-			
+
 			string A = Enum.GetName(typeof(platformDependentFlags),valueA);
 			string B = Enum.GetName(typeof(platformDependentFlags),valueB);
-			
+
 			UnityEngine.Debug.Log("is match?: "+A+" == "+B+" => "+String.Equals(A,B));
-			
+
 			return String.Equals(A,B);
 		}
-		
+
 		public override void OnEnter()
 		{
-			int i = 0;
-			
-			foreach(platformDependentFlags _flag in platforms)
-			{
-				//UnityEngine.Debug.Log("checking for "+_flag.ToString());
-				FsmEvent _event = 	events[i];
+
+			platformDependentFlags _flag = platform;
+
+				UnityEngine.Debug.Log("checking for "+_flag.ToString());
+				FsmEvent _event = matchEvent;
 				
 				#if UNITY_EDITOR 
 				if(_flag == platformDependentFlags.UNITY_EDITOR ) Fsm.Event(_event);	
@@ -124,39 +122,39 @@ namespace HutongGames.PlayMaker.Actions
 				#endif
 				
 				#if UNITY_IPHONE || UNITY_IOS
-				
+
 				UnityEngine.Debug.Log("we are in UNITY_IPHONE || UNITY_IOS ");
-				
-				/*
-				if (isMatch(platforms[i],platformDependentFlags.UNITY_IPHONE))
+
+			/*
+				if (isMatch(_flag,platformDependentFlags.UNITY_IPHONE))
 				{
 					UnityEngine.Debug.Log("---------- WE FIRE USING STRING COMPARISION "+_event.Name);
 					Fsm.Event(_event);	
 					return;
 				}
 				
-				if (isMatch(platforms[i],platformDependentFlags.UNITY_IOS))
+				if (isMatch(_flag,platformDependentFlags.UNITY_IOS))
 				{
 					UnityEngine.Debug.Log("---------- WE FIRE USING STRING COMPARISION "+_event.Name);
 					Fsm.Event(_event);	
 					return;
 				}
 
-				*/
-				if (Enum.Equals(platforms[i],platformDependentFlags.UNITY_IPHONE ) )
+*/
+				if (Enum.Equals(_flag,platformDependentFlags.UNITY_IPHONE ) )
 				{
 					UnityEngine.Debug.Log("---------- WE FIRE "+_event.Name);
 					Fsm.Event(_event);
 					return;
 				}
-				if( Enum.Equals(platforms[i],platformDependentFlags.UNITY_IOS ) )
+				if( Enum.Equals(_flag,platformDependentFlags.UNITY_IOS ) )
 				{
 					UnityEngine.Debug.Log("---------- WE FIRE "+_event.Name);
 					Fsm.Event(_event);	
 					return;
 				}
-				
-				
+
+
 				#endif
 				
 				#if UNITY_ANDROID 
@@ -234,10 +232,8 @@ namespace HutongGames.PlayMaker.Actions
 				#if UNITY_WEBGL 
 				if(_flag == platformDependentFlags.UNITY_WEBGL ) Fsm.Event(_event);	
 				#endif
-				
-				
-				i++;
-			}
+
+			Fsm.Event(noMatchEvent);
 			
 			Finish();
 		}
