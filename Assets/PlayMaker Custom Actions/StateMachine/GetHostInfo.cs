@@ -16,7 +16,7 @@ namespace HutongGames.PlayMaker.Actions
 		public FsmString gameObjectName;
 
 		[UIHint(UIHint.Variable)]
-		public FsmGameObject gameObject;
+		public FsmGameObject GameObject;
 
 		[UIHint(UIHint.Variable)]
 		public FsmString currentStateName;
@@ -27,7 +27,7 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			hostFsmName = null;
 			gameObjectName = null;
-			gameObject = null;
+			GameObject = null;
 			currentStateName = null;
 			everyFrame = false;
 		}
@@ -53,8 +53,9 @@ namespace HutongGames.PlayMaker.Actions
 				hostFsmName.Value = Fsm.Host.Name;
 			}
 
-			if (gameObject.Value != null){
-				gameObject.Value = Fsm.Host.GameObject;
+			if (GameObject != null)
+			{
+                GameObject.Value = Fsm.Host.GameObject;
 			}
 
 			if (gameObjectName.Value != null){
