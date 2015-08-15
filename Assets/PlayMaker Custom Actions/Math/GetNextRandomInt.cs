@@ -1,6 +1,7 @@
-// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
-/*--- __ECO__ __ACTION__ ---*/
+// (c) Copyright HutongGames, LLC 2010-2012. All rights reserved.
 // made by Jeanfabre
+// reset bool added by djaydino
+/*--- __ECO__ __ACTION__ ---*/
 
 using UnityEngine;
 using System.Collections;
@@ -23,19 +24,25 @@ namespace HutongGames.PlayMaker.Actions
 		[UIHint(UIHint.Variable)]
 		[Tooltip("Store the next int from the series.")]
 		public FsmInt storeNextInt;
+		
+		[Tooltip("Set to true to force iterating from the first item. This variable will be set to false as it carries on iterating, force it back to true if you want to renter this action back to the first item.")]
+		[UIHint(UIHint.Variable)]
+		public FsmBool reset;
 
 		[Tooltip("Event to send to get the next child.")]
 		public FsmEvent loopEvent;
 
 		[Tooltip("Event to send when there are no more children.")]
 		public FsmEvent finishedEvent;
-
+		
+		
 		public override void Reset()
 		{
 			intPoolCount = 10;
 			storeNextInt = null;
 			loopEvent = null;
 			finishedEvent = null;
+			reset = null;
 		}
 
 		// cache the gameObject so we no if it changes
@@ -49,7 +56,17 @@ namespace HutongGames.PlayMaker.Actions
 		
 		public override void OnEnter()
 		{
+			if (reset.Value)
+			{
+			reset.Value =  false;
+			intPool = new ArrayList();
+			for (int i = 1;i<=intPoolCount.Value;i++)
+			{
+				intPool.Add(i);
+			}
 
+			_nextPick = 0;
+			}
 			DoGetNextPick();
 
 			Finish();
