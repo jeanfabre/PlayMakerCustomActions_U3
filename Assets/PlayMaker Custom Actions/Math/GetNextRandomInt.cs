@@ -17,7 +17,8 @@ namespace HutongGames.PlayMaker.Actions
 		[RequiredField]
 		[Tooltip("Defines the int pool range to pick from at random. Starts at 1")]
 		public FsmInt intPoolCount;
-		
+
+		[Tooltip("Defines How many picks to do within the int pool, before the action is finished looping")]
 		public FsmInt intSerieCount;
 		
 		[RequiredField]
@@ -102,7 +103,7 @@ namespace HutongGames.PlayMaker.Actions
 			storeNextInt.Value = (int)intPool[randomIndex];
 			intPool.RemoveAt(randomIndex);
 			
-			Debug.Log(storeNextInt.Value);
+		//	Debug.Log(storeNextInt.Value);
 
 			// no more pick?
 			// check a second time to avoid process lock and possible infinite loop if the action is called again.
