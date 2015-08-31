@@ -1,5 +1,7 @@
 // (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
-/*--- __ECO__ __ACTION__ ---*/
+// Original action by Red, and Wesley M. Brown of BadSeedGames
+// http://hutonggames.com/playmakerforum/index.php?topic=10470.0
+// __ECO__ __ACTION__
 
 using UnityEngine;
 
