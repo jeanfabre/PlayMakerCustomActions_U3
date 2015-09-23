@@ -1,4 +1,4 @@
-// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
 /*--- __ECO__ __ACTION__ ---*/
 
 using UnityEngine;
@@ -10,7 +10,6 @@ namespace HutongGames.PlayMaker.Actions
 	public class SetSleepTimeOut : FsmStateAction
 	{
 		
-		[UIHint(UIHint.Variable)]
 		[Tooltip("0 means never sleep, -1 means revert to system settings, above zero values are in seconds.")]
 		public FsmInt sleepTimeout;
 		
