@@ -1,6 +1,6 @@
 // (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
 // Action made by DjayDino
-/*--- __ECO__ __ACTION__ ---*/
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 
 using UnityEngine;
 
