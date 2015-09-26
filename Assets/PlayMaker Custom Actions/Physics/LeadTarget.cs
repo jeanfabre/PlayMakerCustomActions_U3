@@ -4,7 +4,7 @@
 //
 // Original code Link:
 // http://forum.unity3d.com/threads/3848-Getting-AI-to-lead-with-its-shots
-/*--- __ECO__ __ACTION__ ---*/
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 
 using UnityEngine;
 using System.Collections;
