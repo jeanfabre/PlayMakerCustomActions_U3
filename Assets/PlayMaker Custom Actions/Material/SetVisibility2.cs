@@ -1,6 +1,6 @@
 // (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
 // Based on MaDDoX work http://hutonggames.com/playmakerforum/index.php?topic=159.msg591#msg591
-/*--- __ECO__ __ACTION__ ---*/
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 
 using UnityEngine;
 
