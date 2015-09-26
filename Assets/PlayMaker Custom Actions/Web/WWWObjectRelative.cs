@@ -1,5 +1,5 @@
 ﻿// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
-/*--- __ECO__ __ACTION__ ---*/
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 
 #if !(UNITY_IPHONE || UNITY_ANDROID || UNITY_FLASH || UNITY_PS3 || UNITY_BLACKBERRY || UNITY_WP8)
 
