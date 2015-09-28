@@ -1,7 +1,7 @@
 // (c) Copyright HutongGames, LLC 2010-2012. All rights reserved.
 // made by Jeanfabre
 // reset bool added by djaydino
-/*--- __ECO__ __ACTION__ ---*/
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 
 using UnityEngine;
 using System.Collections;

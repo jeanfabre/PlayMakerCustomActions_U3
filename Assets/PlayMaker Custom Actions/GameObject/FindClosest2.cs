@@ -2,7 +2,7 @@
 // Based on FindClosest
 // Added Ignore Owner option. Thanks Nueral Echo: http://hutonggames.com/playmakerforum/index.php?topic=71.0
 
-/*--- __ECO__ __ACTION__ ---*/
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 
 using UnityEngine;
 

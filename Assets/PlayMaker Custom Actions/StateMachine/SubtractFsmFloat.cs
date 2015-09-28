@@ -1,6 +1,6 @@
 
 using UnityEngine;
-/*--- __ECO__ __ACTION__ ---*/
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 
 
 namespace HutongGames.PlayMaker.Actions

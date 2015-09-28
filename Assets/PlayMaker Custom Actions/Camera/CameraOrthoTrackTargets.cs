@@ -1,5 +1,5 @@
 // (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
-/*--- __ECO__ __ACTION__ ---*/
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 // forum thread: http://hutonggames.com/playmakerforum/index.php?topic=8137.msg39239#msg39239
 // code source: http://nielson.io/2014/03/making-a-target-tracking-orthographic-camera-in-unity/
 using UnityEngine;

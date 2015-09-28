@@ -1,7 +1,7 @@
 // (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
 // Based on FindClosest2
 
-/*--- __ECO__ __ACTION__ ---*/
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 
 using UnityEngine;
 
