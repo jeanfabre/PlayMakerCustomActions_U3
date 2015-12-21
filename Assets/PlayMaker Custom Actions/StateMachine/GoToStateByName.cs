@@ -1,4 +1,4 @@
-// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 // http://hutonggames.com/playmakerforum/index.php?topic=6420.msg31329#msg31329
 
@@ -81,7 +81,7 @@ namespace HutongGames.PlayMaker.Actions
 
 			if (targetState != null)
 			{
-				MethodInfo switchState = Fsm.GetType().GetMethod("SwitchState", BindingFlags.NonPublic | BindingFlags.Instance);
+				MethodInfo switchState = Fsm.GetType().GetMethod("SwitchState", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
 				switchState.Invoke(sourceFsm, new object[] { targetState });
 				Fsm.Event(stateFoundEvent);
 			}
