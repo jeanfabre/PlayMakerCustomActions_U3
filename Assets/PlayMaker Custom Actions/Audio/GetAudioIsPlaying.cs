@@ -38,7 +38,7 @@ namespace HutongGames.PlayMaker.Actions
 			GameObject go = Fsm.GetOwnerDefaultTarget(gameObject);
 			if (go == null) return;
 			
-			_comp = go.GetComponent<AudioSource>;
+			_comp = go.GetComponent<AudioSource>();
 			if (_comp == null)
 			{
 				LogError("GetAudioIsPlaying: Missing AudioSource!");
