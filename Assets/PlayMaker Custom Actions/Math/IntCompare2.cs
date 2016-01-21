@@ -111,10 +111,15 @@ namespace HutongGames.PlayMaker.Actions
 					break;
 			}
 			
+			if (integer1 == null)
+			{
+				Debug.Log("integer1 is null");
+			}
+			
 			result.Value = _result;
 			if (_result)
 			{
-				Fsm.Event(comparisonPassEvent);
+				 Fsm.Event(comparisonPassEvent);
 			}else{
 				Fsm.Event(comparisonFailEvent);
 			}
