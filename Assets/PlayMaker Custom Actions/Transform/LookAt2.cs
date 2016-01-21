@@ -43,6 +43,7 @@ namespace HutongGames.PlayMaker.Actions
 	    private Vector3 lookAtPos;
 	    private Vector3 lookAtPosWithVertical;
         
+		private Vector3 upVectorValue;
 		public override void Reset()
 		{
 			gameObject = null;
@@ -78,10 +79,11 @@ namespace HutongGames.PlayMaker.Actions
 			    return;
 			}
 			
-			go.transform.LookAt(lookAtPos, upVector.IsNone ? Vector3.up : upVector.Value);			
+			go.transform.LookAt(lookAtPos, upVectorValue);			
 			
 			if (debug.Value)
 			{
+				Debug.DrawLine(go.transform.position, go.transform.position + upVectorValue,Color.red);
 				Debug.DrawLine(go.transform.position, lookAtPos, debugLineColor.Value);
 			}
 		}
@@ -108,7 +110,9 @@ namespace HutongGames.PlayMaker.Actions
             {
                 lookAtPos = targetPosition.Value;
             }
-
+			
+			upVectorValue = upVector.IsNone ? Vector3.up : upVector.Value;
+			
             lookAtPosWithVertical = lookAtPos;
 
             if (keepVertical.Value)
@@ -118,6 +122,8 @@ namespace HutongGames.PlayMaker.Actions
 					lookAtPos = go.transform.InverseTransformPoint(lookAtPos);
 					lookAtPos.y = 0;
 					lookAtPos = go.transform.TransformPoint(lookAtPos);
+					
+					upVectorValue = go.transform.TransformPoint(upVector.Value);
 				}else{
 					lookAtPos.y = go.transform.position.y;
 				} 
