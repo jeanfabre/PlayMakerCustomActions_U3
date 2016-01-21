@@ -52,7 +52,7 @@ namespace HutongGames.PlayMaker.Actions
 			
 			
 	   		// Create an instance of StreamWriter to write text to a file.
-		   	StreamWriter sw = new StreamWriter(filePath.Value);
+		   	StreamWriter sw = new StreamWriter(filePath.Value,true);
 			sw.Write(text.Value);
 		
 		    sw.Close();
