@@ -1,4 +1,4 @@
-// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
 // Action made by DjayDino
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 // @keyword: playerpref player pref preference
@@ -13,23 +13,22 @@ namespace HutongGames.PlayMaker.Actions
 		[Tooltip("Case sensitive key.")]
 		public FsmString key;
 		public FsmInt add;
-		private FsmInt variables;
-
+		private int variables;
+		
 		public override void Reset()
 		{
 			key = "";
-			variables = new FsmInt();
 			add = null;
 		}
 
 		public override void OnEnter()
 		{
 				if(!key.IsNone || !key.Value.Equals(""))  
-				variables.Value = PlayerPrefs.GetInt(key.Value, variables.IsNone ? 0 : variables.Value);
+				variables = PlayerPrefs.GetInt(key.Value, 0);
+
+				variables += add.Value;
 				
-				variables.Value += add.Value;
-				
-				PlayerPrefs.SetInt(key.Value, variables.IsNone ? 0 : variables.Value);
+				PlayerPrefs.SetInt(key.Value,(variables));
 
 			Finish();
 		}
