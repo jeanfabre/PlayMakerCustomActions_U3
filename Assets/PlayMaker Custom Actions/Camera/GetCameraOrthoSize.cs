@@ -8,7 +8,7 @@ namespace HutongGames.PlayMaker.Actions
 	[Tooltip("Gets the ortho size of the Camera.")]
 	public class GetCameraOrthoSize : FsmStateAction
 	{
-		[RequiredField]
+
 		[CheckForComponent(typeof(Camera))]
 		[Tooltip("The GameObject with a Camera Component. If not defined will use the Main Camera")]
 		public FsmOwnerDefault gameObject;
