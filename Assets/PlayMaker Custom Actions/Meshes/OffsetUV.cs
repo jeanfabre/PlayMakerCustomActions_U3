@@ -5,6 +5,8 @@ using UnityEngine;
 using System;
 using HutongGames.PlayMaker;
 
+using Tooltip = HutongGames.PlayMaker.TooltipAttribute;
+
 [ActionCategory("Meshes")]
 [Tooltip("Offset Mesh UV")]
 public class OffsetUV : FsmStateAction

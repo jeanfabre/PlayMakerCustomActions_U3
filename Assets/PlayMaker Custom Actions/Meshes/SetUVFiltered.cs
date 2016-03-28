@@ -5,6 +5,8 @@ using UnityEngine;
 using System;
 using HutongGames.PlayMaker;
 
+using Tooltip = HutongGames.PlayMaker.TooltipAttribute;
+
 [ActionCategory("Meshes")]
 [Tooltip("Set UV values, only for uv's matching the base value. If all Base properties are set to none, all UV's are set.")]
 public class SetUVFiltered : FsmStateAction

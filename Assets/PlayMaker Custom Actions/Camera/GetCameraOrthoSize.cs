@@ -1,4 +1,4 @@
-﻿// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
+﻿// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 using UnityEngine;
 
@@ -10,13 +10,16 @@ namespace HutongGames.PlayMaker.Actions
 	{
 		[RequiredField]
 		[CheckForComponent(typeof(Camera))]
+		[Tooltip("The GameObject with a Camera Component. If not defined will use the Main Camera")]
 		public FsmOwnerDefault gameObject;
 		
 		[RequiredField]
 		[Tooltip("The ortho size.")]
 		[UIHint(UIHint.Variable)]
 		public FsmFloat orthoSize;
-		
+
+		Camera _camera;
+
 		public bool everyFrame;
 
 		public override void Reset()
@@ -45,9 +48,17 @@ namespace HutongGames.PlayMaker.Actions
 		void DoGetCameraOrthoSize()
 		{
 			var go = Fsm.GetOwnerDefaultTarget(gameObject);
-			if (go == null) return;
+			if (go != null)
+			{
+				_camera  = go.GetComponent<Camera>();
+			}
 			
-			Camera _camera = go.camera;
+			if (_camera == null)
+			{
+				_camera = Camera.main;
+			}
+			
+			
 			if (_camera == null)
 			{
 				LogError("Missing Camera Component!");
