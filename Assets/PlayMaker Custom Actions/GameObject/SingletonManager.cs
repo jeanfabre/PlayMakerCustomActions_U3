@@ -20,17 +20,20 @@ namespace HutongGames.PlayMaker.Actions{
 		}
 		
 		public override void OnEnter(){
-
 			if (SINGLETONS==null)
 			{
 				SINGLETONS = new List<string>();
 				SINGLETONS.Add(reference.Value);
 			}else{
+
 				if (SINGLETONS.Contains(reference.Value))
 				{
 					Object.Destroy(Owner);
 					return;
+				}else{
+					SINGLETONS.Add(reference.Value);
 				}
+
 			}
 
 			Finish();		
