@@ -1,4 +1,5 @@
 ﻿// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
+/*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 // PLAYMAKER ECOSYSTEM DO NOT EDIT
 /*---
 EcoMetaStart
