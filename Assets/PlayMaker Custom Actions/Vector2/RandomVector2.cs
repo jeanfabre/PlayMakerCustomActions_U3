@@ -1,11 +1,11 @@
-// (c) Copyright HutongGames, LLC 2010-2015. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 
 using UnityEngine;
 
 namespace HutongGames.PlayMaker.Actions
 {
-    [ActionCategory(ActionCategory.Vector3)]
+    [ActionCategory(ActionCategory.Vector2)]
     [Tooltip("Creates a random Vector2. The unitCircleRadius represents the magnitude of the randomized vector. Result can be set fo be on the circle perimeter or inside the circle.")]
     public class RandomVector2 : FsmStateAction
     {
