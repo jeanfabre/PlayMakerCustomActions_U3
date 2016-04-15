@@ -1,5 +1,10 @@
-// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
+// covers Unity 4 and 5 with JointLimits differences.
+
+#if (UNITY_4_3 || UNITY_4_5 || UNITY_4_6 || UNITY_4_7 || UNITY_5_0 )
+#define UNITY_PRE_5_1
+#endif
 
 using UnityEngine;
 
@@ -13,14 +18,14 @@ namespace HutongGames.PlayMaker.Actions
 		[CheckForComponent(typeof(HingeJoint))]
 		[Tooltip("JointSpring GameObject to control.")]
 		public FsmOwnerDefault gameObject;
-
+		
 		[ActionSection("General")]
 		[CheckForComponent(typeof(Rigidbody))]
 		public FsmGameObject connectedBody;
 		
 		public FsmFloat breakForce;
 		public FsmFloat breakTorque;
-
+		
 		public FsmVector3 anchor;
 		
 		public FsmVector3 axis;
@@ -47,9 +52,16 @@ namespace HutongGames.PlayMaker.Actions
 		
 		public FsmFloat min;
 		public FsmFloat max;
+		#if UNITY_PRE_5_1
+		
 		public FsmFloat minBounce;
 		public FsmFloat maxBounce;
 		
+		#else
+		public FsmFloat bounceMinVelocity;
+		public FsmFloat bounciness;
+		public FsmFloat contactDistance;
+		#endif
 		
 		[Tooltip("Repeat every frame.")]
 		public bool everyFrame;
@@ -80,12 +92,18 @@ namespace HutongGames.PlayMaker.Actions
 			useLimits = new FsmBool { UseVariable = true };
 			min = new FsmFloat { UseVariable = true };
 			max = new FsmFloat { UseVariable = true };
+			#if UNITY_PRE_5_1
 			minBounce = new FsmFloat { UseVariable = true };
 			maxBounce = new FsmFloat { UseVariable = true };
+			#else
+			bounceMinVelocity = new FsmFloat { UseVariable = true };
+			bounciness = new FsmFloat { UseVariable = true };
+			contactDistance = new FsmFloat { UseVariable = true };
+			#endif
 			
 			everyFrame = false;
 		}
-
+		
 		public override void OnEnter()
 		{
 			var go = gameObject.OwnerOption == OwnerDefaultOption.UseOwner ? Owner : gameObject.GameObject.Value;
@@ -103,18 +121,18 @@ namespace HutongGames.PlayMaker.Actions
 			}
 			
 			DoSetProperties();
-
+			
 			if (!everyFrame)
 			{
 				Finish();
 			}
 		}
-
+		
 		public override void OnUpdate()
 		{
 			DoSetProperties();
 		}
-
+		
 		void DoSetProperties()
 		{
 			
@@ -124,7 +142,7 @@ namespace HutongGames.PlayMaker.Actions
 			
 			if (!connectedBody.IsNone)
 			{
-				_joint.connectedBody = connectedBody.Value.rigidbody;
+				_joint.connectedBody = connectedBody.Value.GetComponent<Rigidbody>();
 			}
 			
 			if (!anchor.IsNone)
@@ -187,8 +205,11 @@ namespace HutongGames.PlayMaker.Actions
 				_jointLimits.max = max.Value;
 				_joint.limits = _jointLimits;
 			}
+			
+			#if UNITY_PRE_5_1
 			if (!minBounce.IsNone)
 			{
+				
 				_jointLimits.minBounce = minBounce.Value;
 				_joint.limits = _jointLimits;
 			}
@@ -197,6 +218,26 @@ namespace HutongGames.PlayMaker.Actions
 				_jointLimits.maxBounce = maxBounce.Value;
 				_joint.limits = _jointLimits;
 			}
+			#else
+			if (!bounceMinVelocity.IsNone)
+			{
+				
+				_jointLimits.bounceMinVelocity = bounceMinVelocity.Value;
+				_joint.limits = _jointLimits;
+			}
+			if (!bounciness.IsNone)
+			{
+				_jointLimits.bounciness = bounciness.Value;
+				_joint.limits = _jointLimits;
+			}
+			if (!contactDistance.IsNone)
+			{
+				
+				_jointLimits.contactDistance = contactDistance.Value;
+				_joint.limits = _jointLimits;
+			}
+			
+			#endif
 		}
 	}
 }
