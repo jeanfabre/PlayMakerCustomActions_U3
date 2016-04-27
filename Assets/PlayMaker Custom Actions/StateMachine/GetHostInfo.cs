@@ -1,4 +1,4 @@
-// (c) Copyright HutongGames, LLC 2010-2014. All rights reserved.
+// (c) Copyright HutongGames, LLC 2010-2016. All rights reserved.
 /*--- __ECO__ __PLAYMAKER__ __ACTION__ ---*/
 
 using UnityEngine;
@@ -49,20 +49,20 @@ namespace HutongGames.PlayMaker.Actions
 
 		public void GetInfo()
 		{
-			if (hostFsmName.Value != null){
+			if (! hostFsmName.IsNone){
 				hostFsmName.Value = Fsm.Host.Name;
 			}
 
-			if (GameObject != null)
+			if ( ! GameObject.IsNone)
 			{
                 GameObject.Value = Fsm.Host.GameObject;
 			}
 
-			if (gameObjectName.Value != null){
+			if (! gameObjectName.IsNone){
 				gameObjectName.Value = Fsm.Host.GameObjectName;
 			}
 
-			if (currentStateName != null){
+			if (! currentStateName.IsNone){
 				currentStateName.Value = Fsm.Host.ActiveStateName;
 			}
 		}
