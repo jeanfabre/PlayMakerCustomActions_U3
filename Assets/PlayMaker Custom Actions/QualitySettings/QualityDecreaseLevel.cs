@@ -57,6 +57,8 @@ namespace HutongGames.PlayMaker.Actions
 			{
 				Fsm.Event(LimitReachedEvent);
 			}
+
+			Finish();
 		}
 	}
 }

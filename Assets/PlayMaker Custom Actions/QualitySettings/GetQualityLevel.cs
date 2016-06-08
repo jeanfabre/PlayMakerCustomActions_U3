@@ -35,6 +35,8 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			qualityIndex.Value = QualitySettings.GetQualityLevel();
 			qualityName.Value = QualitySettings.names[QualitySettings.GetQualityLevel()];
+
+			Finish();
 		}
 	}
 }

@@ -36,6 +36,8 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			
 			UnityEngine.QualitySettings.SetQualityLevel (qualityIndex.Value, applyExpensiveChanges.Value);
+
+			Finish();
 		}
 	}
 }
